@@ -1,4 +1,4 @@
-# Stage 1.5-6B — Real Paper Stress Test Protocol
+﻿# Stage 1.5-6B 鈥?Real Paper Stress Test Protocol
 
 ## Objective
 
@@ -7,7 +7,7 @@ Validate whether the complete ResearchAI literature workflow works under realist
 This is NOT a theoretical exercise. The stress test uses real papers from the researcher's actual reading list, processed through the full pipeline:
 
 ```
-Zotero → MinerU → Processed Markdown → Literature Card → Paper Note → Knowledge Nodes → Paper Logic
+Zotero 鈫?MinerU 鈫?Processed Markdown 鈫?Literature Card 鈫?Paper Note 鈫?Knowledge Nodes 鈫?Paper Logic
 ```
 
 The goal is to discover **workflow failures, template gaps, and agent mistakes** before scaling to batch processing.
@@ -18,7 +18,7 @@ The goal is to discover **workflow failures, template gaps, and agent mistakes**
 
 Four paper categories ensure the pipeline handles diversity in paper types, quality, and reproducibility status.
 
-### Category A — Survey / Review Paper
+### Category A 鈥?Survey / Review Paper
 
 **Purpose:** Validate taxonomy extraction and landscape analysis.
 
@@ -41,7 +41,7 @@ The agent may confuse survey papers with research articles. Ensure the template 
 
 ---
 
-### Category B — Classic Method Paper
+### Category B 鈥?Classic Method Paper
 
 **Purpose:** Validate method extraction and architectural understanding.
 
@@ -64,15 +64,41 @@ The agent may overstate the novelty or miss the actual contribution among multip
 
 ---
 
-### Category C — Recent SOTA Paper
+### Category C 鈥?Advanced Research Paper
 
-**Purpose:** Validate cutting-edge paper analysis and reproducibility evaluation.
+**Purpose:** Validate analysis of advanced research papers beyond basic screening.
+
+This category is split into two subcategories based on paper type.
+
+#### C1 鈥?Application / Validation Study
+
+**Purpose:** Evaluate real-world deployment, generalization, and reproducibility of existing methods.
 
 **Selection Criteria:**
-- Published in the last 2-3 years
-- Reports state-of-the-art results on a relevant benchmark
-- Has ablation studies or comprehensive experiments
-- May or may not have code available (realistic scenario)
+- Applies known methods to new data/regions/domains
+- Tests generalization across different conditions
+- Demonstrates practical utility or workflow validation
+- May or may not propose new methodological improvements
+
+**What to Validate:**
+- Correctly identifies paper as application study (not method paper)
+- Evaluates cross-domain generalization claims
+- Assesses reproducibility in new context
+- Identifies practical limitations not mentioned by authors
+- Extracts transferable insights for own research
+
+**Known Issue to Watch For:**
+The agent may incorrectly classify an application paper as a method paper. Ensure the template selection correctly distinguishes "applies existing method" from "proposes new method."
+
+#### C2 鈥?Method Innovation / SOTA Architecture
+
+**Purpose:** Evaluate novel architecture design, module justification, ablation quality, and claim-evidence consistency.
+
+**Selection Criteria:**
+- Introduces genuinely new architecture or module design
+- Has comprehensive ablation studies
+- Reports state-of-the-art results on relevant benchmarks
+- Contains detailed experimental validation
 
 **What to Validate:**
 - Novel contribution extraction distinguishes incremental from significant advances
@@ -87,7 +113,7 @@ The agent may accept the paper's claims at face value without critical analysis.
 
 ---
 
-### Category D — Reproduction-Oriented Paper
+### Category D 鈥?Reproduction-Oriented Paper
 
 **Purpose:** Validate the reproducibility metadata system introduced in Stage 1.5-6A.1.
 
@@ -143,7 +169,7 @@ For each paper processed in the stress test, record the following information.
 | Token Consumption Estimate | <!-- rough estimate --> |
 | Processing Errors | <!-- any crashes, failures, or hangs --> |
 
-### After Processing — Evaluation
+### After Processing 鈥?Evaluation
 
 #### Knowledge Quality
 
@@ -237,7 +263,7 @@ Document any issues found during the stress test using these categories.
 
 **Definition:** More than 3 corrections were needed per paper.
 
-**Example:** The agent generated a Paper Note with wrong method description, wrong dataset name, hallucinated results, and broken wikilinks — all requiring manual fixing.
+**Example:** The agent generated a Paper Note with wrong method description, wrong dataset name, hallucinated results, and broken wikilinks 鈥?all requiring manual fixing.
 
 **Root Cause to Investigate:**
 - Prompt/template too complex for agent?
@@ -250,13 +276,13 @@ Document any issues found during the stress test using these categories.
 
 The stress test is considered **PASSED** when ALL of the following are true:
 
-1. **No hallucinations detected** — all facts cross-checked against source paper.
-2. **Correct template selection** — survey uses Survey_Template, research article uses Paper_Template.
-3. **Processing level matches decision framework** — no over-analysis or under-analysis.
-4. **Reproducibility metadata is accurate** — code/data status verified against actual sources.
-5. **Knowledge nodes are complete** — all required sections filled, no blank placeholders remaining.
-6. **Wikilinks are valid** — all [[links]] resolve to existing notes or are correctly left as placeholders for future creation.
-7. **Less than 3 manual corrections per paper** — if more, the template or prompt needs revision.
+1. **No hallucinations detected** 鈥?all facts cross-checked against source paper.
+2. **Correct template selection** 鈥?survey uses Survey_Template, research article uses Paper_Template.
+3. **Processing level matches decision framework** 鈥?no over-analysis or under-analysis.
+4. **Reproducibility metadata is accurate** 鈥?code/data status verified against actual sources.
+5. **Knowledge nodes are complete** 鈥?all required sections filled, no blank placeholders remaining.
+6. **Wikilinks are valid** 鈥?all [[links]] resolve to existing notes or are correctly left as placeholders for future creation.
+7. **Less than 3 manual corrections per paper** 鈥?if more, the template or prompt needs revision.
 
 If any criterion fails, document the failure, fix the root cause, and consider re-processing the same paper or a similar one.
 
@@ -266,10 +292,10 @@ If any criterion fails, document the failure, fix the root cause, and consider r
 
 Recommended processing order for maximum learning:
 
-1. **Category D first** — Tests the newest feature (reproducibility metadata). If this fails, fix it before proceeding.
-2. **Category A second** — Tests template differentiation (survey vs. research article).
-3. **Category B third** — Tests method extraction depth.
-4. **Category C fourth** — Tests critical analysis and hidden limitation detection.
+1. **Category D first** 鈥?Tests the newest feature (reproducibility metadata). If this fails, fix it before proceeding.
+2. **Category A second** 鈥?Tests template differentiation (survey vs. research article).
+3. **Category B third** 鈥?Tests method extraction depth.
+4. **Category C1 or C2 fourth** 鈥?Tests application/generalization or method innovation respectively
 
 This order ensures the most fragile parts of the pipeline are tested first.
 
@@ -279,11 +305,11 @@ This order ensures the most fragile parts of the pipeline are tested first.
 
 After completing the stress test with 4 papers (one per category):
 
-1. **Stress Test Report** — summary of all findings, failures, and corrections.
-2. **Template Revisions** — any changes to templates based on discovered gaps.
-3. **Agent Prompt Refinements** — any adjustments to how agents interpret templates.
-4. **Decision Framework Updates** — any refinements to the scoring rubric or decision tree.
-5. **Pipeline Readiness Assessment** — go/no-go decision for batch processing.
+1. **Stress Test Report** 鈥?summary of all findings, failures, and corrections.
+2. **Template Revisions** 鈥?any changes to templates based on discovered gaps.
+3. **Agent Prompt Refinements** 鈥?any adjustments to how agents interpret templates.
+4. **Decision Framework Updates** 鈥?any refinements to the scoring rubric or decision tree.
+5. **Pipeline Readiness Assessment** 鈥?go/no-go decision for batch processing.
 
 ---
 
@@ -292,7 +318,7 @@ After completing the stress test with 4 papers (one per category):
 **DO NOT:**
 - Process more than 1 paper per session (allow careful review).
 - Skip the Per-Paper Tracking Form.
-- Assume success — document every issue, even minor ones.
+- Assume success 鈥?document every issue, even minor ones.
 - Modify the directory architecture.
 - Install new tools or plugins.
 - Process papers outside the four defined categories.
@@ -302,3 +328,4 @@ After completing the stress test with 4 papers (one per category):
 - Record manual corrections with specifics.
 - Flag any ambiguity in template instructions.
 - Escalate to the human researcher when the agent is uncertain.
+

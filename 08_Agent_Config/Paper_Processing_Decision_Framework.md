@@ -16,7 +16,8 @@ This framework defines a permanent decision mechanism for determining how deeply
 
 **Applied to:** Every paper entering the system. Non-optional.
 
-**Input:** Processed Markdown from MinerU output.
+**Pre-condition: Paper MUST be registered in Zotero before processing. If no Zotero record: STOP and request import.
+Input:** Processed Markdown from MinerU output.
 
 **Output:** `Literature Card` note in `02_KnowledgeVault/01_Papers/`.
 
@@ -220,11 +221,12 @@ For agents that need a more systematic approach, use this scoring rubric. Sum th
 
 ### For AI Agents
 
-1. **Every paper MUST go through Level 1.** No exceptions.
-2. **Agents MUST NOT auto-promote papers to Level 2 or Level 3.** The decision must follow this framework.
-3. **Agents MUST NOT generate Paper Logic notes without explicit trigger conditions being met.**
-4. **When in doubt, escalate to the human researcher.** Mark the paper with a "recommend human review" flag.
-5. **Agents MUST record the decision rationale** in the Literature Card (why Ignore / Keep Reference / Deep Read).
+1. **Zotero-first: Every paper MUST be registered in Zotero before processing.** If no Zotero record exists, STOP and request import. No exceptions.
+2. **Every paper MUST go through Level 1.** No exceptions.
+3. **Agents MUST NOT auto-promote papers to Level 2 or Level 3.** The decision must follow this framework.
+4. **Agents MUST NOT generate Paper Logic notes without explicit trigger conditions being met.**
+5. **When in doubt, escalate to the human researcher.** Mark the paper with a "recommend human review" flag.
+6. **Agents MUST record the decision rationale** in the Literature Card (why Ignore / Keep Reference / Deep Read).
 
 ### For Human Researchers
 
@@ -254,6 +256,12 @@ As the knowledge base grows, this framework may evolve:
 - **Automated scoring:** Zotero citation counts and venue impact factors can auto-populate parts of the scoring rubric.
 - **Cluster-aware filtering:** As topic clusters grow, papers may be evaluated relative to existing cluster density rather than absolute novelty.
 - **Human feedback loop:** The human's overrides of agent decisions should be tracked to refine the decision criteria over time.
+
+
+
+
+
+
 
 
 

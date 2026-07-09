@@ -1,4 +1,4 @@
-# Literature Intake Workflow
+﻿# Literature Intake Workflow
 
 ## Overview
 
@@ -90,24 +90,16 @@ Decision: Deep Read / Keep Reference / Ignore
 
 ```
 PDF arrives
-    ↓
-[00_Inbox/] — Place PDF here
-    ↓
-Assign Paper ID (YYYY_FirstAuthor_ShortTitle)
-    ↓
-[01_PDFs/] — Archive PDF with Paper ID name
-    ↓
-MinerU Desktop GUI → Processing
-    ↓
-[02_MinerU_Output/] — Store raw UUID folder, rename to Paper ID
-    ↓
-Clean full.md
-    ↓
-[03_Processed_Markdown/] — Store cleaned markdown
-    ↓
-[Literature Index] — Create intake record
-    ↓
-[Level 1 Screening] — Literature Card → Decision
+    鈫?[Zotero Import] 鈥?MUST be completed first (Step 0)
+    鈫?[00_Inbox/] 鈥?Place PDF here
+    鈫?Assign Paper ID (YYYY_FirstAuthor_ShortTitle)
+    鈫?[01_PDFs/] 鈥?Archive PDF with Paper ID name
+    鈫?MinerU Desktop GUI 鈫?Processing
+    鈫?[02_MinerU_Output/] 鈥?Store raw UUID folder, rename to Paper ID
+    鈫?Clean full.md
+    鈫?[03_Processed_Markdown/] 鈥?Store cleaned markdown
+    鈫?[Literature Index] 鈥?Create intake record
+    鈫?[Level 1 Screening] 鈥?Literature Card 鈫?Decision
 ```
 
 ---
@@ -117,7 +109,8 @@ Clean full.md
 When an AI agent receives a new paper:
 
 1. Follow this workflow step by step.
-2. Do not skip steps — each step has a specific purpose.
+2. Do not skip steps 鈥?each step has a specific purpose.
 3. If a step fails (e.g., MinerU output is corrupted), note it in the Literature Index.
 4. After Level 1 screening, follow `Literature_Processing_Strategy.md` for next steps.
-5. Never place raw MinerU output directly into KnowledgeVault — always clean first.
+5. Never place raw MinerU output directly into KnowledgeVault 鈥?always clean first.
+

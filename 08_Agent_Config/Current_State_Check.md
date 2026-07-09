@@ -51,12 +51,52 @@ Five subdirectories in 01_Literature/ are deprecated but physically retained as 
 ### 5. Zotero Collections/Tags
 Zotero is installed and Better BibTeX configured, but collections and tags need manual setup in the Zotero UI before papers can be properly categorized.
 
+## Architecture Refinement
+
+- Category taxonomy updated: C split into C1 (Application Study) and C2 (Method Innovation)
+- Liu2020 Ridgecrest correctly classified as C1
+- Pending validation: Category C2 method innovation paper
+
+---
+
+### 6. Mousavi 2023 Not in Zotero
+The Mousavi & Beroza 2023 Annual Review paper was processed through MinerU and KnowledgeVault WITHOUT first being imported to Zotero. This was a researcher workflow mistake. The Literature Card has been updated to mark Zotero status as 'Not Imported'. This paper must be imported to Zotero before further processing.
+
+## Completed in Stage 1.5-6E
+
+- Paper D: Zhu 2018 (PhaseNet) — PASS
+- Paper A: Mousavi 2023 (Annual Review survey) — PASS
+- Paper B: Mousavi 2020 (EQTransformer) — PASS
+
+**Total papers processed**: 4 (1 survey, 3 research articles)
+**Knowledge nodes created**: ~30+ new files
+**Wikilink integrity**: 100% (all links resolve)
+**Zotero-first compliance**: All 3 processed papers verified in Zotero storage
+
+---
+
+## Completed Cleanup
+
+- Stage 1.5-6F.1: Zotero status corrected, Vision Transformer moved, Quick Reference updated
+- All 6 processed papers now have Zotero import status verified
+- 100% Zotero-first compliance achieved
+
+---
+
 ## Next Actions
 
-1. **Researcher**: Create Zotero collections (ResearchAI/00_Inbox through Archive) and assign tags per Zotero_Workflow_Configuration.md
-2. **Researcher**: Select 4 stress test papers (one per category A/B/C/D)
-3. **Agent**: Execute stress test protocol per Stage_1.5_6B_Real_Paper_Stress_Test.md
-4. **Agent**: Fill in Stress_Test_Execution_Log.md for each paper
+1. **Researcher**: Import Mousavi 2023 paper into Zotero (fix violation from Stage 1.5-6E.1)
+2. **Researcher**: Create Zotero collections (ResearchAI/00_Inbox through Archive) and assign tags per Zotero_Workflow_Configuration.md
+3. **Researcher**: Select remaining stress test papers (Categories B/C/D)
+4. **Agent**: Execute stress test protocol per Stage_1.5_6B_Real_Paper_Stress_Test.md (continue from Paper B)
+5. **Agent**: Fill in Stress_Test_Execution_Log.md for each paper
 
 **Architecture is now frozen.** Do not redesign directory structure, naming conventions, or data flow after this stage.
+
+**Zotero-First Rule:** All future paper processing MUST begin with Zotero import. No exceptions.
+
+
+
+
+
 

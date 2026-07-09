@@ -28,6 +28,15 @@ Paper notes live in `01_Papers/`.
 - [[monteiro2024_deep_learning_card]] (2024)
 - [[monteiro2024_deep_learning_survey]] (2024)
 
+#### Seismic Monitoring
+
+- [[mousavi2023_machine_learning_survey]] (2023)
+- [[mousavi2020_eqtransformer_note]] (2020)
+
+#### Earthquake Sequence Analysis
+
+- [[liu2020_ridgecrest_note]] (2020)
+
 #### Fault Segmentation
 
 - Literature Cards: (to be added)
@@ -81,6 +90,9 @@ SORT year DESC
 - Back to [[Home]]
 - Templates: [[Literature_Card_Template]], [[Paper_Template]]
 - Paper structure analysis: [[Paper_Logic_Template]]
+
+
+
 
 
 

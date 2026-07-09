@@ -1,4 +1,4 @@
-﻿# ResearchAI Agent Bootstrap
+# ResearchAI Agent Bootstrap
 
 ## Project Identity
 
@@ -161,6 +161,28 @@ After any context window compression or thread reset, agents MUST restore projec
 **Critical:** Do NOT redesign or restructure completed architecture after context compression. The system has already been designed through extensive iteration. Trust the existing structure. If a question arises about why something was done a certain way, check the ADR documents first.
 
 **Never:** Re-run stages that are already completed. Never recreate templates that already exist. Never redesign directories that are already established.
+
+### 9. Zotero-First Literature Entry
+
+**Zotero is the only entry point for papers entering ResearchAI KnowledgeVault.**
+
+Before any paper can be processed through MinerU and KnowledgeVault, it MUST first be imported into Zotero. This is a hard rule, not a recommendation.
+
+**Mandatory workflow:**
+
+1. PDF acquired → Import into Zotero (creates bibliographic record)
+2. Zotero metadata verified (title, authors, year, venue, DOI, citation key)
+3. PDF stored in Zotero storage directory
+4. MinerU reads PDF from Zotero storage
+5. KnowledgeVault notes generated from MinerU output
+
+**If Zotero record is missing:**
+
+STOP processing. Respond with: "Paper is not registered in Zotero. Import into Zotero before KnowledgeVault processing."
+
+**Rationale:** Zotero owns bibliographic truth (ADR-001). All metadata, citations, and PDFs flow through Zotero. MinerU is only a PDF extraction tool — it does not own any paper asset.
+
+**Agent enforcement:** Before creating any KnowledgeVault note, verify the corresponding Zotero item exists. Check the Zotero database or Zotero item key field in the paper's metadata. If no Zotero record exists, halt and request Zotero import.
 ## Critical Research Rules
 
 ### 1. Do Not Modify Directory Architecture Without Approval
@@ -272,11 +294,8 @@ Always check `research_config.yaml` for current data paths before assuming file 
 | `08_Agent_Config/ADR_Zotero_PDF_Centered_Architecture.md` | ADR-001: PDF architecture decision |
 | `04_Tools/Data_Storage_Architecture.md` | SSD vs external drive allocation |
 | `04_Tools/Zotero/Zotero_Storage_Strategy.md` | Zotero storage configuration |
-
-
-
-
-
-
-
-
+| `08_Agent_Config/Paper_Processing_Decision_Framework.md` | 3-level processing strategy with enforcement rules |
+| `08_Agent_Config/Paper_File_Naming_Rules.md` | Filename conventions and identifier separation |
+| `08_Agent_Config/Paper_Card_Guideline.md` | Card vs Note vs Logic roles |
+| `08_Agent_Config/Paper_Logic_Guideline.md` | Mandatory Argument Mining standard |
+| `08_Agent_Config/ResearchAI_Data_Flow_Architecture.md` | **Definitive architecture reference** — three layers, data flow, explicit rules |

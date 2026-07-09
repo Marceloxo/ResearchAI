@@ -50,6 +50,11 @@ Shows that pre-trained DNN models can be adapted to completely different scales 
 - TL model found fewer P picks than human (though higher quality)
 - Generalizability to other scales/systems untested
 
+## Zotero
+
+**Status**: Imported
+**Item Key**: 9W23DNVG
+
 # My Decision
 - [x] Read deeply / 精读
 - [ ] Keep reference

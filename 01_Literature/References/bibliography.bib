@@ -12,7 +12,23 @@
   urldate = {2026-07-08},
   abstract = {Abstract             The important task of tracking seismic activity requires both sensitive detection and accurate earthquake location. Approximate earthquake locations can be estimated promptly and automatically; however, accurate locations depend on precise seismic phase picking, which is a laborious and time-consuming task. We adapted a deep neural network (DNN) phase picker trained on local seismic data to mesoscale hydraulic fracturing experiments. We designed a novel workflow, transfer learning-aided double-difference tomography, to overcome the 3 orders of magnitude difference in both spatial and temporal scales between our data and data used to train the original DNN. Only 3,500 seismograms (0.45\% of the original DNN data) were needed to retrain the original DNN model successfully. The phase picks obtained with transfer-learned model are at least as accurate as the analyst's and lead to improved event locations. Moreover, the effort required for picking once the DNN is trained is a small fraction of the analyst's.           ,              Plain Language Summary             Seismic sensors are widely used to monitor many energy-related systems. To monitor these systems effectively, we need to process a very large amount of data, which is very labor intensive. A few deep learning models have been developed to perform these tasks for earthquake-generated signals. We adopted one of these deep learning models developed for kilometer scale and updated it for signals recorded from a meter-scale project. This process not only allows us to overcome the significant spatial and temporal scale difference between our data and the data used by the original deep learning model but also significantly reduces the amount of required training data. Our results show that the updated model matches human performance but with a much faster speed. A workflow that combines the deep learning algorithm with existing imaging technologies enables improvements for both monitoring small earthquakes and studying subsurface structure.           ,              Key Points                                                                We successfully applied transfer learning to a neural network for data with orders of difference in spatial and temporal characteristics                                                     We created a novel workflow by combining deep learning and double-difference seismic imaging                                                     New workflow provides better seismic catalog and larger amount of phase picks compared to human analysts},
   langid = {english},
-  file = {C:\Users\DZJ\Zotero\storage\9W23DNVG\Chai 等 - 2020 - Using a Deep Neural Network and Transfer Learning to Bridge Scales for Seismic Phase Picking.pdf}
+  file = {D:\ResearchAI_Data\Zotero\storage\9W23DNVG\Chai 等 - 2020 - Using a Deep Neural Network and Transfer Learning to Bridge Scales for Seismic Phase Picking.pdf}
+}
+
+@article{ding2023Highresolutionseismicity,
+  title = {High-Resolution Seismicity Imaging and Early Aftershock Migration of the 2023 {{Kahramanmara\c s}} ({{SE T\"urkiye}}) {{MW7}}.9 \& 7.8 Earthquake Doublet},
+  author = {Ding, Hongyang and Zhou, Yijian and Ge, Zengxi and Taymaz, Tuncay and Ghosh, Abhijit and Xu, Haoyu and Irmak, Tahir Serkan and Song, Xiaodong},
+  year = 2023,
+  month = dec,
+  journal = {Earthquake Science},
+  volume = {36},
+  number = {6},
+  pages = {417--432},
+  issn = {16744519},
+  doi = {10.1016/j.eqs.2023.06.002},
+  urldate = {2026-07-09},
+  langid = {english},
+  file = {D:\ResearchAI_Data\Zotero\storage\RDXHK4FQ\Ding 等 - 2023 - High-resolution seismicity imaging and early aftershock migration of the 2023 Kahramanmaraş (SE Türk.pdf}
 }
 
 @article{liu2020RapidCharacterization,
@@ -29,7 +45,27 @@
   urldate = {2026-07-08},
   abstract = {Abstract                            The two principle earthquakes of the July 2019 Ridgecrest, California, earthquake sequence, M               W               6.4 and 7.1, and their immediate foreshocks and thousands of aftershocks present a challenging environment for rapid analysis and characterization of this sequence as it unfolded. In this study, we analyze the first 6 days of the sequence using continuous data from available seismic networks to detect and locate earthquakes associated with the earthquake sequence. We build a high-precision earthquake catalog using a deep-neural-network-based picker---PhaseNet and a sequential earthquake association and location workflow. Without prior information, we automatically detect and locate more than twice as many earthquakes as the routine catalog. Our high-precision earthquake catalog reveals detailed spatiotemporal evolution of the earthquake sequence and clearly defines multiple faults activated during the sequence. Our study demonstrates that it is possible to characterize earthquake sequences from raw seismic data using a well-trained machine-learning picker and our workflow.                        ,              Plain Language Summary             We build a high-precision earthquake catalog for the July 2019 Ridgecrest, California, earthquake sequence from 4 July 2019 to 9 July 2019 without prior information using machine-learning phase picks and a sequential earthquake association and location workflow. Our result is totally independent of the routine catalog and enables us to characterize the earthquake sequence starting from raw seismic data. Our high-precision earthquake catalog reveals detailed spatiotemporal evolution of the earthquake sequence and clearly defines multiple faults activated during the sequence.           ,              Key Points                                                                Seismic P and S phases are obtained with a recent machine-learning phase picker---PhaseNet                                                     We build a high-precision earthquake catalog for the July 2019 Ridgecrest, California, earthquake sequence from raw seismic data                                                     Our high-precision earthquake catalog reveals detailed seismicity evolution and seismic fault structures},
   langid = {english},
-  file = {C:\Users\DZJ\Zotero\storage\K9XWQTIL\Liu 等 - 2020 - Rapid Characterization of the July 2019 Ridgecrest, California, Earthquake Sequence From Raw Seismic.pdf}
+  file = {D:\ResearchAI_Data\Zotero\storage\K9XWQTIL\Liu 等 - 2020 - Rapid Characterization of the July 2019 Ridgecrest, California, Earthquake Sequence From Raw Seismic.pdf}
+}
+
+@article{mcbrearty2023EarthquakePhase,
+  title = {Earthquake {{Phase Association}} with {{Graph Neural Networks}}},
+  author = {McBrearty, Ian W. and Beroza, Gregory C.},
+  year = 2023,
+  month = apr,
+  journal = {Bulletin of the Seismological Society of America},
+  volume = {113},
+  number = {2},
+  eprint = {2209.07086},
+  primaryclass = {physics.geo-ph},
+  pages = {524--547},
+  issn = {0037-1106, 1943-3573},
+  doi = {10.1785/0120220182},
+  urldate = {2026-07-09},
+  abstract = {Seismic phase association connects earthquake arrival time measurements to their causative sources. Effective association must determine the number of discrete events, their location and origin times, and it must differentiate real arrivals from measurement artifacts. The advent of deep learning pickers, which provide high rates of picks from closely overlapping small magnitude earthquakes, motivates revisiting the phase association problem and approaching it using the methods of deep learning. We have developed a Graph Neural Network associator that simultaneously predicts both source space-time localization, and discrete source-arrival association likelihoods. The method is applicable to arbitrary geometry, time-varying seismic networks of hundreds of stations, and is robust to high rates of sources and input picks with variable noise and quality. Our Graph Earthquake Neural Interpretation Engine (GENIE) uses one graph to represent the station set and another to represent the spatial source region. GENIE learns relationships from data in this combined representation that enable it to determine robust source and source-arrival associations. We train on synthetic data, and test our method on real data from the Northern California (NC) seismic network using input generated by the PhaseNet deep learning phase picker. We successfully re-detect \textasciitilde 96\% of all events M{$>$}1 reported by the USGS during 500 random days between 2000\$\textbackslash unicode\textbraceleft x2013\textbraceright\$2022. Over a 100-day continuous interval of processing in 2017\$\textbackslash unicode\textbraceleft x2013\textbraceright\$2018, we detect \textasciitilde 4.2x the number of events reported by the USGS. Our new events have small magnitude estimates below the magnitude of completeness of the USGS catalog, and are located close to the active faults and quarries in the region. Our results demonstrate that GENIE can effectively solve the association problem under complex seismic monitoring conditions.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Machine Learning,Physics - Geophysics},
+  file = {D:\ResearchAI_Data\Zotero\storage\2ZVY52Y6\McBrearty和Beroza - 2023 - Earthquake Phase Association with Graph Neural Networks.pdf}
 }
 
 @article{monteiro2024Literaturereview,
@@ -64,6 +100,24 @@
   file = {D:\ResearchAI_Data\Zotero\storage\QKMKLG2N\Mousavi 等 - 2020 - Earthquake transformer—an attentive deep-learning model for simultaneous earthquake detection and ph.pdf}
 }
 
+@article{mousavi2023MachineLearning,
+  title = {Machine {{Learning}} in {{Earthquake Seismology}}},
+  author = {Mousavi, S. Mostafa and Beroza, Gregory C.},
+  year = 2023,
+  month = may,
+  journal = {Annual Review of Earth and Planetary Sciences},
+  volume = {51},
+  number = {1},
+  pages = {105--129},
+  issn = {0084-6597, 1545-4495},
+  doi = {10.1146/annurev-earth-071822-100323},
+  urldate = {2026-07-09},
+  abstract = {Machine learning (ML) is a collection of methods used to develop understanding and predictive capability by learning relationships embedded in data. ML methods are becoming the dominant approaches for many tasks in seismology. ML and data mining techniques can significantly improve our capability for seismic data processing. In this review we provide a comprehensive overview of ML applications in earthquake seismology, discuss progress and challenges, and offer suggestions for future work. ▪Conceptual, algorithmic, and computational advances have enabled rapid progress in the development of machine learning approaches to earthquake seismology.▪The impact of that progress is most clearly evident in earthquake monitoring and is leading to a new generation of much more comprehensive earthquake catalogs.▪Application of unsupervised approaches for exploratory analysis of these high-dimensional catalogs may reveal new understanding of seismicity.▪Machine learning methods are proving to be effective across a broad range of other seismological tasks, but systematic benchmarking through open source frameworks and benchmark data sets are important to ensure continuing progress.},
+  copyright = {http://creativecommons.org/licenses/by/4.0/},
+  langid = {english},
+  file = {D:\ResearchAI_Data\Zotero\storage\M8TB5AYY\Mousavi和Beroza - 2023 - Machine Learning in Earthquake Seismology.pdf}
+}
+
 @article{park2020MachineLearningBasedAnalysis,
   title = {Machine-{{Learning}}-{{Based Analysis}} of the {{Guy}}-{{Greenbrier}}, {{Arkansas Earthquakes}}: {{A Tale}} of {{Two Sequences}}},
   shorttitle = {Machine-{{Learning}}-{{Based Analysis}} of the {{Guy}}-{{Greenbrier}}, {{Arkansas Earthquakes}}},
@@ -79,7 +133,31 @@
   urldate = {2026-07-08},
   abstract = {Abstract                            We revisited the June 2010 to October 2011 Guy-Greenbrier earthquake sequence in central Arkansas using PhaseNet, a deep neural network trained to pick               P               and               S               arrival times. We applied PhaseNet to continuous waveform data and used phase association and hypocenter relocation to locate nearly 90,000 events. Our catalog suggests that the sequence consists of two adjacent earthquake sequences on the same fault and that the second sequence may be associated with the wastewater disposal well to the west of the Guy-Greenbrier Fault, rather than the wells to the north and the east that were previously implicated. We find that each sequence is composed of many small clusters that exhibit diffusion along the fault at shorter timescales. Our study demonstrates that machine-learning-based earthquake catalog development is now feasible and will yield new insights into earthquake behavior.                        ,              Plain Language Summary             Finding small earthquake signals from long duration continuous seismic data is a time-consuming task, but machine learning algorithms have the potential to accelerate the workflow and improve the results. We reprocessed the seismic data from the area spanning Guy and Greenbrier in central Arkansas in 2010 and 2011 using a machine learning algorithm to reexamine this well-studied earthquake sequence, which is thought to be caused by injection of wastewater from unconventional hydrocarbon production into deep disposal wells. Even using conservative postprocessing steps, we were able to locate nearly 90,000 earthquake events. The improved catalog illuminates previously unseen aspects of this earthquake sequence that give new insights into its behavior.           ,              Key Points                                                                Deep neural network pickers can increase the efficiency of earthquake cataloging workflow                                                     The sequence appears to be composed of two subsequences possibly triggered by different wells                                                     Improved catalog reveals characteristic spatiotemporal seismicity patterns},
   langid = {english},
-  file = {C:\Users\DZJ\Zotero\storage\VPZLHRS4\Park 等 - 2020 - Machine‐Learning‐Based Analysis of the Guy‐Greenbrier, Arkansas Earthquakes A Tale of Two Sequences.pdf}
+  file = {D:\ResearchAI_Data\Zotero\storage\VPZLHRS4\Park 等 - 2020 - Machine‐Learning‐Based Analysis of the Guy‐Greenbrier, Arkansas Earthquakes A Tale of Two Sequences.pdf}
+}
+
+@article{ross3Dfault,
+  title = {{{3D}} Fault Architecture Controls the Dynamism of Earthquake Swarms},
+  author = {Ross, Zachary E and Cochran, Elizabeth S and Trugman, Daniel T and Smith, Jonathan D},
+  langid = {english},
+  file = {D:\ResearchAI_Data\Zotero\storage\94NARCAD\Ross 等 - 3D fault architecture controls the dynamism of earthquake swarms.pdf}
+}
+
+@article{si2024allinoneseismic,
+  title = {An All-in-One Seismic Phase Picking, Location, and Association Network for Multi-Task Multi-Station Earthquake Monitoring},
+  author = {Si, Xu and Wu, Xinming and Li, Zefeng and Wang, Shenghou and Zhu, Jun},
+  year = 2024,
+  month = jan,
+  journal = {Communications Earth \& Environment},
+  volume = {5},
+  number = {1},
+  pages = {22},
+  issn = {2662-4435},
+  doi = {10.1038/s43247-023-01188-4},
+  urldate = {2026-07-09},
+  abstract = {Abstract             Earthquake monitoring is vital for understanding the physics of earthquakes and assessing seismic hazards. A standard monitoring workflow includes the interrelated and interdependent tasks of phase picking, association, and location. Although deep learning methods have been successfully applied to earthquake monitoring, they mostly address the tasks separately and ignore the geographic relationships among stations. Here, we propose a graph neural network that operates directly on multi-station seismic data and achieves simultaneous phase picking, association, and location. Particularly, the inter-station and inter-task physical relationships are informed in the network architecture to promote accuracy, interpretability, and physical consistency among cross-station and cross-task predictions. When applied to data from the Ridgecrest region and Japan, this method showed superior performance over previous deep learning-based phase-picking and localization methods. Overall, our study provides a prototype self-consistent all-in-one system of simultaneous seismic phase picking, association, and location, which has the potential for next-generation automated earthquake monitoring.},
+  langid = {english},
+  file = {D:\ResearchAI_Data\Zotero\storage\LDQ9IIMY\Si 等 - 2024 - An all-in-one seismic phase picking, location, and association network for multi-task multi-station.pdf}
 }
 
 @article{tan2021MachineLearningBasedHighResolution,
@@ -97,7 +175,56 @@
   abstract = {Abstract             The 2016--2017 central Italy seismic sequence occurred on an 80~km long normal-fault system. The sequence initiated with the Mw~6.0 Amatrice event on 24 August 2016, followed by the Mw~5.9 Visso event on 26 October and the Mw~6.5 Norcia event on 30 October. We analyze continuous data from a dense network of 139 seismic stations to build a high-precision catalog of {$\sim$}900,000 earthquakes spanning a 1~yr period, based on arrival times derived using a deep-neural-network-based picker. Our catalog contains an order of magnitude more events than the catalog routinely produced by the local earthquake monitoring agency. Aftershock activity reveals the geometry of complex fault structures activated during the earthquake sequence and provides additional insights into the potential factors controlling the development of the largest events. Activated fault structures in the northern and southern regions appear complementary to faults activated during the 1997 Colfiorito and 2009 L'Aquila sequences, suggesting that earthquake triggering primarily occurs on critically stressed faults. Delineated major fault zones are relatively thick compared to estimated earthquake location uncertainties, and a large number of kilometer-long faults and diffuse seismicity were activated during the sequence. These properties might be related to fault age, roughness, and the complexity of inherited structures. The rich details resolvable in this catalog will facilitate continued investigation of this energetic and well-recorded earthquake sequence.},
   copyright = {http://creativecommons.org/licenses/by/2.0/},
   langid = {english},
-  file = {C:\Users\DZJ\Zotero\storage\JEIK5MKZ\Tan 等 - 2021 - Machine-Learning-Based High-Resolution Earthquake Catalog Reveals How Complex Fault Structures Were.pdf}
+  file = {D:\ResearchAI_Data\Zotero\storage\JEIK5MKZ\Tan 等 - 2021 - Machine-Learning-Based High-Resolution Earthquake Catalog Reveals How Complex Fault Structures Were.pdf}
+}
+
+@article{wang2023SeismicFacies,
+  title = {Seismic {{Facies Segmentation}} via a {{Segformer-Based Specific Encoder}}--{{Decoder}}--{{Hypercolumns Scheme}}},
+  author = {Wang, Zhiguo and Wang, Qiannan and Yang, Yang and Liu, Naihao and Chen, Yumin and Gao, Jinghuai},
+  year = 2023,
+  journal = {IEEE Transactions on Geoscience and Remote Sensing},
+  volume = {61},
+  pages = {1--11},
+  issn = {0196-2892, 1558-0644},
+  doi = {10.1109/TGRS.2023.3244037},
+  urldate = {2026-07-09},
+  copyright = {https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html},
+  file = {D:\ResearchAI_Data\Zotero\storage\J2ML7W6A\Wang 等 - 2023 - Seismic Facies Segmentation via a Segformer-Based Specific Encoder–Decoder–Hypercolumns Scheme.pdf}
+}
+
+@article{zhou2021highresolutionseismic,
+  title = {A High-Resolution Seismic Catalog for the 2021 {{MS6}}.4/{{MW6}}.1 {{Yangbi}} Earthquake Sequence, {{Yunnan}}, {{China}}: {{Application}} of {{AI}} Picker and Matched Filter},
+  shorttitle = {A High-Resolution Seismic Catalog for the 2021 {{MS6}}.4/{{MW6}}.1 {{Yangbi}} Earthquake Sequence, {{Yunnan}}, {{China}}},
+  author = {Zhou, Yijian and Ghosh, Abhijit and Fang, Lihua and Yue, Han and Zhou, Shiyong and Su, Youjin},
+  year = 2021,
+  month = oct,
+  journal = {Earthquake Science},
+  volume = {34},
+  number = {5},
+  pages = {390--398},
+  issn = {16744519},
+  doi = {10.29382/eqs-2021-0031},
+  urldate = {2026-07-09},
+  langid = {english},
+  file = {D:\ResearchAI_Data\Zotero\storage\LM3S7TX8\Zhou 等 - 2021 - A high-resolution seismic catalog for the 2021 MS6.4MW6.1 Yangbi earthquake sequence, Yunnan, China.pdf}
+}
+
+@article{zhou2022SeismologicalCharacterization,
+  title = {Seismological {{Characterization}} of the 2021 {{Yangbi Foreshock}}-{{Mainshock Sequence}}, {{Yunnan}}, {{China}}: {{More}} than a {{Triggered Cascade}}},
+  shorttitle = {Seismological {{Characterization}} of the 2021 {{Yangbi Foreshock}}-{{Mainshock Sequence}}, {{Yunnan}}, {{China}}},
+  author = {Zhou, Yijian and Ren, Chunmei and Ghosh, Abhijit and Meng, Haoran and Fang, Lihua and Yue, Han and Zhou, Shiyong and Su, Youjin},
+  year = 2022,
+  month = aug,
+  journal = {Journal of Geophysical Research: Solid Earth},
+  volume = {127},
+  number = {8},
+  pages = {e2022JB024534},
+  issn = {2169-9313, 2169-9356},
+  doi = {10.1029/2022JB024534},
+  urldate = {2026-07-09},
+  abstract = {Abstract                            The 2021               M                                w                              6.1 Yangbi earthquake in southwest China is preceded by three major foreshocks: 05/18               M                                w                              4.3, 05/19               M                                w                              4.6, and 05/21               M                                w                              5.2. It provides a valuable chance to revisit two end-member foreshock models: cascade-up and pre-slip models. We first determine the fault structure with relocated aftershocks and the focal mechanisms obtained from a multipoint-source inversion. We find that the mainshock and two smaller foreshocks occur on an unmapped near-vertical fault, and the largest foreshock occurs on a mapped stepover fault that dips to northeast. Second, for each major foreshock, we estimate and delineate the rupture area based on its aftershock location and a spectral ratio analysis. Based on the inferred rupture model, we finally calculate the evolution of Coulomb stress and examine potential interactions between each major event. Results show that the Yangbi sequence can be explained by the cascade triggering mechanism, while we also find evidence for aseismic slip that contributes to the triggering process: the first foreshock is preceded by a short-term localized cluster, three repeater sequences are detected in the foreshock period, and the aftershock zones expand logarithmically with time. The Yangbi mainshock is probably triggered by multiple major foreshocks through both seismic and aseismic processes. This detailed seismological characterization of Yangbi sequence lends supports for an improved understanding on the foreshock mechanism: (a) the controlling mechanisms are not limited to cascade-up and pre-slip. Instead, multiple mechanisms can operate together; and (b) aseismic slip does not always provide more deterministic information on the mainshock.                        ,              Plain Language Summary             The 2021 magnitude 6.1 Yangbi earthquake in southwest China is preceded by three magnitude 4--5 earthquakes, which are known as foreshocks. Whether the foreshock sequence can be used to forecast future occurrence of large earthquakes is of great scientific interest. Here, we analyze the interaction between these foreshocks with a high-resolution seismic catalog and the modeling of stress transfer after each major foreshock. We find that the migration directions of foreshocks are not consistent, and that the stress transfer following each foreshock is large enough to explain the triggering of the Yangbi mainshock. This supports the cascade triggering model for foreshock generation, where the foreshocks are not precursors. However, we also find several lines of evidence for aseismic fault slip. These include: the first foreshock is preceded by a short-term localized cluster, three repeater sequences are detected in the foreshock sequence, and the aftershock zones of three foreshocks expand logarithmically with time, suggesting that they are driven by afterslip. Our results suggest that multiple mechanisms (e.g., cascade-triggering and aseismic slip) can act at the same time to drive foreshocks, and it is relatively challenging to use foreshocks to forecast future occurrence of large earthquakes.           ,              Key Points                                                                The Yangbi mainshock and two smaller foreshocks occur on an unmapped near-vertical fault, and the largest foreshock occurs on a mapped stepover fault that dips to NE                                                     The rupture directivity and source parameters of major foreshocks are estimated by aftershock distribution and spectral ratio analysis                                                     The Yangbi sequence can be explained as a cascade sequence, but aseismic processes can also be inferred, including pre-slip cluster and logarithmic expansion of aftershocks},
+  langid = {english},
+  file = {D:\ResearchAI_Data\Zotero\storage\PKGESHPH\Zhou 等 - 2022 - Seismological Characterization of the 2021 Yangbi Foreshock‐Mainshock Sequence, Yunnan, China More.pdf}
 }
 
 @article{zhu2018PhaseNetDeepNeuralNetworkBased,
@@ -112,5 +239,5 @@
   urldate = {2026-07-08},
   copyright = {https://academic.oup.com/journals/pages/open\_access/funder\_policies/chorus/standard\_publication\_model},
   langid = {english},
-  file = {C:\Users\DZJ\Zotero\storage\2U6E8WAQ\Zhu和Beroza - 2018 - PhaseNet A Deep-Neural-Network-Based Seismic Arrival Time Picking Method.pdf}
+  file = {D:\ResearchAI_Data\Zotero\storage\2U6E8WAQ\Zhu和Beroza - 2018 - PhaseNet A Deep-Neural-Network-Based Seismic Arrival Time Picking Method.pdf}
 }

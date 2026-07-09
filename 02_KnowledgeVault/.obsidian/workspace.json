@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Dataset_Template.md",
+                "file": "01_Papers/mousavi2020_eqtransformer_note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dataset_Template"
+              "title": "mousavi2020_eqtransformer_note"
             }
           }
         ]
@@ -185,6 +185,8 @@
   },
   "active": "71d36c4f648e6c4c",
   "lastOpenFiles": [
+    "01_Papers/chai2020_using_note.md",
+    "Templates/Dataset_Template.md",
     "03_Methods/PhaseNet.md",
     "05_Datasets/Thebe.md",
     "05_Datasets/SEG Salt.md",
@@ -209,8 +211,6 @@
     "01_Papers/Literature-review-on-deep-learning-for-segmentation-of-seismic-images.md",
     "未命名.base",
     "01_Papers/README.md",
-    "README.md",
-    "Vault_README.md",
-    "Vision Transformer.md"
+    "README.md"
   ]
 }

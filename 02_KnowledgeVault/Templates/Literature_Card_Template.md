@@ -50,69 +50,33 @@ created: {{date}}
 # Limitations / 灞€闄愭€?<!-- 鏂规硶/瀹為獙/鍋囪鐨勪笉瓒?-->
 
 
-# Reproducibility Status / 鍙鐜版€х姸鎬?
-> 鍖哄垎銆屼唬鐮佸瓨鍦ㄣ€嶄笌銆岃鏂囧彲澶嶇幇銆嶃€備唬鐮佸瓨鍦ㄤ笉绛変簬鍙鐜般€?
 
-## Code Status / 代码状态
+# Reproducibility Status / 可复现性状态
 
-> 区分「代码存在」与「论文可复现」。代码存在不等于可复现。
+> Literature Card: lightweight screening. Paper Note / Paper Logic: deep analysis.
 
-**Status**:
-- [ ] **Confirmed Available** — verified the repository exists and is accessible
-- [ ] **Confirmed Missing** — full-text verification confirms no code is provided
-- [ ] **Not Found Yet** — paper mentions code but URL not located in full text
-- [ ] **Not Checked** — agent has not verified (requires human follow-up)
+## Code Availability
 
-**Evidence Location**: <!-- where in the paper was code availability mentioned? e.g. "Sec 4.1, last paragraph" or "Supplementary Materials" -->
+**Status**: [ ] Available [ ] Not Found Yet [ ] Confirmed Missing [ ] Not Checked
 
-**Repository Platform**: [ ] GitHub [ ] GitLab [ ] Official Website [ ] Other: __________
+**URL**: <!-- Only fill when Status = Available -->
 
-**Repository URL**: <!-- link to actual repository — verify it is reachable -->
+## Data Status / 数据可用性
 
-**Framework**: [ ] PyTorch [ ] TensorFlow [ ] JAX [ ] MXNet [ ] Other: __________
-
-**Checkpoint / Pre-trained Model**: [ ] Available [ ] Not mentioned [ ] Not applicable
-
-**Last Repository Update**: <!-- commit date or "unknown" -->
-
-**Verification Method**: <!-- how was this confirmed? e.g. "URL reachable", "repo cloned", "paper text only" -->## Data Status / 鏁版嵁鐘舵€?
-- [ ] **Public dataset available** 鈥?freely downloadable
-- [ ] **Restricted dataset** 鈥?requires application or license
-- [ ] **Private dataset** 鈥?not publicly accessible
-- [ ] **Unknown** 鈥?paper does not specify
+- [ ] **Public dataset available** — freely downloadable
+- [ ] **Restricted dataset** — requires application or license
+- [ ] **Private dataset** — not publicly accessible
+- [ ] **Unknown** — paper does not specify
 
 **Dataset Link**: <!-- URL to dataset download or access page -->
 
-**Preprocessing Code Available**: [ ] Yes [ ] No [ ] Not mentioned
+## Reproduction Feasibility / 复现可行性
 
-**Train/Val/Test Split Defined**: [ ] Yes [ ] No [ ] Not mentioned
-
-## Environment Status / 鐜鐘舵€?
-**Requirements File Available**: [ ] requirements.txt [ ] environment.yml [ ] Dockerfile [ ] Not mentioned
-
-**Reported Versions** (if mentioned in paper):
-- CUDA: <!-- version or "not specified" -->
-- Python: <!-- version or "not specified" -->
-- Framework version: <!-- version or "not specified" -->
-
-## Reproduction Feasibility / 澶嶇幇鍙鎬?
 **Overall Assessment**: [ ] High [ ] Medium [ ] Low
 
-**Reason**: <!-- 璇存槑涓轰粈涔堟槸 High/Medium/Low銆備緥濡傦細"浠ｇ爜+鏁版嵁+棰勮缁冩潈閲嶉綈鍏紝浣嗙己灏戦殢鏈虹瀛? -->
+**Reason**: <!-- Brief explanation -->
 
-**Blocking Factors** (if any):
-- [ ] Missing code
-- [ ] Missing data
-- [ ] Missing checkpoints
-- [ ] Missing preprocessing
-- [ ] Missing hyperparameters
-- [ ] Missing environment specs
-- [ ] Hardware requirements exceed RTX 4070 capability
-- [ ] Other: <!-- describe -->
-
-**Notes / 澶囨敞**:
-<!-- 浠讳綍褰卞搷澶嶇幇鐨勯澶栧洜绱?-->
-
+**Notes / 备注**:
 
 # My Decision / 鎴戠殑鍐冲畾
 
@@ -127,6 +91,7 @@ created: {{date}}
 - Task: [[{{task}}]]
 - Method: [[{{method}}]]
 - Dataset: [[{{dataset}}]]
+
 
 
 

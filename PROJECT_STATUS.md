@@ -160,6 +160,116 @@ Paper_Logic_Template upgraded from simple structure analysis to Argument Mining 
 - [x] Check 5 (Agent Context Recovery): PASSED — fixed Quick Reference and startup checklist
 - [x] Fixed: Paper_Index.md now includes all Monteiro entries
 - [x] **Stress Test Readiness: READY**
+
+**Stage 1.5-6E — Stress Test Execution (Paper D only)** (completed 2026-07-09)
+
+- [x] Processed Zhu 2018 (PhaseNet original) as Category D (Reproduction-oriented) paper
+- [x] Created: zhu2018_phasenet_card.md (Literature Card)
+- [x] Created: zhu2018_phasenet_note.md (Paper Note with full reproducibility analysis)
+- [x] Verified: Zotero item key 2U6E8WAQ maps to PhaseNet PDF
+- [x] Verified: MinerU output exists at D:\ResearchAI_Data\Paper\MinerU_md\zhu2018.pdf-*
+- [x] Verified: Code URL https://github.com/weiqiangzhu/PhaseNet correctly recorded
+- [x] Verified: NCEDC dataset correctly identified as public
+- [x] Identified reproduction barrier: training hyperparameters (lr, batch size) not specified
+- [x] RTX 4070 compatibility: Runs fine (1D CNN, minimal VRAM)
+- [x] Pipeline execution: PASS (6/7 success criteria met, 1 partial)
+- [x] Stress_Test_Execution_Log.md updated with Paper 1 results
+- [x] Literature Card template simplified during test (removed verbose Code Status section)
+- [x] **STOPPED before Paper A** — awaiting human review of Paper D results as required
+
+**Remaining Papers in MinerU Output (not yet processed):**
+- liu2020.pdf (Ridgecrest earthquake catalog)
+- park2020.pdf (Guy-Greenbrier earthquake sequence)
+- tsr-2021001.1.pdf (TSR paper)
+**Stage 1.5-6E — Stress Test Execution (Papers D + A)** (completed 2026-07-09)
+
+- [x] Paper D: Zhu 2018 (PhaseNet) — PASS (6/7 criteria met, 1 partial)
+- [x] Paper A: Mousavi & Beroza 2023 (Annual Review survey) — PASS (7/7 criteria met)
+- [x] Created: mousavi2023_machine_learning_card.md (Literature Card)
+- [x] Created: mousavi2023_machine_learning_survey.md (Survey Note)
+- [x] Verified: Survey template correctly used (not Paper_Template)
+- [x] Verified: All wikilinks resolve to existing nodes
+- [x] Verified: Code availability correctly assessed (mixed — SeisBench, EQTransformer open source)
+- [x] Verified: No hallucinations in taxonomy extraction (8 tasks correctly summarized)
+- [x] Verified: Transferable ideas extracted (Transformer→image segmentation, PINN→physics constraints, self-supervised pre-training)
+- [x] Paper not in Zotero storage — only MinerU output. Handled gracefully (no Zotero item key recorded).
+- [x] Stress_Test_Execution_Log.md updated with Papers 1 and 2
+- [x] Paper_Index.md updated with new survey entry
+- [x] **STOPPED after Category A** — awaiting review before proceeding to B/C
+
+**Remaining Papers in MinerU Output (not yet processed):**
+- liu2020.pdf (Ridgecrest earthquake catalog)
+- park2020.pdf (Guy-Greenbrier earthquake sequence)
+- tsr-2021001.1.pdf (TSR paper)
+**Stage 1.5-6E.1 — Zotero-First Literature Entry Rule** (completed 2026-07-09)
+
+- [x] Fixed Mousavi 2023 Literature Card: Zotero status set to "Not Imported"
+- [x] Added Rule 9 to AGENT_BOOTSTRAP.md: Zotero-first mandatory pre-condition
+- [x] Updated Paper_Processing_Decision_Framework.md: Zotero pre-condition for Level 1, enforcement rule added
+- [x] Updated Literature_Intake_Workflow.md: Added Step 0 (Zotero Import) before all other steps
+- [x] Added validation rule: Agent must verify Zotero item exists before processing MinerU output
+- [x] No existing valid paper notes modified
+- [x] No existing filenames modified
+- [x] No existing wikilinks modified
+- [x] Violation found and fixed: Mousavi 2023 was processed without Zotero import
+
+**Stage 1.5-6E Category B — EQTransformer (Mousavi 2020)** (completed 2026-07-09)
+
+- [x] Zotero validation PASSED: Item key QKMKLG2N, PDF in storage, MinerU output exists
+- [x] Created: mousavi2020_eqtransformer_card.md (Literature Card)
+- [x] Created: mousavi2020_eqtransformer_note.md (Paper Note)
+- [x] Created: liu2020_ridgecrest_card.md (Literature Card)
+- [x] Created: liu2020_ridgecrest_note.md (Paper Note)
+- [x] Updated all 6 Literature Cards with Zotero import status and item keys
+- [x] 100% Zotero-first compliance achieved for all processed papers
+- [x] Created: mousavi2020_eqtransformer_note.md (Paper Note)
+- [x] Reused existing nodes: PhaseNet, Transformer, Attention Mechanism, CNN, U-Net, Seismic Phase Picking, EGS Collab SURF
+- [x] No duplicate nodes created
+- [x] Code URL correctly recorded: https://github.com/smousavi05/EQTransformer
+- [x] Reproducibility: Moderate (learning rate schedule and batch size not specified)
+- [x] 6 transferable ideas extracted for seismic image segmentation
+- [x] Paper_Index.md updated
+- [x] Stress_Test_Execution_Log.md updated with Zotero verification
+- [x] 0 wikilink breaks detected
+
+**Stage 1.5-6E Category C — Ridgecrest Application (Liu 2020)** (completed 2026-07-09)
+
+- [x] Zotero validation PASSED: Item key K9XWQTIL, PDF in storage, MinerU output exists
+- [x] Created: liu2020_ridgecrest_card.md (Literature Card)
+- [x] Created: liu2020_ridgecrest_note.md (Paper Note)
+- [x] Reused existing nodes: PhaseNet, CNN, Seismic Phase Picking (no duplicates)
+- [x] Correctly classified as application study (not method paper)
+- [x] Reproducibility: Correctly identified as "application study" — no new code, uses PhaseNet
+- [x] Critical analysis: Identified 6 agent-identified limitations (no PhaseNet threshold ablation, no EQTransformer comparison, no uncertainty quantification)
+- [x] 5 transferable ideas extracted for seismic image segmentation
+- [x] Paper_Index.md updated
+- [x] Stress_Test_Execution_Log.md updated
+- [x] 0 wikilink breaks detected
+
+**Stage 1.5-6E.1 — Category Framework Refinement** (completed 2026-07-09)
+
+- [x] Category C "Recent SOTA" refined into C1 (Application Study) and C2 (Method Innovation)
+- [x] C1: evaluates real-world deployment, generalization, reproducibility of existing methods
+- [x] C2: evaluates novel architecture design, ablation quality, claim-evidence consistency
+- [x] Liu2020 correctly reclassified from C to C1
+- [x] Updated Stage_1.5_6B_Real_Paper_Stress_Test.md with subcategory definitions
+- [x] Updated Stress_Test_Execution_Log.md with C1/C2 taxonomy
+- [x] No existing paper results modified
+- [x] No templates or KnowledgeVault files modified
+
+**Review Finding:** Category C was too narrow. Application papers (Liu2020) and method innovation papers require different evaluation criteria. C1 and C2 provide distinct success criteria for each.
+
+**Stage 1.5-6F.1 — Architecture Cleanup** (completed 2026-07-09)
+
+- [x] Zotero status corrected for all 6 processed papers (100% compliance)
+- [x] Vision Transformer.md moved from KV root to 03_Methods/
+- [x] 0 broken wikilinks after move
+- [x] AGENT_BOOTSTRAP Quick Reference table updated (5 documents added)
+- [x] Paper Logic naming verified — all files conform
+- [x] Deprecated chai2020_paper_logic.md retains DEPRECATED marker
+- [x] No templates modified
+- [x] No directory architecture changed
+- [x] No papers reprocessed
 **Stage 1.5-6B — Real Paper Stress Test Preparation** (completed 2026-07-09)
 
 - [x] Create Stage_1.5_6B_Real_Paper_Stress_Test.md with 4-category test protocol
@@ -177,6 +287,13 @@ Paper_Logic_Template upgraded from simple structure analysis to Argument Mining 
 - All data paths are documented in `research_config.yaml` and `Data_Storage_Architecture.md`.
 - PDF architecture is Zotero-centered. No PDF files were moved or deleted.
 - Paper Logic notes for future research articles MUST use the Argument Mining format defined in Stage 1.5-4.
+
+
+
+
+
+
+
 
 
 
