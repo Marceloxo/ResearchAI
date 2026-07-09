@@ -1,0 +1,471 @@
+# ResearchAI
+
+## AI-Assisted Research Operating System
+
+---
+
+# 1. Project Overview
+
+## Project Name
+
+ResearchAI
+
+## Purpose
+
+ResearchAI is a long-term personal AI-assisted research workspace.
+
+The goal is to build a portable research operating system that supports the complete research lifecycle:
+
+```
+Literature Acquisition
+        ↓
+Paper Understanding
+        ↓
+Knowledge Organization
+        ↓
+Research Gap Discovery
+        ↓
+Model Development
+        ↓
+Experiment Management
+        ↓
+Result Analysis
+        ↓
+Scientific Writing
+```
+
+The system should allow both human researchers and AI agents to understand, maintain, and extend the research workflow.
+
+---
+
+# 2. Research Background
+
+## Current Research Direction
+
+Primary focus:
+
+```
+Deep Learning + Computer Vision + Earth Science
+```
+
+Current application area:
+
+```
+AI-based Seismic Data/Image Processing
+```
+
+Potential tasks:
+
+* Seismic fault segmentation
+* Seismic image enhancement
+* Seismic image reconstruction
+* Deep learning based seismic interpretation
+* Other computer vision tasks related to geoscience
+
+---
+
+# 3. Long-Term Research Scope
+
+Although the current focus is seismic AI, the workflow should remain general.
+
+Future supported fields:
+
+* Medical image analysis
+* Remote sensing
+* Industrial computer vision
+* General deep learning research
+
+The system should focus on reusable research methodology rather than a single research topic.
+
+---
+
+# 4. Core Design Principles
+
+## 4.1 Separation of Workspace and Data
+
+ResearchAI uses two storage layers.
+
+## Workspace Layer
+
+Location:
+
+```
+C:\ResearchAI
+```
+
+Contains:
+
+* Markdown documents
+* Obsidian knowledge vault
+* Source code
+* Experiment records
+* Writing materials
+* AI agent configurations
+
+## Data Layer
+
+Location:
+
+```
+D:\ResearchAI_Data
+```
+
+Contains:
+
+* Large datasets
+* Model checkpoints
+* Raw papers
+* Large experimental outputs
+
+Large files should not be stored inside the workspace layer.
+
+---
+
+# 5. AI Agent Compatibility
+
+This project is designed to be operated by AI coding agents such as:
+
+* Codex
+* Claude Code
+* Other future research agents
+
+Therefore:
+
+Every important directory must contain documentation.
+
+Every major workflow step must generate Markdown records.
+
+The project should remain understandable without previous conversation history.
+
+---
+
+# 6. Directory Structure
+
+The initial structure:
+
+```
+ResearchAI/
+
+├── README.md
+
+├── PROJECT_STATUS.md
+
+├── research_config.yaml
+
+├── 00_Inbox/
+
+├── 01_Literature/
+
+├── 02_KnowledgeVault/
+
+├── 03_Projects/
+
+├── 04_Tools/
+
+├── 05_Experiments/
+
+├── 06_Writing/
+
+├── 07_Research_Ideas/
+
+└── 08_Agent_Config/
+```
+
+---
+
+# 7. Directory Description
+
+# 00_Inbox
+
+Purpose:
+
+Temporary input area.
+
+Examples:
+
+* Newly downloaded papers
+* Temporary notes
+* Unprocessed files
+
+Workflow:
+
+```
+Inbox
+ ↓
+Processing
+ ↓
+Permanent Storage
+```
+
+---
+
+# 01_Literature
+
+Purpose:
+
+Literature management.
+
+Contains:
+
+* PDF papers
+* MinerU outputs
+* Bibliographic information
+
+Structure:
+
+```
+01_Literature/
+
+├── PDFs/
+
+├── Markdown/
+
+└── References/
+```
+
+---
+
+# 02_KnowledgeVault
+
+Purpose:
+
+Obsidian knowledge base.
+
+This folder is the intellectual memory of ResearchAI.
+
+Contains:
+
+* Paper notes
+* Concepts
+* Methods
+* Datasets
+* Research questions
+* Experiment interpretation
+
+This folder will be opened as an Obsidian Vault.
+
+---
+
+# 03_Projects
+
+Purpose:
+
+Research implementation projects.
+
+Contains:
+
+* Deep learning code
+* Training scripts
+* Evaluation scripts
+* Configuration files
+
+Example:
+
+```
+03_Projects/
+
+└── SeismicFaultSegmentation/
+```
+
+---
+
+# 04_Tools
+
+Purpose:
+
+Reusable scripts and utilities.
+
+Examples:
+
+* Data preprocessing tools
+* Conversion scripts
+* Visualization tools
+
+---
+
+# 05_Experiments
+
+Purpose:
+
+Experiment tracking system.
+
+Every experiment should contain:
+
+```
+experiment_name/
+
+├── README.md
+
+├── config.yaml
+
+├── results.json
+
+└── figures/
+```
+
+Experiment records should be understandable by AI agents.
+
+---
+
+# 06_Writing
+
+Purpose:
+
+Scientific writing.
+
+Contains:
+
+* Literature reviews
+* Research proposals
+* Paper drafts
+* Manuscripts
+
+---
+
+# 07_Research_Ideas
+
+Purpose:
+
+Research idea management.
+
+Contains:
+
+* Potential topics
+* Research gaps
+* Hypotheses
+* Future directions
+
+---
+
+# 08_Agent_Config
+
+Purpose:
+
+AI agent configuration.
+
+Contains:
+
+* Agent instructions
+* Skills
+* Templates
+* Workflow definitions
+
+Future AI agents should read this folder before performing research tasks.
+
+---
+
+# 8. External Data Location
+
+Large files are stored separately.
+
+Configuration file:
+
+```
+research_config.yaml
+```
+
+should record:
+
+* Workspace path
+* Dataset path
+* Model path
+* Literature archive path
+
+The project should not depend on hard-coded absolute paths.
+
+---
+
+# 9. Current Development Stage
+
+Stage:
+
+```
+Stage 0 - Workspace Initialization
+```
+
+Current objectives:
+
+1. Create directory structure.
+2. Create documentation system.
+3. Establish Obsidian knowledge architecture.
+4. Establish AI agent operation rules.
+
+---
+
+# 10. Future Development Roadmap
+
+## Stage 1
+
+Research Knowledge System
+
+Tools:
+
+* Zotero
+* MinerU
+* Obsidian
+* Research Vault Retrieval
+
+Goal:
+
+Build structured literature knowledge base.
+
+---
+
+## Stage 2
+
+Research Experiment System
+
+Goal:
+
+Connect:
+
+```
+Paper
+ ↓
+Idea
+ ↓
+Code
+ ↓
+Experiment
+ ↓
+Result
+```
+
+---
+
+## Stage 3
+
+AI Research Assistant
+
+Goal:
+
+Enable AI agents to:
+
+* Analyze papers
+* Suggest research gaps
+* Understand experiments
+* Generate manuscript drafts
+
+---
+
+# 11. Maintenance Rule
+
+Whenever the project structure changes:
+
+Update:
+
+```
+README.md
+
+PROJECT_STATUS.md
+
+Relevant folder README.md
+```
+
+Documentation must always reflect the actual state of the project.
+
+---
+
+# End of Document
+
+---

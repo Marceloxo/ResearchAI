@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "3b720f0d46d5d3d2",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d8c28871816b065",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71d36c4f648e6c4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Dataset_Template.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dataset_Template"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a48550b3b9e55251",
+    "type": "split",
+    "children": [
+      {
+        "id": "e95ab22a552e68dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ee8bcc779d3760c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "177a1861425513fd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "ef58af6ca0e18a67",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4929ddfaae679d35",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a9bf3f35f012734",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a29cac397411b330",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00_Meta/Dataset_Map.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Dataset_Map 的反向链接列表"
+            }
+          },
+          {
+            "id": "b51711c4aad56385",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00_Meta/Dataset_Map.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Dataset_Map 的出链列表"
+            }
+          },
+          {
+            "id": "e1177b84e367ba71",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "1afed1e675277789",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "a8c5c7f68f2e4569",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00_Meta/Dataset_Map.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Dataset_Map 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "71d36c4f648e6c4c",
+  "lastOpenFiles": [
+    "03_Methods/PhaseNet.md",
+    "05_Datasets/Thebe.md",
+    "05_Datasets/SEG Salt.md",
+    "05_Datasets/SEAM.md",
+    "05_Datasets/README.md",
+    "05_Datasets/Penobscot.md",
+    "05_Datasets/Parihaka.md",
+    "05_Datasets/OpenFWI.md",
+    "05_Datasets/Marmousi.md",
+    "05_Datasets/F3 Netherlands.md",
+    "05_Datasets/EGS Collab SURF.md",
+    "06_Experiments/exp_chai2020_phase_picking.md",
+    "03_Methods/Transfer Learning.md",
+    "03_Methods/README.md",
+    "03_Methods/CNN.md",
+    "03_Methods/Attention Mechanism.md",
+    "09_Paper_Logic/chai2020_paper_logic_argument_mining.md",
+    "09_Paper_Logic/chai2020_paper_logic.md",
+    "01_Papers/chai2020_phase_picking_Card.md",
+    "01_Papers/Literature-review-on-deep-learning-for-segmentation-of-seismic-images_Card.md",
+    "01_Papers/chai2020_using_deep_neural_network_transfer_learning.md",
+    "01_Papers/Literature-review-on-deep-learning-for-segmentation-of-seismic-images.md",
+    "未命名.base",
+    "01_Papers/README.md",
+    "README.md",
+    "Vault_README.md",
+    "Vision Transformer.md"
+  ]
+}
