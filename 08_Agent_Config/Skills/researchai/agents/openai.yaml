@@ -1,0 +1,4 @@
+interface:
+  display_name: "ResearchAI"
+  short_description: "Standardized paper processing workflows for ResearchAI workspace"
+  default_prompt: "Process the paper with Zotero Item Key {key} through the ResearchAI pipeline."

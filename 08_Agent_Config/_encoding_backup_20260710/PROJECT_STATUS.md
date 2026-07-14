@@ -3,56 +3,56 @@
 
 ## Current Stage
 
-**Stage 1.5-6F.1 â€” Architecture Cleanup** (completed 2026-07-10)
+**Stage 1.5-6F.1 ¡ª Architecture Cleanup** (completed 2026-07-10)
 
 
-- [x] Stage 0 â€”Workspace Initialization
-- [x] Stage 1.1 â€”Obsidian KnowledgeVault Initialization
-- [x] Stage 1.2 â€”Obsidian Note Templates
-- [x] Stage 1.3 â€”Navigation & Knowledge Graph Design
-- [x] Stage 1.4A â€”First Paper End-to-End Validation
-- [x] Stage 1.4A.1 â€”Agent Bootstrap & Workflow Optimization
-- [x] Stage 1.4B-0 â€”Literature Intake System Design
-- [x] Stage 1.4B-1 â€”Processed Markdown Pipeline Design
-- [x] Stage 1.4C-0 â€”Zotero Integration Design
-- [x] Stage 1.4C-1 â€”Zotero Deployment Preparation
-- [x] Stage 1.4C-1.1 â€”Design Principles & Identifier Correction
-- [x] Stage 1.4C-2 â€”Zotero Installation Preparation & Single Paper Test Plan
-- [x] Stage 1.4C-3 â€”Zotero Installation Readiness
-- [x] Stage 1.4C-3.1 â€”Data Path Synchronization
-- [x] Stage 1.4C-3.2 â€”Zotero Deployment Status Sync
-- [x] Stage 1.4C-3.3 â€”Zotero Storage Architecture Confirmation
-- [x] Stage 1.4C-3.4 â€”Zotero-Centered PDF Architecture Redesign
-- [x] Stage 1.5-0 â€”Single Paper Validation Protocol
-- [x] Stage 1.5-1 â€”Zotero Workflow Configuration
-- [x] Stage 1.5-2 â€”First Paper Closed-loop Validation (Survey: Monteiro 2024)
+- [x] Stage 0 â€?Workspace Initialization
+- [x] Stage 1.1 â€?Obsidian KnowledgeVault Initialization
+- [x] Stage 1.2 â€?Obsidian Note Templates
+- [x] Stage 1.3 â€?Navigation & Knowledge Graph Design
+- [x] Stage 1.4A â€?First Paper End-to-End Validation
+- [x] Stage 1.4A.1 â€?Agent Bootstrap & Workflow Optimization
+- [x] Stage 1.4B-0 â€?Literature Intake System Design
+- [x] Stage 1.4B-1 â€?Processed Markdown Pipeline Design
+- [x] Stage 1.4C-0 â€?Zotero Integration Design
+- [x] Stage 1.4C-1 â€?Zotero Deployment Preparation
+- [x] Stage 1.4C-1.1 â€?Design Principles & Identifier Correction
+- [x] Stage 1.4C-2 â€?Zotero Installation Preparation & Single Paper Test Plan
+- [x] Stage 1.4C-3 â€?Zotero Installation Readiness
+- [x] Stage 1.4C-3.1 â€?Data Path Synchronization
+- [x] Stage 1.4C-3.2 â€?Zotero Deployment Status Sync
+- [x] Stage 1.4C-3.3 â€?Zotero Storage Architecture Confirmation
+- [x] Stage 1.4C-3.4 â€?Zotero-Centered PDF Architecture Redesign
+- [x] Stage 1.5-0 â€?Single Paper Validation Protocol
+- [x] Stage 1.5-1 â€?Zotero Workflow Configuration
+- [x] Stage 1.5-2 â€?First Paper Closed-loop Validation (Survey: Monteiro 2024)
   - [x] Create Survey_Template.md
-  - [x] Verify full pipeline: MinerU â†’Literature Card â†’Paper Note â†’Methods â†’Tasks â†’Datasets â†’Wikilinks
+  - [x] Verify full pipeline: MinerU â†?Literature Card â†?Paper Note â†?Methods â†?Tasks â†?Datasets â†?Wikilinks
   - [x] Create Stage_1.5_2_Closed_Loop_Validation_Report.md
   - [x] Update Templates/README.md to include Survey_Template
-- [x] Stage 1.5-3 â€”Research Article Closed-loop Validation (Research Article: Chai 2020)
+- [x] Stage 1.5-3 â€?Research Article Closed-loop Validation (Research Article: Chai 2020)
   - [x] Process chai2020 through full pipeline
   - [x] Create Literature Card, Paper Note, Method notes, Experiment note, Paper Logic
   - [x] Create Task and Dataset knowledge nodes
   - [x] Update Literature Index and MOC files
-- [x] **Stage 1.5-4 â€”Upgrade Paper Logic System**
+- [x] **Stage 1.5-4 â€?Upgrade Paper Logic System**
   - [x] Rewrite Paper_Logic_Template.md to Argument Mining format (9 sections)
   - [x] Update Templates/README.md with Stage 1.5-4 changes
   - [x] Create Paper_Logic_Guideline.md as mandatory agent rule
   - [x] Old chai2020 Paper Logic preserved (not regenerated per constraints)
 
-- [x] **Stage 1.5-6A â€” Paper Processing Decision Framework**
+- [x] **Stage 1.5-6A ¡ª Paper Processing Decision Framework**
   - [x] Create Paper_Processing_Decision_Framework.md (3-level strategy, decision tree, scoring rubric)
   - [x] Add permanent enforcement rule to AGENT_BOOTSTRAP.md
   - [x] Prevents unnecessary deep analysis on low-value papers
 
 ## Pipeline Validation Summary
 
-### Phase 1 (Survey Paper â€”Monteiro 2024): PASSED
+### Phase 1 (Survey Paper â€?Monteiro 2024): PASSED
 
-18 knowledge nodes created. Wikilinks form a connected graph spanning Papers â†’Methods â†’Tasks â†’Datasets â†’Topics.
+18 knowledge nodes created. Wikilinks form a connected graph spanning Papers â†?Methods â†?Tasks â†?Datasets â†?Topics.
 
-### Phase 2 (Research Article â€”Chai 2020): PASSED
+### Phase 2 (Research Article â€?Chai 2020): PASSED
 
 8 new nodes created including Method, Experiment, and Paper Logic. Full pipeline verified for research article processing.
 
@@ -62,7 +62,7 @@ Paper_Logic_Template upgraded from simple structure analysis to Argument Mining 
 1. Research Problem
 2. Research Gap
 3. Core Claim
-4. Evidence Mapping (Claim â†’Evidence â†’Experiment â†’Metric â†’Result)
+4. Evidence Mapping (Claim â†?Evidence â†?Experiment â†?Metric â†?Result)
 5. Method Justification (motivation, design, evidence, alternatives)
 6. Limitation Analysis (author-admitted + hidden)
 7. Transferable Research Ideas
@@ -77,7 +77,7 @@ Paper_Logic_Template upgraded from simple structure analysis to Argument Mining 
 - **Navigation**: 12 MOC files in 00_Meta
 - **Agent config**: Bootstrap, design principles, literature strategy, Zotero workflow
 
-**Stage 1.5-5 â€” Completed**
+**Stage 1.5-5 ¡ª Completed**
 
 **Argument Mining Paper Logic for Chai 2020 created.**
 
@@ -90,7 +90,7 @@ Paper_Logic_Template upgraded from simple structure analysis to Argument Mining 
 - [x] Paper-to-Research Bridge: 3 learnings + 5 improvements + 5 action items
 
 
-**Stage 1.5-6A.1 â€” Reproducibility Metadata System** (completed 2026-07-09)
+**Stage 1.5-6A.1 ¡ª Reproducibility Metadata System** (completed 2026-07-09)
 
 - [x] Add Reproducibility Information section to Literature_Card_Template.md (code availability, data availability, reproduction feasibility)
 - [x] Add Reproducibility Analysis section to Paper_Template.md (official implementation, missing details table, feasibility assessment)
@@ -99,7 +99,7 @@ Paper_Logic_Template upgraded from simple structure analysis to Argument Mining 
 - [x] Reproducibility tracking is now mandatory at every processing level
 
 
-**Stage 1.5-6A.2 â€” Reproducibility Status Upgrade** (completed 2026-07-09)
+**Stage 1.5-6A.2 ¡ª Reproducibility Status Upgrade** (completed 2026-07-09)
 
 - [x] Replace Code Availability with Reproducibility Status in Literature_Card_Template.md
 - [x] Upgrade to 4-dimension tracking: Code Status, Data Status, Environment Status, Reproduction Feasibility
@@ -110,30 +110,30 @@ Paper_Logic_Template upgraded from simple structure analysis to Argument Mining 
 - [x] Add RTX 4070 compatibility assessment
 - [x] Update Decision Framework reproducibility requirements at Levels 1, 2, and 3
 - [x] Strengthen AGENT_BOOTSTRAP Rule 7 from "Record" to "Evaluate"
-- [x] Explicit design decision: NO Paper Source Tracking â€” Zotero remains single source of truth for bibliographic metadata
+- [x] Explicit design decision: NO Paper Source Tracking ¡ª Zotero remains single source of truth for bibliographic metadata
 
 **Migration Note:** Existing Literature Cards and Paper Notes do NOT need immediate migration. The new template structure applies to all NEW papers processed after this stage. Existing notes retain their original reproducibility fields for historical consistency.
 
-**Stage 1.5-6B.1 â€” Stress Test Execution Tracking System** (completed 2026-07-09)
+**Stage 1.5-6B.1 ¡ª Stress Test Execution Tracking System** (completed 2026-07-09)
 
 - [x] Create Stress_Test_Execution_Log.md with 4 pre-formatted paper sections
 - [x] Each section includes: Paper Info, Processing Decision, Pipeline Execution checklist (12 steps), Quality Assessment (5 criteria), Failure Analysis (9 categories), Final Decision (PASS/PARTIAL PASS/FAIL), Lessons Learned
 - [x] Aggregate Summary table for cross-paper comparison
 - [x] Overall Pipeline Status verdict: READY FOR BATCH / NEEDS IMPROVEMENT
-- [x] No existing templates modified â€” this is a tracking document only
+- [x] No existing templates modified ¡ª this is a tracking document only
 
-**Stage 1.5-6C â€” Architecture Refactoring** (completed 2026-07-09)
+**Stage 1.5-6C ¡ª Architecture Refactoring** (completed 2026-07-09)
 
-- [x] Create Paper_File_Naming_Rules.md â€” 3-identifier separation (Paper ID / Citation Key / File Name)
-- [x] Upgrade reproducibility tracking: binary code availability â†’ graded status (Confirmed Available / Missing / Not Found Yet / Not Checked)
+- [x] Create Paper_File_Naming_Rules.md ¡ª 3-identifier separation (Paper ID / Citation Key / File Name)
+- [x] Upgrade reproducibility tracking: binary code availability ¡ú graded status (Confirmed Available / Missing / Not Found Yet / Not Checked)
 - [x] Require evidence location and verification method for all reproducibility claims
-- [x] Create Paper_Card_Guideline.md â€” clarify Card vs Note vs Logic roles, prevent duplicated analysis
-- [x] Create Workspace_Cleanup_Plan.md â€” identify 4 obsolete empty directories, recommend no action
-- [x] Add Context Recovery Rule to AGENT_BOOTSTRAP.md â€” prevents re-design after context compression
+- [x] Create Paper_Card_Guideline.md ¡ª clarify Card vs Note vs Logic roles, prevent duplicated analysis
+- [x] Create Workspace_Cleanup_Plan.md ¡ª identify 4 obsolete empty directories, recommend no action
+- [x] Add Context Recovery Rule to AGENT_BOOTSTRAP.md ¡ª prevents re-design after context compression
 - [x] No existing knowledge nodes renamed or moved
 - [x] No papers processed in this stage
 
-**Stage 1.5-6D â€” Architecture Stabilization and Migration** (completed 2026-07-09)
+**Stage 1.5-6D ¡ª Architecture Stabilization and Migration** (completed 2026-07-09)
 
 - [x] Simplified Literature Card code availability: 4 statuses, URL only, no platform/verification/framework fields
 - [x] Simplified Paper Template reproducibility: inherits basic status, deep analysis only in Note/Logic
@@ -142,26 +142,26 @@ Paper_Logic_Template upgraded from simple structure analysis to Argument Mining 
 - [x] Renamed Monteiro 2024 files: monteiro2024_deep_learning_card.md, monteiro2024_deep_learning_survey.md
 - [x] Updated all wikilinks (7 files): Paper_Index, PhaseNet, Transfer Learning, EGS Collab SURF, exp_chai2020, both paper logics
 - [x] Updated Paper_File_Naming_Rules.md with new examples and three-identifier separator
-- [x] Rewrote 01_Literature/README.md â€” deprecated 5 obsolete directories, clarified Zoteroâ†’MinerUâ†’KnowledgeVault pipeline
-- [x] Updated Data_Storage_Architecture.md â€” added deprecated section, updated PDF lifecycle
-- [x] Created ResearchAI_Data_Flow_Architecture.md â€” definitive 3-layer architecture reference with explicit rules
-- [x] Updated AGENT_BOOTSTRAP.md â€” added architecture doc to startup procedure and quick reference
+- [x] Rewrote 01_Literature/README.md ¡ª deprecated 5 obsolete directories, clarified Zotero¡úMinerU¡úKnowledgeVault pipeline
+- [x] Updated Data_Storage_Architecture.md ¡ª added deprecated section, updated PDF lifecycle
+- [x] Created ResearchAI_Data_Flow_Architecture.md ¡ª definitive 3-layer architecture reference with explicit rules
+- [x] Updated AGENT_BOOTSTRAP.md ¡ª added architecture doc to startup procedure and quick reference
 - [x] No broken wikilinks detected after migration
 - [x] Chai 2020 has all 3 files: card, note, logic (new naming)
-- [x] Architecture frozen â€” ready for stress test
+- [x] Architecture frozen ¡ª ready for stress test
 
-**Stage 1.5-6D.1 â€” Architecture Freeze Verification** (completed 2026-07-09)
+**Stage 1.5-6D.1 ¡ª Architecture Freeze Verification** (completed 2026-07-09)
 
 - [x] Verification report created: Stage_1.5_6D1_Architecture_Verification_Report.md
-- [x] Check 1 (Filename Migration): PASSED â€” all 5 paper files conform to {author}{year}_{keyword}_{type}.md
-- [x] Check 2 (Deprecated Files): PASSED â€” v1 paper logic marked deprecated, no old wikilinks remain
-- [x] Check 3 (Directory Responsibility): PASSED â€” zero PDFs/notes/minerU output in wrong directories
-- [x] Check 4 (Template Consistency): PASSED â€” Card=lightweight, Note=deep, Logic=argument mining
-- [x] Check 5 (Agent Context Recovery): PASSED â€” fixed Quick Reference and startup checklist
+- [x] Check 1 (Filename Migration): PASSED ¡ª all 5 paper files conform to {author}{year}_{keyword}_{type}.md
+- [x] Check 2 (Deprecated Files): PASSED ¡ª v1 paper logic marked deprecated, no old wikilinks remain
+- [x] Check 3 (Directory Responsibility): PASSED ¡ª zero PDFs/notes/minerU output in wrong directories
+- [x] Check 4 (Template Consistency): PASSED ¡ª Card=lightweight, Note=deep, Logic=argument mining
+- [x] Check 5 (Agent Context Recovery): PASSED ¡ª fixed Quick Reference and startup checklist
 - [x] Fixed: Paper_Index.md now includes all Monteiro entries
 - [x] **Stress Test Readiness: READY**
 
-**Stage 1.5-6E â€” Stress Test Execution (Paper D only)** (completed 2026-07-09)
+**Stage 1.5-6E ¡ª Stress Test Execution (Paper D only)** (completed 2026-07-09)
 
 - [x] Processed Zhu 2018 (PhaseNet original) as Category D (Reproduction-oriented) paper
 - [x] Created: zhu2018_phasenet_card.md (Literature Card)
@@ -175,33 +175,33 @@ Paper_Logic_Template upgraded from simple structure analysis to Argument Mining 
 - [x] Pipeline execution: PASS (6/7 success criteria met, 1 partial)
 - [x] Stress_Test_Execution_Log.md updated with Paper 1 results
 - [x] Literature Card template simplified during test (removed verbose Code Status section)
-- [x] **STOPPED before Paper A** â€” awaiting human review of Paper D results as required
+- [x] **STOPPED before Paper A** ¡ª awaiting human review of Paper D results as required
 
 **Remaining Papers in MinerU Output (not yet processed):**
 - liu2020.pdf (Ridgecrest earthquake catalog)
 - park2020.pdf (Guy-Greenbrier earthquake sequence)
 - tsr-2021001.1.pdf (TSR paper)
-**Stage 1.5-6E â€” Stress Test Execution (Papers D + A)** (completed 2026-07-09)
+**Stage 1.5-6E ¡ª Stress Test Execution (Papers D + A)** (completed 2026-07-09)
 
-- [x] Paper D: Zhu 2018 (PhaseNet) â€” PASS (6/7 criteria met, 1 partial)
-- [x] Paper A: Mousavi & Beroza 2023 (Annual Review survey) â€” PASS (7/7 criteria met)
+- [x] Paper D: Zhu 2018 (PhaseNet) ¡ª PASS (6/7 criteria met, 1 partial)
+- [x] Paper A: Mousavi & Beroza 2023 (Annual Review survey) ¡ª PASS (7/7 criteria met)
 - [x] Created: mousavi2023_machine_learning_card.md (Literature Card)
 - [x] Created: mousavi2023_machine_learning_survey.md (Survey Note)
 - [x] Verified: Survey template correctly used (not Paper_Template)
 - [x] Verified: All wikilinks resolve to existing nodes
-- [x] Verified: Code availability correctly assessed (mixed â€” SeisBench, EQTransformer open source)
+- [x] Verified: Code availability correctly assessed (mixed ¡ª SeisBench, EQTransformer open source)
 - [x] Verified: No hallucinations in taxonomy extraction (8 tasks correctly summarized)
-- [x] Verified: Transferable ideas extracted (Transformerâ†’image segmentation, PINNâ†’physics constraints, self-supervised pre-training)
-- [x] Paper not in Zotero storage â€” only MinerU output. Handled gracefully (no Zotero item key recorded).
+- [x] Verified: Transferable ideas extracted (Transformer¡úimage segmentation, PINN¡úphysics constraints, self-supervised pre-training)
+- [x] Paper not in Zotero storage ¡ª only MinerU output. Handled gracefully (no Zotero item key recorded).
 - [x] Stress_Test_Execution_Log.md updated with Papers 1 and 2
 - [x] Paper_Index.md updated with new survey entry
-- [x] **STOPPED after Category A** â€” awaiting review before proceeding to B/C
+- [x] **STOPPED after Category A** ¡ª awaiting review before proceeding to B/C
 
 **Remaining Papers in MinerU Output (not yet processed):**
 - liu2020.pdf (Ridgecrest earthquake catalog)
 - park2020.pdf (Guy-Greenbrier earthquake sequence)
 - tsr-2021001.1.pdf (TSR paper)
-**Stage 1.5-6E.1 â€” Zotero-First Literature Entry Rule** (completed 2026-07-09)
+**Stage 1.5-6E.1 ¡ª Zotero-First Literature Entry Rule** (completed 2026-07-09)
 
 - [x] Fixed Mousavi 2023 Literature Card: Zotero status set to "Not Imported"
 - [x] Added Rule 9 to AGENT_BOOTSTRAP.md: Zotero-first mandatory pre-condition
@@ -213,7 +213,7 @@ Paper_Logic_Template upgraded from simple structure analysis to Argument Mining 
 - [x] No existing wikilinks modified
 - [x] Violation found and fixed: Mousavi 2023 was processed without Zotero import
 
-**Stage 1.5-6E Category B â€” EQTransformer (Mousavi 2020)** (completed 2026-07-09)
+**Stage 1.5-6E Category B ¡ª EQTransformer (Mousavi 2020)** (completed 2026-07-09)
 
 - [x] Zotero validation PASSED: Item key QKMKLG2N, PDF in storage, MinerU output exists
 - [x] Created: mousavi2020_eqtransformer_card.md (Literature Card)
@@ -232,21 +232,21 @@ Paper_Logic_Template upgraded from simple structure analysis to Argument Mining 
 - [x] Stress_Test_Execution_Log.md updated with Zotero verification
 - [x] 0 wikilink breaks detected
 
-**Stage 1.5-6E Category C â€” Ridgecrest Application (Liu 2020)** (completed 2026-07-09)
+**Stage 1.5-6E Category C ¡ª Ridgecrest Application (Liu 2020)** (completed 2026-07-09)
 
 - [x] Zotero validation PASSED: Item key K9XWQTIL, PDF in storage, MinerU output exists
 - [x] Created: liu2020_ridgecrest_card.md (Literature Card)
 - [x] Created: liu2020_ridgecrest_note.md (Paper Note)
 - [x] Reused existing nodes: PhaseNet, CNN, Seismic Phase Picking (no duplicates)
 - [x] Correctly classified as application study (not method paper)
-- [x] Reproducibility: Correctly identified as "application study" â€” no new code, uses PhaseNet
+- [x] Reproducibility: Correctly identified as "application study" ¡ª no new code, uses PhaseNet
 - [x] Critical analysis: Identified 6 agent-identified limitations (no PhaseNet threshold ablation, no EQTransformer comparison, no uncertainty quantification)
 - [x] 5 transferable ideas extracted for seismic image segmentation
 - [x] Paper_Index.md updated
 - [x] Stress_Test_Execution_Log.md updated
 - [x] 0 wikilink breaks detected
 
-**Stage 1.5-6E.1 â€” Category Framework Refinement** (completed 2026-07-09)
+**Stage 1.5-6E.1 ¡ª Category Framework Refinement** (completed 2026-07-09)
 
 - [x] Category C "Recent SOTA" refined into C1 (Application Study) and C2 (Method Innovation)
 - [x] C1: evaluates real-world deployment, generalization, reproducibility of existing methods
@@ -259,56 +259,56 @@ Paper_Logic_Template upgraded from simple structure analysis to Argument Mining 
 
 **Review Finding:** Category C was too narrow. Application papers (Liu2020) and method innovation papers require different evaluation criteria. C1 and C2 provide distinct success criteria for each.
 
-**Stage 1.5-6F.1 â€” Architecture Cleanup** (completed 2026-07-09)
+**Stage 1.5-6F.1 ¡ª Architecture Cleanup** (completed 2026-07-09)
 
 - [x] Zotero status corrected for all 6 processed papers (100% compliance)
 - [x] Vision Transformer.md moved from KV root to 03_Methods/
 - [x] 0 broken wikilinks after move
 - [x] AGENT_BOOTSTRAP Quick Reference table updated (5 documents added)
-- [x] Paper Logic naming verified â€” all files conform
+- [x] Paper Logic naming verified ¡ª all files conform
 - [x] Deprecated chai2020_paper_logic.md retains DEPRECATED marker
 - [x] No templates modified
 - [x] No directory architecture changed
 - [x] No papers reprocessed
-**Stage 1.5-6B â€” Real Paper Stress Test Preparation** (completed 2026-07-09)
+**Stage 1.5-6B ¡ª Real Paper Stress Test Preparation** (completed 2026-07-09)
 
 - [x] Create Stage_1.5_6B_Real_Paper_Stress_Test.md with 4-category test protocol
 - [x] Define per-paper tracking form (before/during/after processing)
 - [x] Document 6 failure categories (over-analysis, under-analysis, wrong level, missing nodes, incorrect reproducibility, excessive corrections)
 - [x] Establish 7 success criteria for pipeline readiness
-- [x] Define execution order: D â†’ A â†’ B â†’ C (reproducibility â†’ survey â†’ method â†’ SOTA)
+- [x] Define execution order: D ¡ú A ¡ú B ¡ú C (reproducibility ¡ú survey ¡ú method ¡ú SOTA)
 
 **Status:** Protocol ready. Awaiting human researcher to select and provide 4 test papers (one per category).
 
-**Stage 1.5-6 â€” Process 3-5 More Papers (pending human approval via decision framework)** Through Validated Pipeline**
+**Stage 1.5-6 ¡ª Process 3-5 More Papers (pending human approval via decision framework)** Through Validated Pipeline**
 
 
-**Stage 1.5-6F.1 â€” Architecture Cleanup** (completed 2026-07-09)
+**Stage 1.5-6F.1 ¡ª Architecture Cleanup** (completed 2026-07-09)
 
 - [x] Zotero status corrected for all 6 processed papers (100% compliance)
 - [x] Vision Transformer moved from KV root to 03_Methods/
 - [x] 0 broken wikilinks after move
 - [x] AGENT_BOOTSTRAP Quick Reference table updated (5 documents added)
-- [x] Paper Logic naming verified â€” all files conform
+- [x] Paper Logic naming verified ¡ª all files conform
 - [x] Deprecated chai2020_paper_logic.md retains DEPRECATED marker
 - [x] No templates modified
 - [x] No directory architecture changed
 - [x] No papers reprocessed
 
-**Stage 1.5-7A â€” Small Batch Processing Validation Preparation** (completed 2026-07-10)
+**Stage 1.5-7A ¡ª Small Batch Processing Validation Preparation** (completed 2026-07-10)
 
-- [x] Create Batch_Processing_Guideline.md â€” batch workflow, Zotero-first rules, duplicate prevention, human review checkpoints
-- [x] Create Batch_Processing_Log.md â€” batch tracking template for first validation run
+- [x] Create Batch_Processing_Guideline.md ¡ª batch workflow, Zotero-first rules, duplicate prevention, human review checkpoints
+- [x] Create Batch_Processing_Log.md ¡ª batch tracking template for first validation run
 - [x] Update AGENT_BOOTSTRAP.md Quick Reference (added Batch_Processing_Guideline)
-- [x] Update Current_State_Check.md â€” batch infrastructure prepared, architecture frozen
-- [x] Create Stage_1.5_7A_Preparation_Report.md â€” validation report
+- [x] Update Current_State_Check.md ¡ª batch infrastructure prepared, architecture frozen
+- [x] Create Stage_1.5_7A_Preparation_Report.md ¡ª validation report
 - [x] No templates modified
 - [x] No directory structure changed
 - [x] No papers processed
 - [x] Architecture remains frozen
-**Stage 1.5-7A.1 â€” Literature Processing Registry Preparation** (completed 2026-07-10)
+**Stage 1.5-7A.1 ¡ª Literature Processing Registry Preparation** (completed 2026-07-10)
 
-- [x] Create MinerU_Zotero_Mapping.md â€” Zoteroâ†’MinerUâ†’KnowledgeVault traceability registry
+- [x] Create MinerU_Zotero_Mapping.md ¡ª Zotero¡úMinerU¡úKnowledgeVault traceability registry
 - [x] Populate mapping table with 6 processed papers (all fields verified)
 - [x] Add unprocessed papers inventory from MinerU output
 - [x] Update Batch_Processing_Guideline.md with mapping registry requirement
@@ -317,37 +317,37 @@ Paper_Logic_Template upgraded from simple structure analysis to Argument Mining 
 - [x] No KnowledgeVault files modified
 - [x] No papers reprocessed
 - [x] Architecture remains frozen
-**Stage 1.5-7A.2 â€” Batch Duplicate Prevention Gate** (completed 2026-07-10)
+**Stage 1.5-7A.2 ¡ª Batch Duplicate Prevention Gate** (completed 2026-07-10)
 
-- [x] Add Processing Gate (Section 5.6) to Batch_Processing_Guideline.md â€” 3-source duplicate check
+- [x] Add Processing Gate (Section 5.6) to Batch_Processing_Guideline.md ¡ª 3-source duplicate check
 - [x] Add Duplicate Prevention Gate enforcement rule (Rule 0) to Paper_Processing_Decision_Framework.md
-- [x] Update Level 1 pre-conditions in Decision Framework â€” Zotero â†’ Mapping â†’ Duplicate â†’ Decision
-- [x] Add Rule 10 to AGENT_BOOTSTRAP.md â€” Existing KnowledgeVault verification mandate
+- [x] Update Level 1 pre-conditions in Decision Framework ¡ª Zotero ¡ú Mapping ¡ú Duplicate ¡ú Decision
+- [x] Add Rule 10 to AGENT_BOOTSTRAP.md ¡ª Existing KnowledgeVault verification mandate
 - [x] No templates modified
 - [x] No KnowledgeVault files modified
 - [x] No papers reprocessed
 - [x] Architecture remains frozen
-**Stage 1.5-7B â€” Architecture Freeze Preparation Audit** (completed 2026-07-10)
+**Stage 1.5-7B ¡ª Architecture Freeze Preparation Audit** (completed 2026-07-10)
 
 - [x] Read-only audit of C:\ResearchAI\ and D:\ResearchAI_Data\
-- [x] Architecture consistency check: PASSED â€” strict workspace/data separation
-- [x] Agent config integrity check: PASSED â€” all 22 Quick Reference files exist
-- [x] Naming convention check: PASSED â€” all 12 paper files conform to {author}{year}_{keyword}_{type}.md
-- [x] Knowledge node health check: PASSED â€” no duplicates, deprecated files marked
-- [x] Zotero verification check: PASSED â€” all 6 papers have verified Item Keys
-- [x] Mapping consistency check: PASSED â€” all KV papers in MinerU_Zotero_Mapping.md
+- [x] Architecture consistency check: PASSED ¡ª strict workspace/data separation
+- [x] Agent config integrity check: PASSED ¡ª all 22 Quick Reference files exist
+- [x] Naming convention check: PASSED ¡ª all 12 paper files conform to {author}{year}_{keyword}_{type}.md
+- [x] Knowledge node health check: PASSED ¡ª no duplicates, deprecated files marked
+- [x] Zotero verification check: PASSED ¡ª all 6 papers have verified Item Keys
+- [x] Mapping consistency check: PASSED ¡ª all KV papers in MinerU_Zotero_Mapping.md
 - [x] Two findings reviewed and resolved as non-blocking (see Freeze Confirmation)
 - [x] No files modified during audit (read-only)
 - [x] Architecture Freeze: READY
 
-**Stage 1.5-7B.1 â€” Architecture Freeze Confirmation** (completed 2026-07-10)
+**Stage 1.5-7B.1 ¡ª Architecture Freeze Confirmation** (completed 2026-07-10)
 
 - [x] Mousavi 2023 Zotero discrepancy confirmed resolved (Stage 1.5-6F.1)
 - [x] Chinese thesis in MinerU output confirmed as non-paper raw cache
 - [x] Architecture Status: READY FOR FREEZE
 - [x] Freeze Confirmation Report created
 - [x] No architectural changes made
-**Stage 1.5-7C.1 â€” Batch Processing Execution (New Zotero Batch)** (completed 2026-07-10)
+**Stage 1.5-7C.1 ¡ª Batch Processing Execution (New Zotero Batch)** (completed 2026-07-10)
 
 - [x] Processed 11 new papers from Zotero batch
 - [x] All 11 Zotero Item Keys verified in storage
@@ -366,7 +366,7 @@ Paper_Logic_Template upgraded from simple structure analysis to Argument Mining 
 - [x] Architecture remains frozen
 - [x] Report: Stage_1.5_7C1_Batch_Processing_Report.md created
 
-**Stage 1.5-7C.3 â€” Template Alignment** (completed 2026-07-10)
+**Stage 1.5-7C.3 ¡ª Template Alignment** (completed 2026-07-10)
 
 - [x] Add Zotero section (Status + Item Key) to Survey_Template.md
 - [x] Add Zotero section to chen2022_rs_transformer_cd_survey.md (Item Key: 46C4TYYR)
@@ -377,19 +377,19 @@ Paper_Logic_Template upgraded from simple structure analysis to Argument Mining 
 - [x] No architecture changes
 
 
-**Stage 1.5-8A â€” Skill System Initialization** (completed 2026-07-10, PENDING INSTALLATION)
+**Stage 1.5-8A ¡ª Skill System Initialization** (completed 2026-07-10, PENDING INSTALLATION)
 
 - [x] Create Skills/ directory structure (4 categories, 8 skills)
-- [x] Create SKILL_Paper_Intake.md â€” Zotero verification, MinerU lookup, duplicate check, execution plan
-- [x] Create SKILL_Paper_Deep_Read.md â€” Level 2 note generation with full analysis checklist
-- [x] Create SKILL_Paper_Batch_Process.md â€” Multi-paper batch workflow with verification
-- [x] Create SKILL_Paper_Update.md â€” Existing paper update with modification preview
-- [x] Create SKILL_Knowledge_Node_Check.md â€” Duplicate prevention for new concepts
-- [x] Create SKILL_Research_Map_Update.md â€” Navigation file maintenance
-- [x] Create SKILL_Literature_Synthesis.md â€” Writing material generation
-- [x] Create SKILL_Architecture_Audit.md â€” Read-only system integrity audit
-- [x] Create Skills/README.md â€” Skill system overview
-- [x] Create ResearchAI_Skill_Guide_CN.md â€” Chinese-language user guide
+- [x] Create SKILL_Paper_Intake.md ¡ª Zotero verification, MinerU lookup, duplicate check, execution plan
+- [x] Create SKILL_Paper_Deep_Read.md ¡ª Level 2 note generation with full analysis checklist
+- [x] Create SKILL_Paper_Batch_Process.md ¡ª Multi-paper batch workflow with verification
+- [x] Create SKILL_Paper_Update.md ¡ª Existing paper update with modification preview
+- [x] Create SKILL_Knowledge_Node_Check.md ¡ª Duplicate prevention for new concepts
+- [x] Create SKILL_Research_Map_Update.md ¡ª Navigation file maintenance
+- [x] Create SKILL_Literature_Synthesis.md ¡ª Writing material generation
+- [x] Create SKILL_Architecture_Audit.md ¡ª Read-only system integrity audit
+- [x] Create Skills/README.md ¡ª Skill system overview
+- [x] Create ResearchAI_Skill_Guide_CN.md ¡ª Chinese-language user guide
 - [x] Update AGENT_BOOTSTRAP.md Quick Reference (2 entries added)
 - [x] All skills follow Semi-Automatic Mode (Mode B) permission model
 - [x] No templates modified

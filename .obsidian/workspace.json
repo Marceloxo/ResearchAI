@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "3b720f0d46d5d3d2",
+    "id": "5c7ab2eafe15f291",
     "type": "split",
     "children": [
       {
-        "id": "7d8c28871816b065",
+        "id": "d6210d656c8ee987",
         "type": "tabs",
         "children": [
           {
-            "id": "71d36c4f648e6c4c",
+            "id": "cc7c8cebd76599d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_HumanRead_AgentIgnore/功能待修复.md",
-                "mode": "preview",
-                "source": true
+                "file": "08_Agent_Config/Stage_1.4A_Test_Report.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "功能待修复"
+              "title": "Stage_1.4A_Test_Report"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a48550b3b9e55251",
+    "id": "a059889e9b6cebf4",
     "type": "split",
     "children": [
       {
-        "id": "e95ab22a552e68dc",
+        "id": "18a0834b80fe8dc3",
         "type": "tabs",
         "children": [
           {
-            "id": "6ee8bcc779d3760c",
+            "id": "07b0abd88d30f506",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "177a1861425513fd",
+            "id": "a9eb612d0821ac69",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "ef58af6ca0e18a67",
+            "id": "ca83df0286211386",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 300
   },
   "right": {
-    "id": "4929ddfaae679d35",
+    "id": "3669ac92cdd3780c",
     "type": "split",
     "children": [
       {
-        "id": "4a9bf3f35f012734",
+        "id": "3c92b9a591aa62d7",
         "type": "tabs",
         "children": [
           {
-            "id": "a29cac397411b330",
+            "id": "0c2ffba7cbac1fd1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_Meta/Dataset_Map.md",
+                "file": "08_Agent_Config/Skills/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Dataset_Map 的反向链接列表"
+              "title": "README 的反向链接列表"
             }
           },
           {
-            "id": "b51711c4aad56385",
+            "id": "01062738cc9e15a6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00_Meta/Dataset_Map.md",
+                "file": "08_Agent_Config/Skills/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Dataset_Map 的出链列表"
+              "title": "README 的出链列表"
             }
           },
           {
-            "id": "e1177b84e367ba71",
+            "id": "fd4564e6cce0bb71",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +137,7 @@
             }
           },
           {
-            "id": "1afed1e675277789",
+            "id": "44909289bfd4bd8d",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -151,38 +151,25 @@
             }
           },
           {
-            "id": "a8c5c7f68f2e4569",
+            "id": "fd577e624da14649",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_Meta/Dataset_Map.md",
+                "file": "08_Agent_Config/Skills/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Dataset_Map 的大纲"
-            }
-          },
-          {
-            "id": "caf017b281d2f4eb",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "02_Topics/Seismic AI.md"
-              },
-              "icon": "lucide-info",
-              "title": "Seismic AI的笔记属性"
+              "title": "README 的大纲"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 445.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -196,35 +183,14 @@
       "bases:新建数据库": false
     }
   },
-  "active": "6ee8bcc779d3760c",
+  "active": "cc7c8cebd76599d7",
   "lastOpenFiles": [
-    "01_Papers/zhang2020_ds_ifn_cd_note.md",
-    "01_Papers/lv2026_dttp_note.md",
-    "02_Topics/Seismic AI.md",
-    "10_HumanRead_AgentIgnore/GPT推荐研究方向.md",
-    "05_Datasets/EGS Collab SURF.md",
-    "05_Datasets/F3 Netherlands.md",
-    "05_Datasets/Marmousi.md",
-    "05_Datasets/OpenFWI.md",
-    "05_Datasets/Parihaka.md",
-    "05_Datasets/Penobscot.md",
-    "05_Datasets/README.md",
-    "05_Datasets/SEAM.md",
-    "05_Datasets/SEG Salt.md",
-    "05_Datasets/Thebe.md",
-    "10_HumanRead_AgentIgnore/功能待修复.md",
-    "10_HumanRead_AgentIgnore/ResearchAI_Skill_Guide_CN.md",
-    "10_HumanRead_AgentIgnore/current_v2.0_中文介绍.md",
-    "10_HumanRead_AgentIgnore/ResearchAI Skill System Initialization.md",
-    "10_HumanRead_AgentIgnore/current_v1.0.md",
-    "01_Papers/le2023_landslide_unet_note.md",
-    "01_Papers/chai2020_using_note.md",
-    "01_Papers/chai2020_using_card.md",
-    "01_Papers/bandara2022_changeformer_note.md",
-    "01_Papers/bandara2022_changeformer_card.md",
-    "01_Papers/abdallah2024_inasar_vit_note.md",
-    "01_Papers/abdallah2024_inasar_vit_card.md",
-    "10_HumanRead_AgentIgnore",
-    "未命名.base"
+    "08_Agent_Config/Single_Paper_End_to_End_Test.md",
+    "08_Agent_Config/ResearchAI_Design_Principles.md",
+    "08_Agent_Config/ResearchAI_Data_Flow_Architecture.md",
+    "08_Agent_Config/README.md",
+    "08_Agent_Config/Skills/README.md",
+    "08_Agent_Config/ResearchAI_Skill_Guide_CN.md",
+    "02_KnowledgeVault/10_HumanRead_AgentIgnore/ResearchAI_Skill_Guide_CN.md"
   ]
 }

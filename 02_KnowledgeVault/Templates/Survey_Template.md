@@ -104,3 +104,6 @@ created: {{date}}
 - Tasks: [[{{task}}]]
 - Methods: [[{{methods}}]]
 - Datasets: [[{{datasets}}]]
+# Zotero
+- **Status**: Imported
+- **Item Key**: {{item_key}}

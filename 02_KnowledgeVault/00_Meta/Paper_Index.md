@@ -19,6 +19,7 @@ Paper notes live in `01_Papers/`.
 
 #### Phase Picking
 
+- [[lv2026_dttp_card]] (2026)
 - [[chai2020_using_card]] (2020)
 - [[chai2020_using_note]] (2020)
 - [[chai2020_using_logic]] (2020)
@@ -57,7 +58,24 @@ Paper notes live in `01_Papers/`.
 ## By Reading Status / 鎸夐槄璇荤姸鎬?
 ### To Read / 寰呰
 
-Papers tagged `#to-read`.
+Papers tagged `#to-
+
+- [[abdallah2024_inasar_vit_card]] (2024)
+- [[abdallah2024_inasar_vit_note]] (2024)
+- [[bandara2022_changeformer_card]] (2022)
+- [[bandara2022_changeformer_note]] (2022)
+- [[chen2022_rs_transformer_cd_survey]] (2022)
+- [[fang2022_snunet_cd_card]] (2022)
+- [[fang2022_snunet_cd_note]] (2022)
+- [[ghorman2022_landslide4sense_card]] (2022)
+- [[le2023_landslide_unet_card]] (2023)
+- [[le2023_landslide_unet_note]] (2023)
+- [[liu2025_insar_deformation_survey]] (2025)
+- [[sener2024_landslidesegnet_card]] (2024)
+- [[weber2020_disaster_damage_fusion_card]] (2020)
+- [[yadav2025_hybrid_transformer_landslide_card]] (2025)
+- [[yadav2025_hybrid_transformer_landslide_note]] (2025)
+- [[zhang2020_ds_ifn_cd_card]] (2020)read`.
 
 ### In Progress / 闃呰涓?
 Papers tagged `#reading`.
@@ -90,6 +108,7 @@ SORT year DESC
 - Back to [[Home]]
 - Templates: [[Literature_Card_Template]], [[Paper_Template]]
 - Paper structure analysis: [[Paper_Logic_Template]]
+
 
 
 

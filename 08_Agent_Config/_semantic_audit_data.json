@@ -1,0 +1,56 @@
+{
+  "AGENT_BOOTSTRAP.md": {
+    "size_repaired": 13822,
+    "size_original": 14213,
+    "lines_repaired": 320,
+    "lines_original": 320
+  },
+  "PROJECT_STATUS.md": {
+    "size_repaired": 23535,
+    "size_original": 23880,
+    "lines_repaired": 422,
+    "lines_original": 422
+  },
+  "Batch_Processing_Guideline.md": {
+    "size_repaired": 9998,
+    "size_original": 10237,
+    "lines_repaired": 220,
+    "lines_original": 220
+  },
+  "Current_State_Check.md": {
+    "size_repaired": 6245,
+    "size_original": 6372,
+    "lines_repaired": 152,
+    "lines_original": 152
+  },
+  "Paper_Processing_Decision_Framework.md": {
+    "size_repaired": 12531,
+    "size_original": 12631,
+    "lines_repaired": 291,
+    "lines_original": 291
+  },
+  "Batch_Processing_Log.md": {
+    "size_repaired": 4976,
+    "size_original": 4976,
+    "lines_repaired": 162,
+    "lines_original": 162
+  },
+  "chen2022_rs_transformer_cd_survey.md": {
+    "size_repaired": 3705,
+    "size_original": 3706,
+    "lines_repaired": 92,
+    "lines_original": 92
+  },
+  "ghorman2022_landslide4sense_card.md": {
+    "size_repaired": 3426,
+    "size_original": 3429,
+    "lines_repaired": 85,
+    "lines_original": 85
+  },
+  "liu2025_insar_deformation_survey.md": {
+    "size_repaired": 4017,
+    "size_original": 4018,
+    "lines_repaired": 91,
+    "lines_original": 91
+  }
+}

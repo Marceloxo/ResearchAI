@@ -8,13 +8,13 @@ It is designed to support the complete research lifecycle:
 
 ```
 Literature Acquisition
-  â€”Paper Understanding
-  â€”Knowledge Organization
-  â€”Research Gap Discovery
-  â€”Model Development
-  â€”Experiment Management
-  â€”Result Analysis
-  â€”Scientific Writing
+  éˆ?Paper Understanding
+  éˆ?Knowledge Organization
+  éˆ?Research Gap Discovery
+  éˆ?Model Development
+  éˆ?Experiment Management
+  éˆ?Result Analysis
+  éˆ?Scientific Writing
 ```
 
 The system is designed for both human researchers and AI agents (Codex, Claude Code, Gemini CLI, etc.) to understand, maintain, and extend the research workflow.
@@ -66,24 +66,24 @@ Other computer vision related research in geoscience domains.
 
 | Stage | Status |
 |---|---|
-| Stage 0 â€”Workspace Initialization | é‰´Completed |
-| Stage 1.1 â€”Obsidian KnowledgeVault Init | é‰´Completed |
-| Stage 1.2 â€”Obsidian Note Templates | é‰´Completed |
-| Stage 1.3 â€”Navigation & Knowledge Graph | é‰´Completed |
-| Stage 1.4A â€”First Paper Validation | é‰´Completed |
-| Stage 1.4A.1 â€”Agent Bootstrap | é‰´Completed |
-| Stage 1.4B-0 â€”Literature Intake System | é‰´Completed |
-| Stage 1.4B-1 â€”Processed Markdown Pipeline | é‰´Completed |
-| Stage 1.4C-0 â€”Zotero Integration Design | é‰´Completed |
-| Stage 1.4C-1 â€”Zotero Deployment Prep | é‰´Completed |
-| Stage 1.4C-1.1 â€”Design Principles & ID Fix | é‰´Completed |
-| Stage 1.4C-2 â€”Zotero Test Plan | é‰´Completed |
-| Stage 1.4C-3 â€”Zotero Readiness | é‰´Completed |
-| Stage 1.4C-3.1 â€”Data Path Sync | é‰´Completed |
-| Stage 1.4C-3.2 â€”Zotero Status Sync | é‰´Completed |
-| Stage 1.4C-3.3 â€”Storage Confirmation | é‰´Completed |
-| **Stage 1.4C-3.4 â€”PDF Architecture Redesign** | é¦ƒæ”§ Current |
-| Stage 1.4B â€”Survey Template & Data Setup | â€”Next |
+| Stage 0 éˆ?Workspace Initialization | é‰?Completed |
+| Stage 1.1 éˆ?Obsidian KnowledgeVault Init | é‰?Completed |
+| Stage 1.2 éˆ?Obsidian Note Templates | é‰?Completed |
+| Stage 1.3 éˆ?Navigation & Knowledge Graph | é‰?Completed |
+| Stage 1.4A éˆ?First Paper Validation | é‰?Completed |
+| Stage 1.4A.1 éˆ?Agent Bootstrap | é‰?Completed |
+| Stage 1.4B-0 éˆ?Literature Intake System | é‰?Completed |
+| Stage 1.4B-1 éˆ?Processed Markdown Pipeline | é‰?Completed |
+| Stage 1.4C-0 éˆ?Zotero Integration Design | é‰?Completed |
+| Stage 1.4C-1 éˆ?Zotero Deployment Prep | é‰?Completed |
+| Stage 1.4C-1.1 éˆ?Design Principles & ID Fix | é‰?Completed |
+| Stage 1.4C-2 éˆ?Zotero Test Plan | é‰?Completed |
+| Stage 1.4C-3 éˆ?Zotero Readiness | é‰?Completed |
+| Stage 1.4C-3.1 éˆ?Data Path Sync | é‰?Completed |
+| Stage 1.4C-3.2 éˆ?Zotero Status Sync | é‰?Completed |
+| Stage 1.4C-3.3 éˆ?Storage Confirmation | é‰?Completed |
+| **Stage 1.4C-3.4 éˆ?PDF Architecture Redesign** | é¦ƒæ”§ Current |
+| Stage 1.4B éˆ?Survey Template & Data Setup | éˆ?Next |
 
 ---
 
@@ -91,15 +91,15 @@ Other computer vision related research in geoscience domains.
 
 | Directory | Purpose |
 |---|---|
-| `00_Inbox/` | Temporary input area â€”new papers, notes, unprocessed files |
-| `01_Literature/` | Literature management â€”MinerU output, processed markdown, index |
-| `02_KnowledgeVault/` | Obsidian knowledge base â€”the intellectual memory of the project |
-| `03_Projects/` | Research implementation â€”DL code, training scripts, configs |
-| `04_Tools/` | Reusable scripts â€”preprocessing, conversion, visualization |
-| `05_Experiments/` | Experiment tracking â€”configs, results, figures |
-| `06_Writing/` | Scientific writing â€”drafts, manuscripts, proposals |
-| `07_Research_Ideas/` | Idea management â€”gaps, hypotheses, future directions |
-| `08_Agent_Config/` | AI agent config â€”instructions, skills, templates, workflows |
+| `00_Inbox/` | Temporary input area éˆ?new papers, notes, unprocessed files |
+| `01_Literature/` | Literature management éˆ?MinerU output, processed markdown, index |
+| `02_KnowledgeVault/` | Obsidian knowledge base éˆ?the intellectual memory of the project |
+| `03_Projects/` | Research implementation éˆ?DL code, training scripts, configs |
+| `04_Tools/` | Reusable scripts éˆ?preprocessing, conversion, visualization |
+| `05_Experiments/` | Experiment tracking éˆ?configs, results, figures |
+| `06_Writing/` | Scientific writing éˆ?drafts, manuscripts, proposals |
+| `07_Research_Ideas/` | Idea management éˆ?gaps, hypotheses, future directions |
+| `08_Agent_Config/` | AI agent config éˆ?instructions, skills, templates, workflows |
 
 ---
 
@@ -107,10 +107,10 @@ Other computer vision related research in geoscience domains.
 
 **Every AI Agent must follow this procedure on first interaction:**
 
-1. **Read `AGENT_BOOTSTRAP.md`** â€”understand project identity, constraints, and status.
-2. **Read `PROJECT_STATUS.md`** â€”understand completed stages and next planned work.
-3. **Read `README.md`** â€”understand overall project design and principles.
-4. **Read the current task document** â€”understand what you are being asked to do.
+1. **Read `AGENT_BOOTSTRAP.md`** éˆ?understand project identity, constraints, and status.
+2. **Read `PROJECT_STATUS.md`** éˆ?understand completed stages and next planned work.
+3. **Read `README.md`** éˆ?understand overall project design and principles.
+4. **Read the current task document** éˆ?understand what you are being asked to do.
 
 **After startup, before any action:**
 
@@ -135,10 +135,10 @@ Agents must evaluate reproducibility status for every paper processed. This is N
 Agents must distinguish between "code exists" and "paper is reproducible." A paper with public code but missing checkpoints, undefined random seeds, or proprietary data is NOT reproducible.
 
 **Code Status must use one of four graded values:**
-- **Confirmed Available** â€”verified the repository exists and is reachable
-- **Confirmed Missing** â€”full-text verification confirms no code is provided
-- **Not Found Yet** â€”paper mentions code but URL not located in full text
-- **Not Checked** â€”agent has not verified (requires human follow-up)
+- **Confirmed Available** â€?verified the repository exists and is reachable
+- **Confirmed Missing** â€?full-text verification confirms no code is provided
+- **Not Found Yet** â€?paper mentions code but URL not located in full text
+- **Not Checked** â€?agent has not verified (requires human follow-up)
 
 **Critical rule**: Agents must NOT mark code as "Unavailable" or "Missing" unless full-text verification confirms absence. The default when code is not explicitly mentioned is "Not Found Yet," not "Missing."
 
@@ -153,10 +153,10 @@ Never skip reproducibility evaluation. Never conflate code availability with rep
 
 After any context window compression or thread reset, agents MUST restore project context in this order:
 
-1. Read PROJECT_STATUS.md â€”understand completed stages and current position.
-2. Read Current_State_Check.md â€”understand known issues and next actions.
-3. Read ResearchAI_Design_Principles.md â€”remember permanent architectural decisions.
-4. Read relevant ADR documents (e.g., ADR_Zotero_PDF_Centered_Architecture.md) â€”remember why specific architecture choices were made.
+1. Read PROJECT_STATUS.md â€?understand completed stages and current position.
+2. Read Current_State_Check.md â€?understand known issues and next actions.
+3. Read ResearchAI_Design_Principles.md â€?remember permanent architectural decisions.
+4. Read relevant ADR documents (e.g., ADR_Zotero_PDF_Centered_Architecture.md) â€?remember why specific architecture choices were made.
 
 **Critical:** Do NOT redesign or restructure completed architecture after context compression. The system has already been designed through extensive iteration. Trust the existing structure. If a question arises about why something was done a certain way, check the ADR documents first.
 
@@ -170,7 +170,7 @@ Before any paper can be processed through MinerU and KnowledgeVault, it MUST fir
 
 **Mandatory workflow:**
 
-1. PDF acquired â†’Import into Zotero (creates bibliographic record)
+1. PDF acquired â†?Import into Zotero (creates bibliographic record)
 2. Zotero metadata verified (title, authors, year, venue, DOI, citation key)
 3. PDF stored in Zotero storage directory
 4. MinerU reads PDF from Zotero storage
@@ -180,7 +180,7 @@ Before any paper can be processed through MinerU and KnowledgeVault, it MUST fir
 
 STOP processing. Respond with: "Paper is not registered in Zotero. Import into Zotero before KnowledgeVault processing."
 
-**Rationale:** Zotero owns bibliographic truth (ADR-001). All metadata, citations, and PDFs flow through Zotero. MinerU is only a PDF extraction tool â€”it does not own any paper asset.
+**Rationale:** Zotero owns bibliographic truth (ADR-001). All metadata, citations, and PDFs flow through Zotero. MinerU is only a PDF extraction tool â€?it does not own any paper asset.
 
 **Agent enforcement:** Before creating any KnowledgeVault note, verify the corresponding Zotero item exists. Check the Zotero database or Zotero item key field in the paper's metadata. If no Zotero record exists, halt and request Zotero import.
 
@@ -189,11 +189,11 @@ STOP processing. Respond with: "Paper is not registered in Zotero. Import into Z
 Before creating any new paper file (Literature Card, Paper Note, or Paper Logic), agents MUST verify the paper does not already exist in the KnowledgeVault.
 
 Check in order:
-1. MinerU_Zotero_Mapping.md â€” search by Zotero Item Key and Paper ID.
+1. MinerU_Zotero_Mapping.md ¡ª search by Zotero Item Key and Paper ID.
 | `08_Agent_Config/ResearchAI_Skill_Guide_CN.md` | Skill system user guide (Chinese) |
-| `08_Agent_Config/Skills/` | Skill framework directory â€” standardized agent procedures |
-2. Paper_Index.md â€” search by filename pattern.
-3. 02_KnowledgeVault/01_Papers/ â€” search for matching {author}{year}_* files.
+| `08_Agent_Config/Skills/` | Skill framework directory ¡ª standardized agent procedures |
+2. Paper_Index.md ¡ª search by filename pattern.
+3. 02_KnowledgeVault/01_Papers/ ¡ª search for matching {author}{year}_* files.
 
 If a match is found: STOP creation. Update the existing file if needed. Do not create duplicates.
 
@@ -220,9 +220,9 @@ If you are unsure about a fact, state the uncertainty explicitly.
 
 Always distinguish between:
 
-- **Mentioned in paper** â€”a dataset the paper references but did not personally use
-- **Personally used** â€”a dataset the paper actually ran experiments on
-- **Benchmark target** â€”a dataset used as a standard evaluation target
+- **Mentioned in paper** éˆ?a dataset the paper references but did not personally use
+- **Personally used** éˆ?a dataset the paper actually ran experiments on
+- **Benchmark target** éˆ?a dataset used as a standard evaluation target
 
 This distinction is critical for avoiding hallucinated claims about what has been done.
 
@@ -275,8 +275,8 @@ Future papers are processed through three levels:
 ### Zotero (Single Source of Truth for PDFs)
 
 - **Zotero data directory**: `D:\ResearchAI_Data\`
-  - `storage/` â€”PDF files (MinerU reads from here)
-  - `zotero.sqlite` â€”bibliographic metadata
+  - `storage/` éˆ?PDF files (MinerU reads from here)
+  - `zotero.sqlite` éˆ?bibliographic metadata
 - **ADR-001**: Zotero-centered PDF architecture. All PDFs managed by Zotero.
 
 ### Other Data
@@ -314,6 +314,6 @@ Always check `research_config.yaml` for current data paths before assuming file 
 | `08_Agent_Config/Paper_File_Naming_Rules.md` | Filename conventions and identifier separation |
 | `08_Agent_Config/Paper_Card_Guideline.md` | Card vs Note vs Logic roles |
 | `08_Agent_Config/Paper_Logic_Guideline.md` | Mandatory Argument Mining standard |
-| `08_Agent_Config/ResearchAI_Data_Flow_Architecture.md` | **Definitive architecture reference** â€”three layers, data flow, explicit rules |
+| `08_Agent_Config/ResearchAI_Data_Flow_Architecture.md` | **Definitive architecture reference** â€?three layers, data flow, explicit rules |
 | `08_Agent_Config/Batch_Processing_Guideline.md` | Batch processing workflow, Zotero-first rules, duplicate prevention |
 | `08_Agent_Config/MinerU_Zotero_Mapping.md` | Paper source-to-knowledge traceability registry |

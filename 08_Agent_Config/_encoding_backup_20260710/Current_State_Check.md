@@ -2,22 +2,22 @@
 
 ## Completed
 
-- Stage 0 â€” Workspace Initialization
-- Stage 1.1 â€” Obsidian KnowledgeVault Initialization
-- Stage 1.2 â€” Obsidian Note Templates
-- Stage 1.3 â€” Navigation & Knowledge Graph Design
-- Stage 1.4A â€” First Paper End-to-End Validation
-- Stage 1.4A.1 â€” Agent Bootstrap & Workflow Optimization
-- Stage 1.4B-0 â€” Literature Intake System Design
-- Stage 1.4B-1 â€” Processed Markdown Pipeline Design
-- Stage 1.4C-0 through 1.4C-3.4 â€” Zotero integration and PDF architecture
-- Stage 1.5-0 through 1.5-5 â€” Single paper validation, Paper Logic upgrade
-- Stage 1.5-6A â€” Paper Processing Decision Framework
-- Stage 1.5-6A.1 â€” Reproducibility Metadata System
-- Stage 1.5-6A.2 â€” Reproducibility Status Upgrade (graded code status)
-- Stage 1.5-6B â€” Real Paper Stress Test Protocol
-- Stage 1.5-6B.1 â€” Stress Test Execution Tracking System
-- **Stage 1.5-6C â€” Architecture Refactoring**
+- Stage 0 ¡ª Workspace Initialization
+- Stage 1.1 ¡ª Obsidian KnowledgeVault Initialization
+- Stage 1.2 ¡ª Obsidian Note Templates
+- Stage 1.3 ¡ª Navigation & Knowledge Graph Design
+- Stage 1.4A ¡ª First Paper End-to-End Validation
+- Stage 1.4A.1 ¡ª Agent Bootstrap & Workflow Optimization
+- Stage 1.4B-0 ¡ª Literature Intake System Design
+- Stage 1.4B-1 ¡ª Processed Markdown Pipeline Design
+- Stage 1.4C-0 through 1.4C-3.4 ¡ª Zotero integration and PDF architecture
+- Stage 1.5-0 through 1.5-5 ¡ª Single paper validation, Paper Logic upgrade
+- Stage 1.5-6A ¡ª Paper Processing Decision Framework
+- Stage 1.5-6A.1 ¡ª Reproducibility Metadata System
+- Stage 1.5-6A.2 ¡ª Reproducibility Status Upgrade (graded code status)
+- Stage 1.5-6B ¡ª Real Paper Stress Test Protocol
+- Stage 1.5-6B.1 ¡ª Stress Test Execution Tracking System
+- **Stage 1.5-6C ¡ª Architecture Refactoring**
   - Paper file naming rules defined
   - Reproducibility tracking upgraded to graded status
   - Paper Card vs Paper Note roles clarified
@@ -25,11 +25,11 @@
   - Context recovery rule added
 
 
-- **Stage 1.5-6F.1 â€” Architecture Cleanup**
+- **Stage 1.5-6F.1 ¡ª Architecture Cleanup**
   - Zotero status corrected for all 6 processed papers
   - Vision Transformer moved to 03_Methods/
   - AGENT_BOOTSTRAP Quick Reference updated
-- **Stage 1.5-7A â€” Small Batch Processing Validation Preparation**
+- **Stage 1.5-7A ¡ª Small Batch Processing Validation Preparation**
   - Batch processing infrastructure prepared
   - Architecture remains frozen
   - Batch_Processing_Guideline.md created
@@ -75,9 +75,9 @@ The Mousavi & Beroza 2023 Annual Review paper was processed through MinerU and K
 
 ## Completed in Stage 1.5-6E
 
-- Paper D: Zhu 2018 (PhaseNet) â€” PASS
-- Paper A: Mousavi 2023 (Annual Review survey) â€” PASS
-- Paper B: Mousavi 2020 (EQTransformer) â€” PASS
+- Paper D: Zhu 2018 (PhaseNet) ¡ª PASS
+- Paper A: Mousavi 2023 (Annual Review survey) ¡ª PASS
+- Paper B: Mousavi 2020 (EQTransformer) ¡ª PASS
 
 **Total papers processed**: 4 (1 survey, 3 research articles)
 **Knowledge nodes created**: ~30+ new files
@@ -95,29 +95,29 @@ The Mousavi & Beroza 2023 Annual Review paper was processed through MinerU and K
 ---
 
 
-- **Stage 1.5-7A.1 â€” Literature Processing Registry Preparation**
+- **Stage 1.5-7A.1 ¡ª Literature Processing Registry Preparation**
   - MinerU_Zotero_Mapping.md created with 6 verified paper entries
   - Unprocessed papers inventory added
   - Batch_Processing_Guideline.md updated with mapping registry rule
   - Architecture remains frozen
 
-- **Stage 1.5-7A.2 â€” Batch Duplicate Prevention Gate**
-- **Stage 1.5-7B â€” Architecture Freeze Preparation Audit**
-- **Stage 1.5-7B.1 â€” Architecture Freeze Confirmation**
+- **Stage 1.5-7A.2 ¡ª Batch Duplicate Prevention Gate**
+- **Stage 1.5-7B ¡ª Architecture Freeze Preparation Audit**
+- **Stage 1.5-7B.1 ¡ª Architecture Freeze Confirmation**
   - Processing Gate added to Batch_Processing_Guideline.md (3-source duplicate check)
   - Duplicate Prevention Gate enforcement rule added to Decision Framework
-  - AGENT_BOOTSTRAP Rule 10 added â€” KnowledgeVault verification mandate
+  - AGENT_BOOTSTRAP Rule 10 added ¡ª KnowledgeVault verification mandate
   - Architecture remains frozen
 
 
-- **Stage 1.5-7C.1 â€” Batch Processing Execution (New Zotero Batch)**
+- **Stage 1.5-7C.1 ¡ª Batch Processing Execution (New Zotero Batch)**
   - 11 papers processed: 11 cards + 5 notes + 2 surveys + 1 benchmark
   - 0 duplicates, 0 violations, 0 new knowledge nodes
   - Paper_Index.md and MinerU_Zotero_Mapping.md updated
   - Architecture remains frozen
 
 
-- **Stage 1.5-7C.3 â€” Template Alignment**
+- **Stage 1.5-7C.3 ¡ª Template Alignment**
   - Survey_Template.md updated with Zotero section (Status + Item Key)
   - 3 survey/benchmark files patched with Zotero Item Keys
   - All 11 batch papers now have complete Zotero traceability
@@ -125,7 +125,7 @@ The Mousavi & Beroza 2023 Annual Review paper was processed through MinerU and K
 
 
 
-- **Stage 1.5-8A â€” Skill System Initialization**
+- **Stage 1.5-8A ¡ª Skill System Initialization**
   - 8 skills created across 4 categories
   - Chinese user guide created
   - AGENT_BOOTSTRAP Quick Reference updated

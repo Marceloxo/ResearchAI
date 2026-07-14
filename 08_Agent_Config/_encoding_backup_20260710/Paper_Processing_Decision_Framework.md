@@ -10,7 +10,7 @@ This framework defines a permanent decision mechanism for determining how deeply
 
 ## A. Three-Level Processing Strategy
 
-### Level 1 —Literature Card (Screening)
+### Level 1 �?Literature Card (Screening)
 
 **Purpose:** Rapid classification of incoming papers.
 
@@ -18,10 +18,10 @@ This framework defines a permanent decision mechanism for determining how deeply
 
 **Pre-condition (sequential):
 
-1. **Zotero verification** — Paper MUST be registered in Zotero. If no Zotero record: STOP and request import.
-2. **Mapping verification** — Check MinerU_Zotero_Mapping.md for existing entries.
-3. **Duplicate check** — Verify Paper_Index.md and 01_Papers/ directory for existing files.
-4. **Processing level decision** — Apply Decision Criteria Matrix.
+1. **Zotero verification** �� Paper MUST be registered in Zotero. If no Zotero record: STOP and request import.
+2. **Mapping verification** �� Check MinerU_Zotero_Mapping.md for existing entries.
+3. **Duplicate check** �� Verify Paper_Index.md and 01_Papers/ directory for existing files.
+4. **Processing level decision** �� Apply Decision Criteria Matrix.
 
 If any pre-condition fails (Zotero missing, duplicate detected): STOP file creation.
 Input:** Processed Markdown from MinerU output.
@@ -39,9 +39,9 @@ Input:** Processed Markdown from MinerU output.
 - **Evidence location**: where in the paper was code availability mentioned?
 - **Repository URL**: only if status is Confirmed Available
 Reading decision:
-  - **Ignore** —no further processing
-  - **Keep Reference** —Literature Card only, revisit if research direction shifts
-  - **Deep Read** —proceed to Level 2
+  - **Ignore** �?no further processing
+  - **Keep Reference** �?Literature Card only, revisit if research direction shifts
+  - **Deep Read** �?proceed to Level 2
 
 
 **Critical Rule**: Agents must NOT mark code as "Unavailable" or "Missing" unless full-text verification confirms absence. "Not Found Yet" is the default when code is not explicitly mentioned.
@@ -60,7 +60,7 @@ Reading decision:
 
 ---
 
-### Level 2 —Paper Note (Deep Analysis)
+### Level 2 �?Paper Note (Deep Analysis)
 
 **Purpose:** Full understanding of selected papers. Extract methods, tasks, datasets, and insights.
 
@@ -105,7 +105,7 @@ Reading decision:
 
 ---
 
-### Level 3 —Argument Mining Paper Logic (Core Analysis)
+### Level 3 �?Argument Mining Paper Logic (Core Analysis)
 
 **Purpose:** Deep structural deconstruction of core papers for writing assistance and research gap discovery.
 
@@ -123,10 +123,10 @@ Reading decision:
 
 **Trigger Conditions (ALL must be met):**
 
-1. **Directly influences own research direction** —the paper's findings would change how we approach our current work.
-2. **Contains novel architecture or design** —introduces a genuinely new component, module, or paradigm (not just application of existing method to new data).
-3. **SOTA benchmark paper** —establishes a new state-of-the-art on a benchmark relevant to our tasks.
-4. **Highly cited foundational paper** —a paper that many others cite (check citation count in Zotero/Web of Science).
+1. **Directly influences own research direction** �?the paper's findings would change how we approach our current work.
+2. **Contains novel architecture or design** �?introduces a genuinely new component, module, or paradigm (not just application of existing method to new data).
+3. **SOTA benchmark paper** �?establishes a new state-of-the-art on a benchmark relevant to our tasks.
+4. **Highly cited foundational paper** �?a paper that many others cite (check citation count in Zotero/Web of Science).
 
 **Additional discretionary triggers (agent may recommend Level 3 for these):**
 
@@ -135,7 +135,7 @@ Reading decision:
 - The paper contains a particularly well-structured argument worth studying for writing purposes.
 
 **Required Sections (per Paper_Logic_Template.md):**
-- Evidence Mapping table (Claim →Evidence →Experiment →Metric →Result →Support)
+- Evidence Mapping table (Claim �?Evidence �?Experiment �?Metric �?Result �?Support)
 - Method Justification for each core module
 - Hidden Limitation Analysis (reviewer perspective)
 - Writing Strategy Analysis (intro, method presentation, experiment design)
@@ -155,46 +155,46 @@ Reading decision:
 
 ```
 New paper enters Zotero
-    ─    ▀[Level 1] Read Processed Markdown
-    ─    ├── Is the paper unrelated to seismic AI / deep learning / computer vision?
-    ─  └── YES →Decision: IGNORE
-    ─             Action: Literature Card with "Ignore"
-    ─             Skip Levels 2 and 3.
-    ─    ├── Is the paper tangential (e.g., medical imaging, remote sensing)?
-    ─  ├── YES, and novelty is incremental?
-    ─  ─  └── Decision: KEEP REFERENCE
-    ─  ─    Action: Literature Card with "Keep Reference"
-    ─  ─    Skip Levels 2 and 3.
-    ─  ─    ─  └── YES, and novelty is moderate or higher?
-    ─      └── Decision: DEEP READ
-    ─        Action: Proceed to Level 2
-    ─    └── Is the paper directly relevant (seismic AI / CV / deep learning)?
-        ─        ├── Is the methodological novelty LOW?
-        ─  └── (Application paper, no new architecture)
-        ─      ├── Is it a SOTA benchmark?
-        ─      ─  └── YES →DEEP READ (proceed to Level 2)
-        ─      ─  └── NO →KEEP REFERENCE
-        ─      ─        ─      └── Does it use a dataset we plan to use?
-        ─          └── YES →DEEP READ
-        ─          └── NO →KEEP REFERENCE
-        ─        ├── Is the methodological novelty MODERATE?
-        ─  └── (Modified existing method, new combination)
-        ─      ├── Does it solve a problem we are actively working on?
-        ─      ─  └── YES →DEEP READ
-        ─      ─  └── NO →KEEP REFERENCE
-        ─      ─        ─      └── Can the approach transfer to seismic image segmentation?
-        ─          └── YES →DEEP READ
-        ─          └── NO →KEEP REFERENCE
-        ─        └── Is the methodological novelty HIGH?
+    �?    �?[Level 1] Read Processed Markdown
+    �?    ├── Is the paper unrelated to seismic AI / deep learning / computer vision?
+    �?  └── YES �?Decision: IGNORE
+    �?             Action: Literature Card with "Ignore"
+    �?             Skip Levels 2 and 3.
+    �?    ├── Is the paper tangential (e.g., medical imaging, remote sensing)?
+    �?  ├── YES, and novelty is incremental?
+    �?  �?  └── Decision: KEEP REFERENCE
+    �?  �?    Action: Literature Card with "Keep Reference"
+    �?  �?    Skip Levels 2 and 3.
+    �?  �?    �?  └── YES, and novelty is moderate or higher?
+    �?      └── Decision: DEEP READ
+    �?        Action: Proceed to Level 2
+    �?    └── Is the paper directly relevant (seismic AI / CV / deep learning)?
+        �?        ├── Is the methodological novelty LOW?
+        �?  └── (Application paper, no new architecture)
+        �?      ├── Is it a SOTA benchmark?
+        �?      �?  └── YES �?DEEP READ (proceed to Level 2)
+        �?      �?  └── NO �?KEEP REFERENCE
+        �?      �?        �?      └── Does it use a dataset we plan to use?
+        �?          └── YES �?DEEP READ
+        �?          └── NO �?KEEP REFERENCE
+        �?        ├── Is the methodological novelty MODERATE?
+        �?  └── (Modified existing method, new combination)
+        �?      ├── Does it solve a problem we are actively working on?
+        �?      �?  └── YES �?DEEP READ
+        �?      �?  └── NO �?KEEP REFERENCE
+        �?      �?        �?      └── Can the approach transfer to seismic image segmentation?
+        �?          └── YES �?DEEP READ
+        �?          └── NO �?KEEP REFERENCE
+        �?        └── Is the methodological novelty HIGH?
             └── (New architecture, new paradigm, significant innovation)
                 ├── DEEP READ (proceed to Level 2)
-                ─                └── After Level 2 analysis:
+                �?                └── After Level 2 analysis:
                     ├── Does it meet ALL Level 3 trigger conditions?
-                    ─  └── YES →ARGUMENT MINING (proceed to Level 3)
-                    ─  └── NO →Level 2 only
-                    ─                    └── Should the agent RECOMMEND Level 3 to the human?
-                        └── YES →Flag for human review
-                        └── NO →Level 2 only
+                    �?  └── YES �?ARGUMENT MINING (proceed to Level 3)
+                    �?  └── NO �?Level 2 only
+                    �?                    └── Should the agent RECOMMEND Level 3 to the human?
+                        └── YES �?Flag for human review
+                        └── NO �?Level 2 only
 ```
 
 ---
@@ -215,10 +215,10 @@ For agents that need a more systematic approach, use this scoring rubric. Sum th
 
 | Total Score | Recommendation |
 |---|---|
-| 0-3 | **Ignore** —Literature Card only, mark Ignore |
-| 4-7 | **Keep Reference** —Literature Card only, mark Keep Reference |
-| 8-11 | **Deep Read** —Proceed to Level 2 |
-| 12-15 | **Deep Read + Recommend Level 3** —Proceed to Level 2, flag for potential Argument Mining |
+| 0-3 | **Ignore** �?Literature Card only, mark Ignore |
+| 4-7 | **Keep Reference** �?Literature Card only, mark Keep Reference |
+| 8-11 | **Deep Read** �?Proceed to Level 2 |
+| 12-15 | **Deep Read + Recommend Level 3** �?Proceed to Level 2, flag for potential Argument Mining |
 
 **Note:** The scoring rubric is a decision aid, not a replacement for agent judgment. Human review is always recommended before committing to Level 3 processing.
 
