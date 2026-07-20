@@ -6,7 +6,8 @@ dataset: "Northern California Seismic Network"
 method: "EQTransformer"
 date: 2026-07-20
 status: planned
-tags: [eqtransformer, reproducibility, baseline, transformer, seismic-phase-picking]
+priority: P3
+tags: [eqtransformer, reproducibility, baseline, transformer, seismic-phase-picking, secondary]
 created: 2026-07-20
 ---
 

@@ -6,7 +6,8 @@ dataset: "Northern California Seismic Network"
 method: "PhaseNet"
 date: 2026-07-20
 status: planned
-tags: [phasenet, reproducibility, baseline, seismic-phase-picking]
+priority: P3
+tags: [phasenet, reproducibility, baseline, seismic-phase-picking, secondary]
 created: 2026-07-20
 ---
 

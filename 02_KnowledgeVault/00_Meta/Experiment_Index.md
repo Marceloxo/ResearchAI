@@ -13,11 +13,24 @@ This is the knowledge layer — for raw experiment artifacts (code, logs, figure
 
 ## Current Experiments / 当前实验
 
-Experiments that are planned or in progress.
+Experiments that are planned or in progress, sorted by priority.
 
-- [[exp_chai2020_phase_picking]] — Chai 2020: PhaseNet transfer learning validation
+### P1 — Planned (next in queue)
+
+- [[exp_dataset_pipeline_seg]] — Seismic segmentation dataset pipeline
+
+### P2 — Designing
+
+- (to be added after P1 completes)
+
+### P3 — Secondary
+
 - [[exp_phasenet_repro]] — PhaseNet baseline reproduction
 - [[exp_eqtransformer_repro]] — EQTransformer baseline reproduction
+
+### Completed
+
+- [[exp_chai2020_phase_picking]] — Chai 2020: PhaseNet transfer learning validation
 
 ---
 

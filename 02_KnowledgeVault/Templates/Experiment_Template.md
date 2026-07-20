@@ -6,6 +6,7 @@ dataset: "{{dataset}}"
 method: "{{method}}"
 date: {{date}}
 status: {{status}}
+priority: P2  # P0(Active) | P1(Planned) | P2(Designing) | P3(Secondary) | P4(Deferred) | Completed
 tags: []
 created: {{date}}
 ---

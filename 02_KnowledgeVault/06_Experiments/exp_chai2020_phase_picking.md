@@ -6,7 +6,8 @@ dataset: "EGS Collab SURF"
 method: "PhaseNet (TL)"
 date: 2020
 status: completed
-tags: [seismic-phase-picking, transfer-learning, experiment]
+priority: Completed
+tags: [seismic-phase-picking, transfer-learning, experiment, completed]
 created: 2026-07-09
 ---
 
