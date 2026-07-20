@@ -1,6 +1,7 @@
 ---
 task_name: "Seismic Image Segmentation"
 domain: "Seismic AI / Computer Vision"
+related_methods: [Attention Mechanism, CNN, SegFormer, Transformer, U-Net]
 input: "2D Seismic Sections or 3D Seismic Volumes"
 output: "Pixel-wise or Voxel-wise Label Maps (binary or multi-class)"
 metrics: ["IoU", "Dice Coefficient", "Precision", "Recall", "Pixel Accuracy"]

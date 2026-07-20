@@ -1,6 +1,7 @@
 ---
 task_name: "Earthquake Location"
 domain: "Seismic Signal Processing"
+related_methods: [GENIE, Multi-task Learning, PLAN]
 input: "Multi-station phase picks or raw waveforms"
 output: "Hypocenter (lon, lat, depth) and origin time"
 metrics: [Location Error, Depth Error, Origin Time Error]

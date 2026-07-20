@@ -1,6 +1,7 @@
 ---
 task_name: "{{task_name}}"
 domain: "{{domain}}"
+related_methods: [{{related_methods}}]
 input: "{{input}}"
 output: "{{output}}"
 metrics: [{{metrics}}]

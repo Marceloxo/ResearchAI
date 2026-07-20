@@ -1,6 +1,7 @@
 ---
 task_name: "Seismic Facies Segmentation"
 domain: "Seismic Interpretation"
+related_methods: [SegFormer, U-SegFormer-Hyper]
 input: "2D/3D seismic reflection profiles"
 output: "Pixel-wise lithological/facies classification map"
 metrics: [Overall Accuracy, F1-score per class, IoU]

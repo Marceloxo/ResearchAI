@@ -1,6 +1,7 @@
 ---
 task_name: "Fault Segmentation"
 domain: "Seismic AI / Structural Interpretation"
+related_methods: [Attention Mechanism, CNN, SegFormer, Transformer, U-Net, U-SegFormer-Hyper]
 input: "2D Seismic Sections or 3D Seismic Volumes"
 output: "Binary Fault Probability Maps"
 metrics: ["IoU", "Dice", "Precision", "Recall"]

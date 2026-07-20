@@ -1,6 +1,7 @@
 ---
 task_name: "Seismic Phase Picking"
 domain: "Seismic Monitoring / Earthquake Detection"
+related_methods: [GENIE, Multi-task Learning, PhaseNet, PLAN, Transfer Learning]
 input: "Three-component seismograms"
 output: "P-wave and S-wave arrival times"
 metrics: ["Precision", "Recall", "F1 Score"]

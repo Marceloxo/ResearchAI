@@ -1,6 +1,7 @@
 ---
 task_name: "Earthquake Sequence Analysis"
 domain: "Seismology / Earthquake Physics"
+related_methods: [GENIE, Multi-task Learning, PhaseNet, PLAN]
 input: "Earthquake catalogs, waveform data, stress models"
 output: "Sequence classification, causal relationships, slip models"
 metrics: [Catalog completeness, Foreshock ratio, Stress drop]

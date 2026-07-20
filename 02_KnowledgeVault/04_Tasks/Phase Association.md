@@ -1,6 +1,7 @@
 ---
 task_name: "Phase Association"
 domain: "Seismic Signal Processing"
+related_methods: [GENIE, Multi-task Learning, PhaseNet, PLAN]
 input: "Multi-station seismic waveforms with phase picks"
 output: "Source-arrival associations (earthquake events)"
 metrics: [F1-score, Precision, Recall]
