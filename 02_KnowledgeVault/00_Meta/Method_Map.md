@@ -27,6 +27,9 @@ This page is an index — it links to method notes as they are created. Use [[wi
 - [[Vision Transformer]]
 - [[Swin Transformer]]
 - [[SegFormer]]
+- [[U-SegFormer-Hyper]]
+- [[GENIE]] — GNN-based phase association
+- [[PLAN]] — Multi-task multi-station GNN
 
 ---
 
@@ -50,6 +53,7 @@ This page is an index — it links to method notes as they are created. Use [[wi
 - [[Transfer Learning]]
 - [[Self-Supervised Learning]]
 - [[Semi-Supervised Learning]]
+- [[Multi-task Learning]]
 
 ---
 
@@ -73,13 +77,9 @@ This page is an index — it links to method notes as they are created. Use [[wi
 
 - Back to [[Home]]
 - Explore [[Deep_Learning_Map]]
-- Explore [[Task - ]] for tasks that use these methods
+- Explore [[Seismic AI]] for tasks that use these methods
 
 
-## New Nodes (Stage 6.5.2)
+## Added in Stage 6.5.2 / 已合并到上方分类
 
-- [[GENIE]] — GNN-based phase association and earthquake detection (Si et al., 2024)
-- [[PLAN]] — All-in-one multi-station GNN for picking, association, location (Si et al., 2024)
-- [[Multi-task Learning]] — Joint optimization of multiple seismic tasks (Wang et al., 2024)
-- [[SegFormer]] — Hierarchical Transformer encoder for segmentation (Wang et al., 2024)
-- [[U-SegFormer-Hyper]] — Lightweight U-shaped Transformer for seismic facies segmentation (Wang et al., 2024)
+<!-- These nodes were added in Stage 6.5.2 and have been merged into the taxonomy sections above. -->

@@ -11,6 +11,22 @@ Current primary research direction. This map organizes seismic AI research by ta
 
 ## Tasks / 任务
 
+### Seismic Phase Picking / 震相拾取
+
+- [[Seismic Phase Picking]]
+
+### Phase Association / 震相关联
+
+- [[Phase Association]]
+
+### Earthquake Location / 地震定位
+
+- [[Earthquake Location]]
+
+### Earthquake Sequence Analysis / 地震序列分析
+
+- [[Earthquake Sequence Analysis]]
+
 ### Fault Segmentation / 断层分割
 
 Identify and delineate geological faults in seismic images.
@@ -55,6 +71,13 @@ Estimate subsurface physical properties from seismic data.
 - [[Transformer]]
 - [[Vision Transformer]]
 - [[Swin Transformer]]
+- [[SegFormer]]
+- [[U-SegFormer-Hyper]]
+
+### GNN-Based / 图神经网络
+
+- [[GENIE]] — GNN-based phase association
+- [[PLAN]] — Multi-task multi-station GNN
 
 ### Frequency Domain / 频域方法
 
@@ -91,11 +114,44 @@ Estimate subsurface physical properties from seismic data.
 
 ## Key Papers / 关键论文
 
-Papers will be added here as the literature review progresses.
+### Seismic Phase Picking
 
-- [[Paper - ]] — Fault segmentation
-- [[Paper - ]] — Seismic denoising
-- [[Paper - ]] — Seismic inversion with deep learning
+- [[zhu2018_phasenet_note]] — PhaseNet (2018)
+- [[mousavi2020_eqtransformer_note]] — EQTransformer (2020)
+- [[chai2020_using_note]] — Transfer learning for PhaseNet (2020)
+
+### Seismic Facies Segmentation
+
+- [[wang2024_segformer_seismic_facies_note]] — U-SegFormer-Hyper (2024)
+
+### Multi-task Earthquake Monitoring
+
+- [[si2024_plan_allinone_note]] — PLAN (2024)
+- [[mcbrearty2023_genie_note]] — GENIE (2023)
+
+### Surveys
+
+- [[monteiro2024_deep_learning_survey]] — DL for seismic segmentation (2024)
+- [[mousavi2023_machine_learning_survey]] — ML in seismology (2023)
+
+---
+
+## Active Research Ideas / 活跃研究想法
+
+- [[idea_transfer_learning_seismic]] — Transfer learning across scales for seismic DL
+- [[idea_multi_task_seismic_interp]] — Multi-task learning for seismic interpretation
+- [[idea_transformer_seismic_arch]] — Transformer architectures for seismic segmentation
+- [[idea_self_supervised_seismic]] — Self-supervised pre-training for seismic DL
+
+## Planned Experiments / 计划实验
+
+- [[exp_phasenet_repro]] — PhaseNet baseline reproduction
+- [[exp_eqtransformer_repro]] — EQTransformer baseline reproduction
+- [[exp_chai2020_phase_picking]] — Transfer learning validation
+
+## Writing / 写作
+
+- [[writing_seismic_seg_survey]] — DL for seismic segmentation survey
 
 ---
 
@@ -105,26 +161,9 @@ Papers will be added here as the literature review progresses.
 - Back to [[Home]]
 - Explore [[Method_Map]]
 - Explore [[Dataset_Map]]
+- Explore [[Idea_Index]]
+- Explore [[Experiment_Index]]
 
-## New Methods (Stage 6.5.2)
+## Added in Stage 6.5.2 / 已合并到上方分类
 
-### GNN-Based Methods
-
-- [[GENIE]] — GNN-based phase association with two-graph architecture
-- [[PLAN]] — All-in-one multi-station GNN
-
-### Transformer-Based Segmentation
-
-- [[SegFormer]] — Hierarchical Transformer for seismic facies segmentation
-- [[U-SegFormer-Hyper]] — Lightweight U-shaped Transformer variant
-
-## New Tasks (Stage 6.5.2)
-
-- [[Phase Association]] — Assigning phase picks to common earthquake sources
-- [[Earthquake Location]] — Hypocenter prediction from multi-station data
-- [[Earthquake Sequence Analysis]] — Foreshock-mainshock-aftershock cascades
-
-## New Datasets (Stage 6.5.2)
-
-- [[Northern California Seismic Network]] — ~3M relocated events
-- [[Japan Hi-net]] — Dense nationwide network
+<!-- These nodes have been merged into the main taxonomy sections above. -->

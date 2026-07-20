@@ -15,7 +15,10 @@ Ideas are the bridge between "what we know" (papers, methods) and "what we do" (
 
 Ideas currently under consideration or active development.
 
-- (to be added)
+- [[idea_transfer_learning_seismic]] — Transfer Learning Across Scales for Seismic Deep Learning
+- [[idea_multi_task_seismic_interp]] — Multi-Task Learning for Seismic Interpretation
+- [[idea_transformer_seismic_arch]] — Transformer-Based Architectures for Seismic Image Segmentation
+- [[idea_self_supervised_seismic]] — Self-Supervised Pre-Training for Seismic Deep Learning
 
 ---
 

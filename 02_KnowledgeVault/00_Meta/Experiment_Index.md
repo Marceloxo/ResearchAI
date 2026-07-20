@@ -15,7 +15,9 @@ This is the knowledge layer — for raw experiment artifacts (code, logs, figure
 
 Experiments that are planned or in progress.
 
-- (to be added)
+- [[exp_chai2020_phase_picking]] — Chai 2020: PhaseNet transfer learning validation
+- [[exp_phasenet_repro]] — PhaseNet baseline reproduction
+- [[exp_eqtransformer_repro]] — EQTransformer baseline reproduction
 
 ---
 

@@ -16,6 +16,9 @@ This is the highest-level map of ResearchAI's research scope. It shows what we w
 Primary research direction: applying deep learning and computer vision to seismic data processing and interpretation.
 
 - **Entry Point**: [[Seismic_AI_Map]]
+- **Active Ideas**: [[idea_transfer_learning_seismic]], [[idea_multi_task_seismic_interp]], [[idea_transformer_seismic_arch]], [[idea_self_supervised_seismic]]
+- **Planned Experiments**: [[exp_phasenet_repro]], [[exp_eqtransformer_repro]], [[exp_chai2020_phase_picking]]
+- **Writing**: [[writing_seismic_seg_survey]]
 
 ---
 

@@ -43,6 +43,10 @@ Paper notes live in `01_Papers/`.
 - [[zhou2022_yangbi_foreshock_card]] (2022)
 - [[zhou2022_yangbi_foreshock_note]] (2022)
 
+#### Dataset Reference
+
+- [[schoenball2020_egs_collab_card]] (2020) — EGS Collab induced seismology catalog
+
 #### Fault Segmentation
 
 - Literature Cards: (to be added)

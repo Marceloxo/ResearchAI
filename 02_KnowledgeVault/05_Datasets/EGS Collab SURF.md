@@ -46,7 +46,7 @@ EGS Collab SURF Experiment 1 is a meter-scale hydraulic fracturing monitoring da
 
 # Related Papers
 - [[chai2020_using_note]] 鈥?Primary paper using this dataset
-- [[Schoenball_et_al_2020]] 鈥?Original seismic catalog processing
+- [[schoenball2020_egs_collab_card]] — Original seismic catalog processing
 
 # Limitations
 - Specific to meter-scale EGS system

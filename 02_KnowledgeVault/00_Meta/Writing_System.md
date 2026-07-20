@@ -18,7 +18,7 @@ Planning and outlining for manuscripts in progress.
 
 Current manuscripts:
 
-- (to be added)
+- [[writing_seismic_seg_survey]] — Deep Learning for Seismic Image Segmentation: A Survey and Benchmark
 
 ---
 
