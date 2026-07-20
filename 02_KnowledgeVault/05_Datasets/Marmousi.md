@@ -7,6 +7,7 @@ task: ["Seismic Interpretation", "Velocity Modeling"]
 official_link: "https://www.egt.de/marmousi/"
 related_papers: ["Billette and Laurain (1991)"]
 tags: [seismic, synthetic, benchmark]
+source_type: public_dataset
 created: 2026-07-08
 ---
 
@@ -42,3 +43,7 @@ Marmousi is a classic synthetic seismic model created by the Consortium Project 
 
 - Synthetic data does not capture real-world noise and acquisition artifacts
 - Limited direct applicability to field data interpretation
+
+## Tasks Using This Dataset / 使用该数据集的任务
+- [[Seismic Facies Segmentation]] — Complex velocity model; synthetic benchmark
+- [[Seismic Image Segmentation]] — Classic benchmark model

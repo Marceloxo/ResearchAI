@@ -1,0 +1,21 @@
+# ResearchAI Workspace Configuration
+# Last updated: 2026-07-09
+
+workspace:
+  root: /home/lco/ResearchAI
+  description: Primary workspace — contains documentation, code, experiments, and agent configs
+
+data:
+  root: /home/lco/ResearchAI_Data
+  description: External data layer — large files only
+
+  paper:
+    origin_pdf: /home/lco/ResearchAI_Data/Origin_pdf
+    mineru_output: /home/lco/ResearchAI_Data/MinerU_md
+
+  datasets: /home/lco/ResearchAI_Data/Datasets
+  experiment_results: /home/lco/ResearchAI_Data/Experiment_Results
+  model_checkpoints: /home/lco/ResearchAI_Data/Model_Checkpoints
+
+# Note: All external data paths are under /home/lco/ResearchAI_Data\.
+# The /home/lco/ResearchAI workspace does not store large files (PDFs, datasets, models).

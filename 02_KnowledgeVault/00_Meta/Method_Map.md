@@ -1,17 +1,17 @@
-﻿---
+---
 tags: [meta, method, navigation]
 created: 2026-07-08
 ---
 
-# Method Map / 鏂规硶绱㈠紩
+# Method Map / 方法索引
 
 Index of all method knowledge notes in the vault. Each method note lives in `03_Methods/` and follows the `Method_Template`.
 
-This page is an index 鈥?it links to method notes as they are created. Use [[wikilinks]] to add new entries.
+This page is an index — it links to method notes as they are created. Use [[wikilinks]] to add new entries.
 
 ---
 
-## CNN / 鍗风Н绁炵粡缃戠粶
+## CNN / 卷积神经网络
 
 - [[CNN]]
 - [[U-Net]]
@@ -21,7 +21,7 @@ This page is an index 鈥?it links to method notes as they are created. Use [[wi
 
 ---
 
-## Transformer / Transformer鏂规硶
+## Transformer / Transformer方法
 
 - [[Transformer]]
 - [[Vision Transformer]]
@@ -30,7 +30,7 @@ This page is an index 鈥?it links to method notes as they are created. Use [[wi
 
 ---
 
-## Attention Mechanisms / 娉ㄦ剰鍔涙満鍒?
+## Attention Mechanisms / 注意力机制
 - [[Attention Mechanism]]
 - [[Self-Attention]]
 - [[Channel Attention]]
@@ -38,14 +38,14 @@ This page is an index 鈥?it links to method notes as they are created. Use [[wi
 
 ---
 
-## Fourier / Frequency Methods / 棰戝煙鏂规硶
+## Fourier / Frequency Methods / 频域方法
 
 - [[Frequency Domain Learning]]
 - [[Fourier Neural Operator]]
 
 ---
 
-## Optimization Methods / 浼樺寲鏂规硶
+## Optimization Methods / 优化方法
 
 - [[Transfer Learning]]
 - [[Self-Supervised Learning]]
@@ -53,7 +53,7 @@ This page is an index 鈥?it links to method notes as they are created. Use [[wi
 
 ---
 
-## Generative Models / 鐢熸垚妯″瀷
+## Generative Models / 生成模型
 
 - [[GAN]]
 - [[Diffusion Models]]
@@ -61,7 +61,7 @@ This page is an index 鈥?it links to method notes as they are created. Use [[wi
 
 ---
 
-## How to Use / 浣跨敤鏂瑰紡
+## How to Use / 使用方式
 
 1. When you create a new method note in `03_Methods/`, add its `[[wikilink]]` to the appropriate section above.
 2. If a new category is needed, add it and update this index.
@@ -69,9 +69,17 @@ This page is an index 鈥?it links to method notes as they are created. Use [[wi
 
 ---
 
-## Navigation / 瀵艰埅
+## Navigation / 导航
 
 - Back to [[Home]]
 - Explore [[Deep_Learning_Map]]
 - Explore [[Task - ]] for tasks that use these methods
 
+
+## New Nodes (Stage 6.5.2)
+
+- [[GENIE]] — GNN-based phase association and earthquake detection (Si et al., 2024)
+- [[PLAN]] — All-in-one multi-station GNN for picking, association, location (Si et al., 2024)
+- [[Multi-task Learning]] — Joint optimization of multiple seismic tasks (Wang et al., 2024)
+- [[SegFormer]] — Hierarchical Transformer encoder for segmentation (Wang et al., 2024)
+- [[U-SegFormer-Hyper]] — Lightweight U-shaped Transformer for seismic facies segmentation (Wang et al., 2024)

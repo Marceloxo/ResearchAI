@@ -105,3 +105,26 @@ Papers will be added here as the literature review progresses.
 - Back to [[Home]]
 - Explore [[Method_Map]]
 - Explore [[Dataset_Map]]
+
+## New Methods (Stage 6.5.2)
+
+### GNN-Based Methods
+
+- [[GENIE]] — GNN-based phase association with two-graph architecture
+- [[PLAN]] — All-in-one multi-station GNN
+
+### Transformer-Based Segmentation
+
+- [[SegFormer]] — Hierarchical Transformer for seismic facies segmentation
+- [[U-SegFormer-Hyper]] — Lightweight U-shaped Transformer variant
+
+## New Tasks (Stage 6.5.2)
+
+- [[Phase Association]] — Assigning phase picks to common earthquake sources
+- [[Earthquake Location]] — Hypocenter prediction from multi-station data
+- [[Earthquake Sequence Analysis]] — Foreshock-mainshock-aftershock cascades
+
+## New Datasets (Stage 6.5.2)
+
+- [[Northern California Seismic Network]] — ~3M relocated events
+- [[Japan Hi-net]] — Dense nationwide network

@@ -7,6 +7,7 @@ task: ["Seismic Interpretation", "Velocity Modeling"]
 official_link: "https://seg.org/Community/SEAM"
 related_papers: ["SEG Wiki"]
 tags: [seismic, synthetic, benchmark]
+source_type: public_dataset
 created: 2026-07-08
 ---
 
@@ -41,3 +42,6 @@ SEAM (Seismic Modelling And Imaging Workshop) is a series of synthetic benchmark
 
 - Synthetic data — limited transfer to field data
 - Focused on imaging rather than segmentation
+
+## Tasks Using This Dataset / 使用该数据集的任务
+- [[Seismic Image Segmentation]] — Standardized synthetic benchmark for imaging

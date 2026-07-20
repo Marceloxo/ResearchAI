@@ -83,3 +83,19 @@ Techniques for focusing model capacity on relevant features.
 - Back to [[Research_Map]]
 - Back to [[Home]]
 - Explore [[Method_Map]] for detailed method notes
+
+## New Nodes (Stage 6.5.2)
+
+### Transformer-Based Methods
+
+- [[SegFormer]] — Hierarchical Transformer encoder for segmentation
+- [[U-SegFormer-Hyper]] — U-shaped Transformer with hypercolumn fusion
+
+### Graph Neural Networks
+
+- [[GENIE]] — GNN-based phase association
+- [[PLAN]] — Multi-station GNN for joint seismic tasks
+
+### Multi-Task Approaches
+
+- [[Multi-task Learning]] — Joint optimization paradigm

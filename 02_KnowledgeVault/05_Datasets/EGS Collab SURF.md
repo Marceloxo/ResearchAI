@@ -7,6 +7,7 @@ task: ["Seismic Phase Picking", "Microseismic Monitoring"]
 official_link: "https://www.egscollab.org/"
 related_papers: ["Chai et al. (2020)", "Schoenball et al. (2020)"]
 tags: [seismic, egs, microseismic, benchmark]
+source_type: public_dataset
 created: 2026-07-09
 ---
 
@@ -52,3 +53,5 @@ EGS Collab SURF Experiment 1 is a meter-scale hydraulic fracturing monitoring da
 - 100kHz sampling rate not typical for most seismic monitoring
 - Limited geographic/geological context (single site)
 
+## Tasks Using This Dataset / 使用该数据集的任务
+- [[Phase Picking]] — Meter-scale hydraulic fracturing monitoring; 69,444 waveforms

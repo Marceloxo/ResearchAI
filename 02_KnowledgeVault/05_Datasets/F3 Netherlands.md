@@ -7,6 +7,7 @@ task: ["Facies Segmentation", "Fault Detection"]
 official_link: "https://wiki.seg.org/wiki/Elastic_waveform_inversion_aided_by_facies_classification"
 related_papers: ["Alaudah et al. (2019)", "Silva et al. (2019)", "ConocoPhillips"]
 tags: [seismic, facies-segmentation, benchmark]
+source_type: public_dataset
 created: 2026-07-08
 ---
 
@@ -56,3 +57,7 @@ The F3 Netherlands dataset is the most widely used benchmark for seismic facies 
 - Multiple interpretations exist, making direct comparison difficult
 - Not all papers report which interpretation version they used
 - Lack of standardized train/test splits in some studies
+
+## Tasks Using This Dataset / 使用该数据集的任务
+- [[Seismic Facies Segmentation]] — Standard benchmark; 7 facies classes; 640x640x384
+- [[Fault Segmentation]] — Most widely used; includes fault labels

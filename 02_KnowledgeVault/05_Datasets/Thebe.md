@@ -7,6 +7,7 @@ task: ["Fault Segmentation"]
 official_link: "https://github.com/aoschwamm/Thebe_Fault_Benchmark"
 related_papers: ["Schwamm et al."]
 tags: [seismic, fault-segmentation, benchmark]
+source_type: public_dataset
 created: 2026-07-08
 ---
 
@@ -42,3 +43,7 @@ The Thebe dataset is a multi-expert interpreted fault benchmark. It was created 
 
 - Limited to fault detection only (not facies segmentation)
 - Smaller published user base compared to F3 Netherlands
+
+## Tasks Using This Dataset / 使用该数据集的任务
+- [[Fault Segmentation]] — Multi-expert annotated; captures annotation uncertainty
+- [[Seismic Image Segmentation]] — Captures annotation uncertainty

@@ -62,3 +62,10 @@ Datasets for future medical imaging research.
 - Back to [[Home]]
 - Explore [[Seismic_AI_Map]]
 - Explore [[Task - ]] for tasks that use these datasets
+
+## New Nodes (Stage 6.5.2)
+
+### Seismic Monitoring Networks
+
+- [[Northern California Seismic Network]] — ~3M relocated events; GENIE/PLAN benchmark
+- [[Japan Hi-net]] — 700+ station dense network; PhaseNet/PLAN benchmark

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7d8c28871816b065",
+        "id": "94d6c83a9fbd0019",
         "type": "tabs",
         "children": [
           {
-            "id": "71d36c4f648e6c4c",
+            "id": "391ba50624b83db7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_HumanRead_AgentIgnore/功能待修复.md",
-                "mode": "preview",
-                "source": true
+                "file": "03_Methods/Vision Transformer.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "功能待修复"
+              "title": "Vision Transformer"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "Files"
             }
           },
           {
@@ -61,7 +61,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "搜索"
+              "title": "Search"
             }
           },
           {
@@ -187,43 +187,47 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "6ee8bcc779d3760c",
+  "active": "391ba50624b83db7",
   "lastOpenFiles": [
-    "01_Papers/zhang2020_ds_ifn_cd_note.md",
-    "01_Papers/lv2026_dttp_note.md",
-    "02_Topics/Seismic AI.md",
-    "10_HumanRead_AgentIgnore/GPT推荐研究方向.md",
-    "05_Datasets/EGS Collab SURF.md",
-    "05_Datasets/F3 Netherlands.md",
-    "05_Datasets/Marmousi.md",
-    "05_Datasets/OpenFWI.md",
-    "05_Datasets/Parihaka.md",
-    "05_Datasets/Penobscot.md",
-    "05_Datasets/README.md",
-    "05_Datasets/SEAM.md",
-    "05_Datasets/SEG Salt.md",
-    "05_Datasets/Thebe.md",
-    "10_HumanRead_AgentIgnore/功能待修复.md",
-    "10_HumanRead_AgentIgnore/ResearchAI_Skill_Guide_CN.md",
-    "10_HumanRead_AgentIgnore/current_v2.0_中文介绍.md",
-    "10_HumanRead_AgentIgnore/ResearchAI Skill System Initialization.md",
-    "10_HumanRead_AgentIgnore/current_v1.0.md",
-    "01_Papers/le2023_landslide_unet_note.md",
-    "01_Papers/chai2020_using_note.md",
-    "01_Papers/chai2020_using_card.md",
-    "01_Papers/bandara2022_changeformer_note.md",
-    "01_Papers/bandara2022_changeformer_card.md",
-    "01_Papers/abdallah2024_inasar_vit_note.md",
-    "01_Papers/abdallah2024_inasar_vit_card.md",
+    "03_Methods/sedtV4drM",
+    "01_Papers/sedstVOWU",
+    "03_Methods/U-Segformer-Hyper.md",
+    "03_Methods/U-SegFormer-Hyper.md",
+    "03_Methods/SegFormer.md",
+    "03_Methods/Vision Transformer.md",
+    "03_Methods/U-Net.md",
+    "03_Methods/Transformer.md",
+    "03_Methods/Transfer Learning.md",
+    "03_Methods/Segformer.md",
+    "03_Methods/README.md",
+    "03_Methods/PLAN.md",
+    "03_Methods/PhaseNet.md",
+    "03_Methods/Multi-task Learning.md",
+    "03_Methods/GENIE.md",
+    "03_Methods/CNN.md",
+    "03_Methods/Attention Mechanism.md",
+    "10_HumanRead_AgentIgnore/未命名.md",
+    "05_Datasets/Japan Hi-net.md",
+    "05_Datasets/Northern California Seismic Network.md",
+    "04_Tasks/Earthquake Sequence Analysis.md",
+    "04_Tasks/Seismic Facies Segmentation.md",
+    "04_Tasks/Earthquake Location.md",
+    "04_Tasks/Phase Association.md",
+    "03_Methods/Multi-task",
+    "01_Papers/zhou2022_yangbi_foreshock_note.md",
+    "01_Papers/si2024_plan_allinone_note.md",
+    "01_Papers/mcbrearty2023_genie_note.md",
     "10_HumanRead_AgentIgnore",
     "未命名.base"
   ]

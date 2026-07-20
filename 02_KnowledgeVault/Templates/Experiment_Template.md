@@ -32,7 +32,7 @@ created: {{date}}
   - Optimizer:
   - Loss function:
 - **Hardware / 硬件**:
-- **Code Location / 代码位置**: `C:\ResearchAI\03_Projects\{{project}}\`
+- **Code Location / 代码位置**: `/home/lco/ResearchAI/03_Projects/{{project}}/`
 
 
 # Results / 实验结果

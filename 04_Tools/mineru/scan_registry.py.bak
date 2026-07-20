@@ -1,0 +1,243 @@
+#!/usr/bin/env python3
+"""
+Paper Processing Registry Scanner
+
+Scans Zotero DB + MinerU_md + KnowledgeVault to generate
+Paper_Processing_State.yaml — the single source of truth for paper processing state.
+
+Usage:
+    python scan_registry.py              # Generate/overwrite registry
+    python scan_registry.py --report     # Print summary only, no file write
+    python scan_registry.py --filter MINERU_PENDING  # List papers in specific state
+"""
+
+import os
+import sys
+import sqlite3
+import argparse
+from pathlib import Path
+from datetime import datetime
+
+try:
+    import yaml
+except ImportError:
+    print("ERROR: pyyaml not installed. Run: pip install pyyaml")
+    sys.exit(1)
+
+# Configuration
+ZOTERO_DB = Path("/home/lco/ResearchAI_Data/Zotero/zotero.sqlite")
+MINERU_MD = Path("/home/lco/ResearchAI_Data/Paper/MinerU_md")
+KV_PAPERS_DIR = Path("/home/lco/ResearchAI/02_KnowledgeVault/01_Papers")
+REGISTRY_PATH = Path("/home/lco/ResearchAI/08_Agent_Config/Paper_Processing_State.yaml")
+
+VALID_TYPES = {'journalArticle', 'conferencePaper', 'thesis', 'report', 'bookSection', 'preprint'}
+
+
+def scan_zotero():
+    """Scan Zotero database for all papers with PDF attachments."""
+    if not ZOTERO_DB.exists():
+        print(f"ERROR: Zotero DB not found: {ZOTERO_DB}")
+        return {}
+
+    conn = sqlite3.connect(str(ZOTERO_DB))
+    cur = conn.cursor()
+
+    cur.execute("""
+        SELECT DISTINCT
+            pa.key as paper_key,
+            att.key as att_key,
+            it.typeName,
+            ia.path as storage_path,
+            pa.dateAdded,
+            dv.title_value
+        FROM items pa
+        JOIN itemTypes it ON pa.itemTypeID = it.rowID
+        JOIN itemAttachments ia ON pa.itemID = ia.parentItemID
+        JOIN items att ON ia.itemID = att.itemID
+        LEFT JOIN (
+            SELECT idata.itemID, dv.value as title_value
+            FROM itemData idata
+            JOIN fields f ON idata.fieldID = f.fieldID
+            JOIN itemDataValues dv ON idata.valueID = dv.valueID
+            WHERE f.fieldName = 'title'
+        ) dv ON dv.itemID = pa.itemID
+        WHERE it.typeName IN ('journalArticle', 'conferencePaper', 'thesis',
+                              'report', 'bookSection', 'preprint')
+        AND ia.path LIKE 'storage:%'
+        ORDER BY pa.dateAdded DESC
+    """)
+
+    papers = {}
+    for row in cur.fetchall():
+        paper_key, att_key, paper_type, storage_path, date_added, title = row
+        pdf_filename = storage_path.split(':', 1)[1] if ':' in storage_path else storage_path
+        pdf_path = Path("/home/lco/ResearchAI_Data/Zotero/storage") / att_key / pdf_filename
+
+        papers[paper_key] = {
+            'paper_key': paper_key,
+            'att_key': att_key,
+            'type': paper_type,
+            'date_added': date_added,
+            'title': title or 'Unknown',
+            'pdf_filename': pdf_filename,
+            'pdf_path': str(pdf_path),
+            'pdf_exists': pdf_path.exists()
+        }
+
+    conn.close()
+    return papers
+
+
+def scan_mineru():
+    """Scan MinerU output directories."""
+    if not MINERU_MD.exists():
+        return {}
+
+    result = {}
+    for d in MINERU_MD.iterdir():
+        if not d.is_dir():
+            continue
+        full_md = d / 'full.md'
+        has_full = full_md.exists()
+        images_dir = d / 'images'
+        has_images = images_dir.is_dir()
+        img_count = len([f for f in images_dir.iterdir() if f.is_file()]) if has_images else 0
+        size = full_md.stat().st_size if has_full else 0
+
+        result[d.name] = {
+            'folder': d.name,
+            'has_full': has_full,
+            'has_images': has_images,
+            'img_count': img_count,
+            'size': size
+        }
+    return result
+
+
+def cross_reference(zotero_papers, mineru_folders):
+    """Match Zotero papers to MinerU folders and determine state."""
+    state_map = []
+
+    for pk, zp in sorted(zotero_papers.items()):
+        att_key = zp['att_key']
+        pdf_fn = zp['pdf_filename'].replace('.pdf', '').lower()
+
+        matched_folder = None
+        for mname in mineru_folders:
+            mname_lower = mname.lower()
+            if (att_key in mname_lower or
+                pdf_fn in mname_lower or
+                mname_lower in pdf_fn or
+                pk.lower() in mname_lower):
+                matched_folder = mname
+                break
+
+        if matched_folder:
+            minfo = mineru_folders[matched_folder]
+            if minfo['has_full'] and minfo['has_images']:
+                state = 'MINERU_COMPLETE'
+            elif minfo['has_full']:
+                state = 'MINERU_PARTIAL'
+            else:
+                state = 'MINERU_PENDING'
+        else:
+            state = 'MINERU_PENDING'
+
+        state_map.append({
+            'paper_key': pk,
+            'att_key': att_key,
+            'title': zp['title'],
+            'type': zp['type'],
+            'date_added': zp['date_added'],
+            'pdf_exists': zp['pdf_exists'],
+            'mineru_folder': matched_folder,
+            'mineru_state': state
+        })
+
+    return state_map
+
+
+def generate_registry():
+    """Generate the full Paper_Processing_State.yaml."""
+    zotero_papers = scan_zotero()
+    mineru_folders = scan_mineru()
+    state_map = cross_reference(zotero_papers, mineru_folders)
+
+    output = {
+        'registry': {
+            'version': '1.0',
+            'generated': datetime.now().strftime('%Y-%m-%dT%H:%M:%S'),
+            'source': 'scan_registry.py automated scan',
+            'zotero_db': str(ZOTERO_DB),
+            'mineru_md': str(MINERU_MD),
+            'knowledgevault_dir': str(KV_PAPERS_DIR)
+        },
+        'summary': {
+            'total_zotero_papers': len(zotero_papers),
+            'pdfs_available': sum(1 for p in state_map if p['pdf_exists']),
+            'mineru_complete': sum(1 for p in state_map if p['mineru_state'] == 'MINERU_COMPLETE'),
+            'mineru_partial': sum(1 for p in state_map if p['mineru_state'] == 'MINERU_PARTIAL'),
+            'mineru_pending': sum(1 for p in state_map if p['mineru_state'] == 'MINERU_PENDING'),
+        },
+        'papers': state_map
+    }
+
+    REGISTRY_PATH.parent.mkdir(parents=True, exist_ok=True)
+    REGISTRY_PATH.write_text(
+        yaml.dump(output, default_flow_style=False, allow_unicode=True, sort_keys=False),
+        encoding='utf-8'
+    )
+
+    return output
+
+
+def print_summary(data):
+    """Print a human-readable summary."""
+    s = data['summary']
+    print(f"\n{'='*60}")
+    print(f"Paper Processing Registry — Summary")
+    print(f"{'='*60}")
+    print(f"Generated: {data['registry']['generated']}")
+    print(f"Total Zotero papers: {s['total_zotero_papers']}")
+    print(f"PDFs available: {s['pdfs_available']}")
+    print(f"MinerU complete: {s['mineru_complete']}")
+    print(f"MinerU partial: {s['mineru_partial']}")
+    print(f"MinerU pending: {s['mineru_pending']}")
+    print(f"{'='*60}")
+
+    pending = [p for p in data['papers'] if p['mineru_state'] == 'MINERU_PENDING']
+    if pending:
+        print(f"\nPapers needing MinerU processing ({len(pending)}):")
+        for p in pending:
+            print(f"  {p['paper_key']} | {p['title'][:60]} | pdf={'Yes' if p['pdf_exists'] else 'No'}")
+
+
+def print_filter(data, state_filter):
+    """Print papers matching a specific state."""
+    filtered = [p for p in data['papers'] if p['mineru_state'] == state_filter]
+    print(f"\nPapers with state '{state_filter}' ({len(filtered)}):")
+    for p in filtered:
+        folder = p['mineru_folder'][:60] + '...' if p['mineru_folder'] else 'N/A'
+        print(f"  {p['paper_key']} | {p['title'][:50]} | {folder}")
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Paper Processing Registry Scanner")
+    parser.add_argument('--report', action='store_true', help='Print summary only')
+    parser.add_argument('--filter', type=str, default=None,
+                        help='Filter by state: MINERU_COMPLETE, MINERU_PARTIAL, MINERU_PENDING')
+    args = parser.parse_args()
+
+    data = generate_registry()
+
+    if args.filter:
+        print_filter(data, args.filter)
+    elif args.report:
+        print_summary(data)
+    else:
+        print_summary(data)
+        print(f"\nRegistry saved to: {REGISTRY_PATH}")
+
+
+if __name__ == "__main__":
+    main()

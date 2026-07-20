@@ -40,6 +40,12 @@ Automatic detection of P-wave and S-wave arrival times from three-component seis
 | PhaseNet | Zhu & Beroza (2018) | CNN-based deep learning | High |
 | TL-PhaseNet | Chai et al. (2020) | Transfer learning adaptation | Higher |
 
+## Related Methods
+- [[PhaseNet]] — Deep learning based seismic phase picking framework.
+- [[PLAN]] — Multi-task GNN framework including phase picking, association and location.
+- [[GENIE]] — Graph neural network framework related to phase association and phase processing.
+- [[Multi-task Learning]] — Joint optimization strategy for seismic monitoring tasks.
+
 # Challenges
 - Scale mismatch between training and target data
 - Noisy data environments

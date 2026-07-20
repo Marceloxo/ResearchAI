@@ -1,9 +1,9 @@
-﻿---
+---
 tags: [meta, paper, navigation]
 created: 2026-07-08
 ---
 
-# Paper Index / 璁烘枃绱㈠紩
+# Paper Index / 论文索引
 
 Index of all paper-related notes in the vault. Papers are organized in two tiers:
 
@@ -14,7 +14,7 @@ Paper notes live in `01_Papers/`.
 
 ---
 
-## By Research Area / 鎸夌爺绌堕鍩?
+## By Research Area / 按研究领域
 ### Seismic AI
 
 #### Phase Picking
@@ -23,6 +23,9 @@ Paper notes live in `01_Papers/`.
 - [[chai2020_using_card]] (2020)
 - [[chai2020_using_note]] (2020)
 - [[chai2020_using_logic]] (2020)
+- [[mcbrearty2023_genie_card]] (2023)
+- [[si2024_plan_allinone_card]] (2024)
+- [[si2024_plan_allinone_note]] (2024)
 
 #### Survey / Review
 
@@ -37,11 +40,18 @@ Paper notes live in `01_Papers/`.
 #### Earthquake Sequence Analysis
 
 - [[liu2020_ridgecrest_note]] (2020)
+- [[zhou2022_yangbi_foreshock_card]] (2022)
+- [[zhou2022_yangbi_foreshock_note]] (2022)
 
 #### Fault Segmentation
 
 - Literature Cards: (to be added)
 - Deep Reading: (to be added)
+
+#### Seismic Facies Segmentation
+
+- [[wang2024_segformer_seismic_facies_card]] (2024)
+- [[wang2024_segformer_seismic_facies_note]] (2024)
 
 #### Seismic Denoising
 
@@ -55,8 +65,8 @@ Paper notes live in `01_Papers/`.
 
 ---
 
-## By Reading Status / 鎸夐槄璇荤姸鎬?
-### To Read / 寰呰
+## By Reading Status / 按阅读状态
+### To Read / 待读
 
 Papers tagged `#to-
 
@@ -77,16 +87,16 @@ Papers tagged `#to-
 - [[yadav2025_hybrid_transformer_landslide_note]] (2025)
 - [[zhang2020_ds_ifn_cd_card]] (2020)read`.
 
-### In Progress / 闃呰涓?
+### In Progress / 阅读中涓?
 Papers tagged `#reading`.
 
-### Completed / 宸茶
+### Completed / 已完成
 
 Papers tagged `#done`.
 
-### Key Papers / 閲嶇偣璁烘枃
+### Key Papers / 重点论文
 
-Papers tagged `#key-paper` 鈥?exceptional importance.
+Papers tagged `#key-paper` — exceptional importance.
 
 ---
 
@@ -103,7 +113,7 @@ SORT year DESC
 
 ---
 
-## Navigation / 瀵艰埅
+## Navigation / 导航
 
 - Back to [[Home]]
 - Templates: [[Literature_Card_Template]], [[Paper_Template]]
@@ -116,3 +126,12 @@ SORT year DESC
 
 
 
+
+#### Method Innovation
+
+- [[wang2024_segformer_seismic_facies_card]] (2024)
+- [[wang2024_segformer_seismic_facies_note]] (2024)
+- [[si2024_plan_allinone_card]] (2024)
+- [[si2024_plan_allinone_note]] (2024)
+- [[mcbrearty2023_genie_card]] (2023)
+- [[mcbrearty2023_genie_note]] (2023)

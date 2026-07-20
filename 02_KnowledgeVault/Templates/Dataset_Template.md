@@ -43,7 +43,7 @@ created: {{date}}
 
 - **Loading / 加载**: 
 - **Preprocessing / 预处理**: 
-- **Data Location / 数据位置**: `D:\ResearchAI_Data\datasets\{{dataset_name}}`
+- **Data Location / 数据位置**: `/home/lco/ResearchAI_Data/datasets/{{dataset_name}}`
 
 # Benchmark Results / 基准结果
 

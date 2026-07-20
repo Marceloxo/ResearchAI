@@ -7,6 +7,7 @@ task: ["Full Waveform Inversion"]
 official_link: "https://openfwi.github.io/OpenFWI/"
 related_papers: ["Abraham et al. (2020)"]
 tags: [seismic, fwI, inversion]
+source_type: public_dataset
 created: 2026-07-08
 ---
 
@@ -41,3 +42,7 @@ OpenFWI is an open benchmark dataset for Full Waveform Inversion (FWI) in seismi
 
 - Synthetic data only — does not capture real acquisition effects
 - Focuses on inversion, not segmentation
+
+## Tasks Using This Dataset / 使用该数据集的任务
+
+- Full Waveform Inversion — OpenFWI benchmark (no dedicated task node yet)

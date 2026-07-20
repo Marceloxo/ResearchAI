@@ -1,0 +1,507 @@
+registry:
+  version: '1.0'
+  generated: '2026-07-18T12:41:52'
+  source: scan_registry.py automated scan
+  zotero_db: /home/lco/ResearchAI_Data/Zotero/zotero.sqlite
+  mineru_md: /home/lco/ResearchAI_Data/Paper/MinerU_md
+  knowledgevault_dir: /home/lco/ResearchAI/02_KnowledgeVault/01_Papers
+summary:
+  total_zotero_papers: 33
+  pdfs_available: 27
+  mineru_complete: 27
+  mineru_partial: 0
+  mineru_pending: 6
+  agent_state:
+    literature_card:
+      PENDING: 6
+      IN_PROGRESS: 0
+      COMPLETE: 27
+    deep_read:
+      PENDING: 26
+      IN_PROGRESS: 0
+      COMPLETE: 7
+    method_extraction:
+      PENDING: 33
+      IN_PROGRESS: 0
+      COMPLETE: 0
+    obsidian_note:
+      PENDING: 33
+      IN_PROGRESS: 0
+      COMPLETE: 0
+papers:
+- paper_key: 3HB6LAR9
+  att_key: UJ95QNW9
+  title: 'LandslideSegNet: an effective deep learning network for landslide segmentation
+    using remote sensing imagery'
+  type: journalArticle
+  date_added: '2026-07-10 02:01:52'
+  pdf_exists: true
+  mineru_folder: Şener和Ergen - 2024 - LandslideSegNet an effective deep learning network
+    for landslide segmentation using remote sensing.pdf-68ed30b6-e754-4338-8fd0-ce60a5bcf092
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: 43PF2JMB
+  att_key: JEIK5MKZ
+  title: Machine-Learning-Based High-Resolution Earthquake Catalog Reveals How Complex
+    Fault Structures Were Activated during the 2016–2017 Central Italy Sequence
+  type: journalArticle
+  date_added: '2026-07-08 15:41:38'
+  pdf_exists: true
+  mineru_folder: Tan 等 - 2021 - Machine-Learning-Based High-Resolution Earthquake
+    Catalog Reveals How Complex Fault Structures Were-43PF2JMB
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: 5JGQ7YTL
+  att_key: LM3S7TX8
+  title: 'A high-resolution seismic catalog for the 2021 MS6.4/MW6.1 Yangbi earthquake
+    sequence, Yunnan, China: Application of AI picker and matched filter'
+  type: journalArticle
+  date_added: '2026-07-09 17:26:09'
+  pdf_exists: true
+  mineru_folder: Zhou 等 - 2021 - A high-resolution seismic catalog for the 2021 MS6.4MW6.1
+    Yangbi earthquake sequence, Yunnan, China.pdf-a188feb1-2973-4fa4-b707-b97aa174eae2
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: 5L2QLL47
+  att_key: 9W23DNVG
+  title: Using a Deep Neural Network and Transfer Learning to Bridge Scales for Seismic
+    Phase Picking
+  type: journalArticle
+  date_added: '2026-07-08 15:41:24'
+  pdf_exists: true
+  mineru_folder: Chai 等 - 2020 - Using a Deep Neural Network and Transfer Learning
+    to Bridge Scales for Seismic Phase Picking
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: COMPLETE
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: 6HWKP8EC
+  att_key: UL36XRSA
+  title: A deeply supervised image fusion network for change detection in high resolution
+    bi-temporal remote sensing images
+  type: journalArticle
+  date_added: '2026-07-10 02:02:40'
+  pdf_exists: true
+  mineru_folder: Zhang 等 - 2020 - A deeply supervised image fusion network for change
+    detection in high resolution bi-temporal remote.pdf-6dbf493f-afab-431d-8a0a-352fa28ae2ff
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: COMPLETE
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: 79AR33SX
+  att_key: AJINC2AY
+  title: BUILDING DISASTER DAMAGE ASSESSMENT IN SATELLITE IMAGERY WITH MULTI-TEMPORAL
+    FU-
+  type: journalArticle
+  date_added: '2026-07-10 02:01:43'
+  pdf_exists: true
+  mineru_folder: Weber和Kan - 2020 - BUILDING DISASTER DAMAGE ASSESSMENT IN SATELLITE
+    IMAGERY WITH MULTI-TEMPORAL FU-.pdf-fb3486e9-b17d-4152-b954-91b4bd452655
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: 7JZTDVB3
+  att_key: LDQ9IIMY
+  title: An all-in-one seismic phase picking, location, and association network for
+    multi-task multi-station earthquake monitoring
+  type: journalArticle
+  date_added: '2026-07-09 17:26:23'
+  pdf_exists: true
+  mineru_folder: Si 等 - 2024 - An all-in-one seismic phase picking, location, and
+    association network for multi-task multi-station.pdf-8a6e77c2-f4a0-498b-b86e-e5069eef9275
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: 89DCUBSH
+  att_key: RDXHK4FQ
+  title: High-resolution seismicity imaging and early aftershock migration of the
+    2023 Kahramanmaraş (SE Türkiye) MW7.9 & 7.8 earthquake doublet
+  type: journalArticle
+  date_added: '2026-07-09 17:26:19'
+  pdf_exists: true
+  mineru_folder: Ding 等 - 2023 - High-resolution seismicity imaging and early aftershock
+    migration of the 2023 Kahramanmaraş (SE Türk.pdf-e3bf5ec2-65f9-4757-8ce8-9e7831c981b1
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: 8PQBD3RU
+  att_key: J2ML7W6A
+  title: Seismic Facies Segmentation via a Segformer-Based Specific Encoder–Decoder–Hypercolumns
+    Scheme
+  type: journalArticle
+  date_added: '2026-07-09 13:50:04'
+  pdf_exists: true
+  mineru_folder: Seismic Facies Segmentation via a Segformer-Based Specific Encoder–Decoder–Hypercolumns
+    Scheme-8PQBD3RU
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: CY43XIQN
+  att_key: 76SW77W3
+  title: Automated deformation detection and interpretation using InSAR data and a
+    multi-task ViT model
+  type: journalArticle
+  date_added: '2026-07-10 02:32:55'
+  pdf_exists: true
+  mineru_folder: Abdallah 等 - 2024 - Automated deformation detection and interpretation
+    using InSAR data and a multi-task ViT model.pdf-bd0d85e1-11ee-4b4a-a728-75290aff88d2
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: COMPLETE
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: D98KRK3B
+  att_key: VPZLHRS4
+  title: 'Machine‐Learning‐Based Analysis of the Guy‐Greenbrier, Arkansas Earthquakes:
+    A Tale of Two Sequences'
+  type: journalArticle
+  date_added: '2026-07-08 15:41:33'
+  pdf_exists: true
+  mineru_folder: Park 等 - 2020 - Machine‐Learning‐Based Analysis of the Guy‐Greenbrier,
+    Arkansas Earthquakes A Tale of Two Sequences-D98KRK3B
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: FAA4JYRC
+  att_key: K9XWQTIL
+  title: Rapid Characterization of the July 2019 Ridgecrest, California, Earthquake
+    Sequence From Raw Seismic Data Using Machine‐Learning Phase Picker
+  type: journalArticle
+  date_added: '2026-07-08 15:41:28'
+  pdf_exists: true
+  mineru_folder: Liu 等 - 2020 - Rapid Characterization of the July 2019 Ridgecrest,
+    California, Earthquake Sequence From Raw Seismic-FAA4JYRC
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: COMPLETE
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: FGFVQ8EP
+  att_key: NCKCP6BS
+  title: Landslide Detection and Segmentation Using Remote Sensing Images and Deep
+    Neural Networks
+  type: conferencePaper
+  date_added: '2026-07-10 02:08:42'
+  pdf_exists: true
+  mineru_folder: 2312.16717v1.pdf-02e09c3b-9eb7-431d-bd0a-4f99cd221909
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: COMPLETE
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: FL6TSZPA
+  att_key: UMP6Z9X6
+  title: 'QuakeFlow: a scalable machine-learning-based earthquake monitoring workflow
+    with cloud computing'
+  type: journalArticle
+  date_added: '2026-07-10 01:16:10'
+  pdf_exists: false
+  mineru_folder: null
+  mineru_state: MINERU_PENDING
+  agent_state:
+    literature_card: PENDING
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: H9LQNVTM
+  att_key: 4FGLWW2T
+  title: Generalized Seismic Phase Detection with Deep Learning
+  type: journalArticle
+  date_added: '2026-07-10 01:16:30'
+  pdf_exists: false
+  mineru_folder: null
+  mineru_state: MINERU_PENDING
+  agent_state:
+    literature_card: PENDING
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: II3UGDYS
+  att_key: D73BIMDV
+  title: SeisBench -- A Toolbox for Machine Learning in Seismology
+  type: preprint
+  date_added: '2026-07-10 01:16:16'
+  pdf_exists: false
+  mineru_folder: null
+  mineru_state: MINERU_PENDING
+  agent_state:
+    literature_card: PENDING
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: JCKZQTYW
+  att_key: IATKSLBG
+  title: DTPP:An efficient depthwise separable TCN for seismic phase picking
+  type: journalArticle
+  date_added: '2026-07-10 09:18:21'
+  pdf_exists: true
+  mineru_folder: Lv和Peng - 2026 - DTPPAn efficient depthwise separable TCN for seismic
+    phase picking.pdf-6ec18a94-1219-495c-b910-46f8653fe331
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: JM2US4DM
+  att_key: JXS7GPZW
+  title: Deep Learning for Automatic Detection of Volcanic and Earthquake-Related
+    InSAR Deformation
+  type: journalArticle
+  date_added: '2026-07-10 02:32:48'
+  pdf_exists: true
+  mineru_folder: Liu 等 - 2025 - Deep Learning for Automatic Detection of Volcanic
+    and Earthquake-Related InSAR Deformation.pdf-133bbcc3-4f87-419f-874a-d394a1997d35
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: KGC7EEQX
+  att_key: 94NARCAD
+  title: 3D fault architecture controls the dynamism of earthquake swarms
+  type: journalArticle
+  date_added: '2026-07-09 11:47:37'
+  pdf_exists: true
+  mineru_folder: Ross 等 - 3D fault architecture controls the dynamism of earthquake
+    swarms-KGC7EEQX
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: LY282M9N
+  att_key: 46C4TYYR
+  title: Remote Sensing Image Change Detection With Transformers
+  type: journalArticle
+  date_added: '2026-07-10 02:02:54'
+  pdf_exists: true
+  mineru_folder: Chen 等 - 2022 - Remote Sensing Image Change Detection With Transformers.pdf-0650cfba-bb66-485f-ba67-ecd029175725
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: N7UP2CZT
+  att_key: 2XQFZKZN
+  title: A Transformer-Based Siamese Network for Change Detection
+  type: conferencePaper
+  date_added: '2026-07-10 02:01:38'
+  pdf_exists: true
+  mineru_folder: Bandara和Patel - 2022 - A Transformer-Based Siamese Network for Change
+    Detection.pdf-4e820481-75e7-467b-9869-1ef40db602f0
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: COMPLETE
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: PW86NPCG
+  att_key: SNZGPVWJ
+  title: 'OBSTransformer: a deep-learning seismic phase picker for OBS data using
+    automated labelling and transfer learning'
+  type: journalArticle
+  date_added: '2026-07-10 01:15:58'
+  pdf_exists: false
+  mineru_folder: null
+  mineru_state: MINERU_PENDING
+  agent_state:
+    literature_card: PENDING
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: RIGVWYL3
+  att_key: PKGESHPH
+  title: 'Seismological Characterization of the 2021 Yangbi Foreshock‐Mainshock Sequence,
+    Yunnan, China: More than a Triggered Cascade'
+  type: journalArticle
+  date_added: '2026-07-09 17:26:13'
+  pdf_exists: true
+  mineru_folder: Zhou 等 - 2022 - Seismological Characterization of the 2021 Yangbi
+    Foreshock‐Mainshock Sequence, Yunnan, China More.pdf-155cbe33-2dc5-4af7-9930-ec0d6d69bc80
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: SQT45NJU
+  att_key: 3ZLDQRA3
+  title: Hybrid lightweight transformer for efficient landslide change detection in
+    remote sensing imagery
+  type: journalArticle
+  date_added: '2026-07-10 02:01:48'
+  pdf_exists: true
+  mineru_folder: Yadav 等 - 2025 - Hybrid lightweight transformer for efficient landslide
+    change detection in remote sensing imagery.pdf-d50f131c-b377-4460-8a5c-9913a8278147
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: TSQGFMA2
+  att_key: 6VTKJ8W2
+  title: 'SNUNet-CD: A Densely Connected Siamese Network for Change Detection of VHR
+    Images'
+  type: journalArticle
+  date_added: '2026-07-10 02:02:47'
+  pdf_exists: true
+  mineru_folder: Fang 等 - 2022 - SNUNet-CD A Densely Connected Siamese Network for
+    Change Detection of VHR Images.pdf-a5830dbe-84a4-4114-82c4-55c059653c61
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: COMPLETE
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: VDGWT3R3
+  att_key: 2ZVY52Y6
+  title: Earthquake Phase Association with Graph Neural Networks
+  type: journalArticle
+  date_added: '2026-07-09 17:26:02'
+  pdf_exists: true
+  mineru_folder: McBrearty和Beroza - 2023 - Earthquake Phase Association with Graph
+    Neural Networks.pdf-de0530a4-5811-488a-9651-8f9a7671e8c0
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: VSG3K538
+  att_key: 2U6E8WAQ
+  title: 'PhaseNet: A Deep-Neural-Network-Based Seismic Arrival Time Picking Method'
+  type: journalArticle
+  date_added: '2026-07-08 15:41:20'
+  pdf_exists: true
+  mineru_folder: Zhu和Beroza - 2018 - PhaseNet A Deep-Neural-Network-Based Seismic
+    Arrival Time Picking Method-VSG3K538
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: XYZBCLGH
+  att_key: M8TB5AYY
+  title: Machine Learning in Earthquake Seismology
+  type: journalArticle
+  date_added: '2026-07-09 11:47:44'
+  pdf_exists: true
+  mineru_folder: Mousavi和Beroza - 2023 - Machine Learning in Earthquake Seismology-XYZBCLGH
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: YQDJU2Y6
+  att_key: RRC82BEC
+  title: 'Landslide4Sense: Reference Benchmark Data and Deep Learning Models for Landslide
+    Detection'
+  type: journalArticle
+  date_added: '2026-07-10 02:02:33'
+  pdf_exists: true
+  mineru_folder: Ghorbanzadeh 等 - 2022 - Landslide4Sense Reference Benchmark Data
+    and Deep Learning Models for Landslide Detection.pdf-a4cfc830-4943-46b6-859d-0e71ebba8701
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: YUB9FY6Q
+  att_key: SGUIYBB2
+  title: Literature review on deep learning for the segmentation of seismic images
+  type: journalArticle
+  date_added: '2026-07-08 16:07:46'
+  pdf_exists: true
+  mineru_folder: Literature review on deep learning for the segmentation of seismic
+    images-YUB9FY6Q
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: YW7ADGN9
+  att_key: YBD3XX66
+  title: 'CRED: A Deep Residual Network of Convolutional and Recurrent Units for Earthquake
+    Signal Detection'
+  type: journalArticle
+  date_added: '2026-07-10 01:16:23'
+  pdf_exists: false
+  mineru_folder: null
+  mineru_state: MINERU_PENDING
+  agent_state:
+    literature_card: PENDING
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: YXFR9DZT
+  att_key: 5VQITCT8
+  title: 'PickBlue: Seismic Phase Picking for Ocean Bottom Seismometers With Deep
+    Learning'
+  type: journalArticle
+  date_added: '2026-07-10 01:16:04'
+  pdf_exists: false
+  mineru_folder: null
+  mineru_state: MINERU_PENDING
+  agent_state:
+    literature_card: PENDING
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING
+- paper_key: ZN6HHVJ7
+  att_key: QKMKLG2N
+  title: Earthquake transformer—an attentive deep-learning model for simultaneous
+    earthquake detection and phase picking
+  type: journalArticle
+  date_added: '2026-07-09 04:00:59'
+  pdf_exists: true
+  mineru_folder: Mousavi 等 - 2020 - Earthquake transformer—an attentive deep-learning
+    model for simultaneous earthquake detection and ph-ZN6HHVJ7
+  mineru_state: MINERU_COMPLETE
+  agent_state:
+    literature_card: COMPLETE
+    deep_read: PENDING
+    method_extraction: PENDING
+    obsidian_note: PENDING

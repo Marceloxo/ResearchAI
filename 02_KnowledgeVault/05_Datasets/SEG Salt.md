@@ -7,6 +7,7 @@ task: ["Salt Body Segmentation"]
 official_link: "https://wiki.seg.org/wiki/Phantom_model_for_salt_structures"
 related_papers: ["Shi et al. (2019)", "Kaggle TGS Salt Challenge"]
 tags: [seismic, salt-segmentation, benchmark]
+source_type: public_dataset
 created: 2026-07-08
 ---
 
@@ -49,3 +50,7 @@ The SEG Salt Body Benchmark is a classic dataset for salt dome and salt body ide
 
 - Binary task only (salt vs. non-salt), less complex than facies segmentation
 - Limited published comparisons on this dataset
+
+## Tasks Using This Dataset / 使用该数据集的任务
+- [[Seismic Facies Segmentation]] — Salt body segmentation benchmark
+- [[Seismic Image Segmentation]] — Kaggle competition dataset

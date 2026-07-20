@@ -7,6 +7,7 @@ task: ["Facies Segmentation"]
 official_link: "https://wiki.seg.org/wiki/Dictionary:Penobscot_3D_dataset"
 related_papers: ["Baroni et al. (2018)", "Baroni et al. (2019)"]
 tags: [seismic, facies-segmentation, benchmark]
+source_type: public_dataset
 created: 2026-07-08
 ---
 
@@ -43,3 +44,6 @@ The Penobscot 3D dataset is a Canadian offshore seismic survey with a detailed f
 
 - Less widely used than F3 Netherlands or Parihaka
 - Limited number of published comparative studies
+
+## Tasks Using This Dataset / 使用该数据集的任务
+- [[Seismic Facies Segmentation]] — Canadian offshore; CC-BY interpretation by Baroni et al.

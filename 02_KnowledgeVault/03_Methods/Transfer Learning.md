@@ -1,4 +1,4 @@
-﻿---
+---
 method_name: "Transfer Learning"
 category: "Domain Adaptation Technique"
 application: ["Seismic Phase Picking", "Image Segmentation", "Time Series Classification"]

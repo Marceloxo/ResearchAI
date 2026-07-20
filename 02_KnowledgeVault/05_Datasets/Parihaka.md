@@ -7,6 +7,7 @@ task: ["Lithofacies Segmentation"]
 official_link: "https://www.pets.govt.nz/resources/geoscience-data/parihaka-3d-seismic-data/"
 related_papers: ["Chevron (Inc)", "Wang et al. (2021)", "Li et al. (2022)", "Tolstaya and Egorov (2022)"]
 tags: [seismic, facies-segmentation, benchmark]
+source_type: public_dataset
 created: 2026-07-08
 ---
 
@@ -54,3 +55,6 @@ The Parihaka dataset is an offshore New Zealand 3D seismic survey with a detaile
 
 - Relatively recent addition to the benchmark pool (2020+)
 - Limited number of published studies compared to F3 Netherlands
+
+## Tasks Using This Dataset / 使用该数据集的任务
+- [[Seismic Facies Segmentation]] — Offshore NZ 3D seismic; CC-BY interpretation

@@ -28,3 +28,20 @@ Detailed, structured descriptions of research methods and algorithms. Each note 
 2. Maintain a "family tree" of method variants (e.g., U-Net → Attention U-Net → U-Net++).
 3. When asked to compare methods, consult this directory and generate structured comparisons.
 4. Link method notes to their implementations in `03_Projects/`.
+
+## Knowledge Node Files
+
+- [[Attention Mechanism]] — Attention mechanisms for seismic data
+- [[CNN]] — Convolutional Neural Networks for seismic image processing
+- [[GENIE]] — GNN-based phase association and earthquake detection
+- [[Multi-task Learning]] — Joint optimization of multiple seismic tasks
+- [[PhaseNet]] — Deep learning seismic phase picker
+- [[PLAN]] — All-in-one multi-station GNN for picking, association, location
+- [[ResNet]] — Residual networks for seismic classification
+- [[SegFormer]] — Hierarchical Transformer encoder for segmentation
+- [[Swin Transformer]] — Shifted window Transformer for seismic imagery
+- [[Transfer Learning]] — Pre-trained model adaptation for seismic tasks
+- [[Transformer]] — Self-attention architecture for seismic signal processing
+- [[U-Net]] — Encoder-decoder segmentation for seismic fault detection
+- [[U-SegFormer-Hyper]] — Lightweight U-shaped Transformer for seismic facies segmentation
+- [[Vision Transformer]] — Vision Transformer for seismic image analysis

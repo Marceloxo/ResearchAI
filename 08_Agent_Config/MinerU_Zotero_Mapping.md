@@ -67,7 +67,22 @@ Step 6: Set Status to PROCESSED
 | bandara2022_changeformer | 2XQFZKZN | Bandara和Patel - 2022 - A Transformer...pdf | Bandara和Patel - 2022 - ...pdf-4e820481... | bandara2022_changeformer_card.md, bandara2022_changeformer_note.md | C2 |
 | lv2026_dttp | IATKSLBG | Lv和Peng - 2026 - DTPP...pdf | Lv和Peng - 2026 - ...pdf-6ec18a94... | lv2026_dttp_card.md | LEVEL_1_DONE |
 
+| XYZBCLGH | Machine Learning in Earthquake Seismology | M8TB5AYY | Mousavi和Beroza - 2023 - Machine Learning in Earthquake Seismology.pdf-XYZBCLGH | pending | LEVEL_1_DONE |
+| KGC7EEQX | 3D fault architecture controls swarm dynamism | 94NARCAD | Ross 等 - 3D fault architecture controls the dynamism of earthquake swarms.pdf-KGC7EEQX | pending | LEVEL_1_DONE |
+| ZN6HHVJ7 | Earthquake transformer | QKMKLG2N | Mousavi 等 - 2020 - Earthquake transformer...pdf-ZN6HHVJ7 | pending | LEVEL_2_DONE |
+| 43PF2JMB | High-Res Earthquake Catalog (Central Italy) | JEIK5MKZ | Tan 等 - 2021 - Machine-Learning-Based...pdf-43PF2JMB | pending | LEVEL_1_DONE |
+| D98KRK3B | Guy-Greenbrier Earthquakes Analysis | VPZLHRS4 | Park 等 - 2020 - Machine-Learning-Based Analysis...pdf-D98KRK3B | pending | LEVEL_1_DONE |
+| FAA4JYRC | Ridgecrest Sequence Characterization | K9XWQTIL | Liu 等 - 2020 - Rapid Characterization...pdf-FAA4JYRC | pending | LEVEL_2_DONE |
+| VSG3K538 | PhaseNet: Deep Neural Network Arrival Picking | 2U6E8WAQ | Zhu和Beroza - 2018 - PhaseNet...pdf-VSG3K538 | pending | LEVEL_2_DONE |
+
+| wang2024_segformer | Seismic Facies Segmentation via Segformer | J2ML7W6A | Wang 等 - 2023 - Seismic Facies Segmentation...pdf-J2ML7W6A | wang2024_segformer_seismic_facies_card.md, wang2024_segformer_seismic_facies_note.md | LEVEL_2_DONE
+| mcbrearty2023_genie | Earthquake Phase Association with GNN | 2ZVY52Y6 | McBrearty和Beroza - 2023 - Earthquake Phase Association...pdf-2ZVY52Y6 | mcbrearty2023_genie_card.md, mcbrearty2023_genie_note.md | LEVEL_2_DONE
+
+| si2024_plan | An all-in-one seismic phase picking, location, and association network | LDQ9IIMY | Si 等 - 2024 - An all-in-one seismic phase picking...pdf-LDQ9IIMY | si2024_plan_allinone_card.md, si2024_plan_allinone_note.md | LEVEL_2_DONE
+| zhou2022_yangbi | Seismological Characterization of the 2021 Yangbi Foreshock-Mainshock Sequence | PKGESHPH | Zhou 等 - 2022 - Seismological Characterization...pdf-PKGESHPH | zhou2022_yangbi_foreshock_card.md, zhou2022_yangbi_foreshock_note.md | LEVEL_2_DONE
+
 ## Status Definitions
+
 
 | Status | Meaning |
 |---|---|
