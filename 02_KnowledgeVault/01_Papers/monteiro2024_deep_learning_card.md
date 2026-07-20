@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Literature Review on Deep Learning for the Segmentation of Seismic Images"
 authors: [survey paper]
 year: 2023

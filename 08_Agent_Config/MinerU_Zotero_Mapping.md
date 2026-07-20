@@ -1,4 +1,4 @@
-﻿# MinerU 鈫?Zotero 鈫?KnowledgeVault Mapping
+# MinerU 鈫?Zotero 鈫?KnowledgeVault Mapping
 
 > **Purpose**: Trace every processed paper from its Zotero source through MinerU output to KnowledgeVault notes.
 > **Maintained by**: Agent during batch processing.

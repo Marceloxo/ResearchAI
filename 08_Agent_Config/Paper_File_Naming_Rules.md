@@ -1,4 +1,4 @@
-﻿# Paper File Naming Rules
+# Paper File Naming Rules
 
 ## Purpose
 

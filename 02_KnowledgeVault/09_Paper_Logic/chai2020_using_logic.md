@@ -1,4 +1,4 @@
-﻿---
+---
 paper: "chai2020_using"
 venue: "Geophysical Research Letters"
 research_field: "Seismic Phase Picking"

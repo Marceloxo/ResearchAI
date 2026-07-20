@@ -1,4 +1,4 @@
-﻿> **DEPRECATED: v1 format.** This file uses the old Paper Logic template (pre-Stage 1.5-4). Do not use for new papers. See chai2020_using_logic.md for the current Argument Mining format.
+> **DEPRECATED: v1 format.** This file uses the old Paper Logic template (pre-Stage 1.5-4). Do not use for new papers. See chai2020_using_logic.md for the current Argument Mining format.
 ---
 paper: "chai2020_using"
 venue: "Geophysical Research Letters"

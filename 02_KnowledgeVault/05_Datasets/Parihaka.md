@@ -35,7 +35,7 @@ The Parihaka dataset is an offshore New Zealand 3D seismic survey with a detaile
 
 - **Loading / 加载**: Standard SEGY reader
 - **Preprocessing / 预处理**: Normalization, patch extraction
-- **Data Location / 数据位置**: `D:\ResearchAI_Data\datasets\Parihaka`
+- **Data Location / 数据位置**: `/home/lco/ResearchAI_Data/datasets\Parihaka`
 
 # Benchmark Results / 基准结果
 

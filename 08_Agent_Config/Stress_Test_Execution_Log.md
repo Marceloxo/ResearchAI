@@ -1,4 +1,4 @@
-﻿# Stress Test Execution Log
+# Stress Test Execution Log
 
 > This document tracks every paper processed during the Stage 1.5-6B stress test.
 > One section per paper. Append new entries as papers are processed.

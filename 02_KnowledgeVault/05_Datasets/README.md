@@ -18,7 +18,7 @@ Central registry of datasets used or referenced in research. Each note documents
 - Referenced by paper notes in `01_Papers/`.
 - Linked from task notes in `04_Tasks/` as benchmarks.
 - Used by experiments in `06_Experiments/`.
-- Actual data files stored in `D:\ResearchAI_Data\datasets\` (external to vault).
+- Actual data files stored in `/home/lco/ResearchAI_Data/datasets\` (external to vault).
 - Preprocessing tools in `04_Tools/` (external to vault).
 
 ## AI Agent Usage

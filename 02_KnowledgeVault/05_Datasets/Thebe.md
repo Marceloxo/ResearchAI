@@ -33,7 +33,7 @@ The Thebe dataset is a multi-expert interpreted fault benchmark. It was created 
 # Usage / 使用方式
 
 - **Loading / 加载**: Standard seismic format with annotation masks
-- **Data Location / 数据位置**: `D:\ResearchAI_Data\datasets\Thebe`
+- **Data Location / 数据位置**: `/home/lco/ResearchAI_Data/datasets\Thebe`
 
 # Related Papers / 相关论文
 

@@ -35,7 +35,7 @@ EGS Collab SURF Experiment 1 is a meter-scale hydraulic fracturing monitoring da
 # Usage
 - **Loading**: Standard seismogram format
 - **Preprocessing**: Bandpass filter 3-20kHz recommended
-- **Data Location**: `D:\ResearchAI_Data\Datasets\EGS_Collab_SURF\`
+- **Data Location**: `/home/lco/ResearchAI_Data/Datasets\EGS_Collab_SURF\`
 
 # Benchmark Results
 | Method | P Precision | S Precision | Notes |

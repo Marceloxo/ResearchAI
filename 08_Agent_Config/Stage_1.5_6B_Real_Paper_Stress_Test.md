@@ -1,4 +1,4 @@
-﻿# Stage 1.5-6B 鈥?Real Paper Stress Test Protocol
+# Stage 1.5-6B 鈥?Real Paper Stress Test Protocol
 
 ## Objective
 

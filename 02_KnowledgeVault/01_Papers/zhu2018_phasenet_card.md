@@ -1,4 +1,4 @@
-﻿---
+---
 title: "PhaseNet: a deep-neural-network-based seismic arrival-time picking method"
 authors: [Zhu, Beroza]
 year: 2019

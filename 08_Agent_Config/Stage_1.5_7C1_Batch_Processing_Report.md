@@ -1,4 +1,4 @@
-﻿
+
 ---
 
 # APPENDIX A: C:\ResearchAI\ Directory Listing

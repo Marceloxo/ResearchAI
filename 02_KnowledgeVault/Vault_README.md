@@ -116,8 +116,8 @@ Use `[[wikilink]]` syntax for all internal vault links.
 For content outside the vault (e.g., papers in `01_Literature/`, code in `03_Projects/`), use full paths:
 
 ```
-[Paper PDF](C:\ResearchAI\01_Literature\PDFs\paper.pdf)
-[Project Code](C:\ResearchAI\03_Projects\SeismicFaultSegmentation)
+[Paper PDF](/home/lco/ResearchAI/01_Literature\PDFs\paper.pdf)
+[Project Code](/home/lco/ResearchAI/03_Projects\SeismicFaultSegmentation)
 ```
 
 ---

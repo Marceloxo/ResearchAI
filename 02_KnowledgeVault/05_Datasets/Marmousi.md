@@ -33,7 +33,7 @@ Marmousi is a classic synthetic seismic model created by the Consortium Project 
 # Usage / 使用方式
 
 - **Loading / 加载**: Synthetic data format
-- **Data Location / 数据位置**: `D:\ResearchAI_Data\datasets\Marmousi`
+- **Data Location / 数据位置**: `/home/lco/ResearchAI_Data/datasets\Marmousi`
 
 # Related Papers / 相关论文
 

@@ -34,7 +34,7 @@ The Penobscot 3D dataset is a Canadian offshore seismic survey with a detailed f
 
 - **Loading / 加载**: Standard SEGY reader
 - **Preprocessing / 预处理**: Normalization, patch extraction
-- **Data Location / 数据位置**: `D:\ResearchAI_Data\datasets\Penobscot`
+- **Data Location / 数据位置**: `/home/lco/ResearchAI_Data/datasets\Penobscot`
 
 # Related Papers / 相关论文
 

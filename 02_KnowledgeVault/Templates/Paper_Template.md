@@ -1,4 +1,4 @@
-﻿---
+---
 title: "{{title}}"
 authors: [{{authors}}]
 year: {{year}}
@@ -15,90 +15,91 @@ tags: []
 created: {{date}}
 ---
 
-# Paper Type / 璁烘枃绫诲瀷
+# Paper Type / 论文类型
 
-<!-- 鏄庣‘璁烘枃绫诲瀷锛屼笉鍚岀被鍨嬮噰鐢ㄤ笉鍚屽垎鏋愭柟寮忥細
-- research_article: 鎻愬嚭鏂版柟娉?鏂版ā鍨?鈫?閲嶇偣鍒嗘瀽鏂规硶銆佸疄楠屻€佺粨鏋?- survey/review: 缁艰堪鐜版湁宸ヤ綔 鈫?閲嶇偣鍒嗘瀽taxonomy銆乧overage銆乬aps
-- benchmark: 鎻愪緵鍩哄噯娴嬭瘯 鈫?閲嶇偣鍒嗘瀽浠诲姟瀹氫箟銆佽瘎浠锋寚鏍囥€佸熀绾挎柟娉?-->
+<!-- 明确论文类型，不同类型采用不同分析方式：
+- research_article: 提出新方法/新模型 → 重点分析方法、实验、结果
+- survey/review: 综述现有工作 → 重点分析taxonomy、coverage、gaps
+- benchmark: 提供基准测试 → 重点分析任务定义、评估指标、基线方法 -->
 
 Type: {{paper_type}}
 
-# One Sentence Summary / 涓€鍙ヨ瘽鎬荤粨
+# One Sentence Summary / 一句话总结
 
-<!-- 鐢ㄤ竴鍙ヨ瘽姒傛嫭杩欑瘒璁烘枃鍋氫簡浠€涔堛€佹€庝箞鍋氱殑銆佹晥鏋滃浣?-->
+<!-- 用一句话概括这篇论文做了什么、怎么做的、效果如何？ -->
 
-# Research Background / 鐮旂┒鑳屾櫙
+# Research Background / 研究背景
 
-<!-- 璁烘枃瑙ｅ喅浠€涔堥棶棰橈紵涓轰粈涔堣繖涓棶棰橀噸瑕侊紵 -->
+<!-- 论文解决什么问题？为什么这个问题重要？ -->
 
-# Problem Definition / 闂瀹氫箟
+# Problem Definition / 问题定义
 
-- **Input / 杈撳叆**:
-- **Output / 杈撳嚭**:
+- **Input / 输入**:
+- **Output / 输出**:
 
-# Motivation / 鐮旂┒鍔ㄦ満
+# Motivation / 研究动机
 
-<!-- 宸叉湁鏂规硶鐨勪笉瓒虫槸浠€涔堬紵璁烘枃閽堝浠€涔堢棝鐐癸紵 -->
+<!-- 已有方法的不足是什么？论文针对什么痛点？ -->
 
-# Main Contributions / 涓昏璐＄尞
+# Main Contributions / 主要贡献
 
 1. 
 2. 
 3. 
 
-# Method / 鏂规硶
+# Method / 方法
 
-## Overall Framework / 鏁翠綋妗嗘灦
+## Overall Framework / 整体框架
 
-<!-- 绯荤粺鏁翠綋鏋舵瀯鎻忚堪 -->
+<!-- 系统整体架构描述 -->
 
-## Key Modules / 鍏抽敭妯″潡
+## Key Modules / 关键模块
 
 ### Module 1: {{module_name}}
 
-<!-- 鎻忚堪 -->
+<!-- 描述 -->
 
 ### Module 2: {{module_name}}
 
-<!-- 鎻忚堪 -->
+<!-- 描述 -->
 
-## Mathematical Formulation / 鏁板琛ㄨ堪
+## Mathematical Formulation / 数学表述
 
-<!-- 鏍稿績鍏紡鍙婅В閲?-->
-
-$$
+<!-- 核心公式及解释 -->
 
 $$
 
-# Dataset / 鏁版嵁闆?
+$$
+
+# Dataset / 数据集
+
 | Dataset | Size | Modality | Description |
 |---|---|---|---|
 | | | | |
 
-# Experimental Setup / 瀹為獙璁剧疆
+# Experimental Setup / 实验设置
 
-<!-- 璁粌閰嶇疆銆佽秴鍙傛暟銆佸姣旀柟娉曠瓑 -->
+<!-- 训练配置、超参数、对比方法等 -->
 
-# Results / 瀹為獙缁撴灉
+# Results / 实验结果
 
-<!-- 鍏抽敭缁撴灉琛ㄦ牸/鍥捐〃鍒嗘瀽 -->
+<!-- 关键结果表格/图表分析 -->
 
-# Ablation Study / 娑堣瀺瀹為獙
+# Ablation Study / 消融实验
 
-<!-- 鍚勬ā鍧楃殑鏈夋晥鎬ч獙璇?-->
+<!-- 各模块的有效性验证 -->
 
-# Limitation / 灞€闄愭€?<!-- 璁烘枃鑷繁鎵胯鐨勫眬闄?+ 浣犵湅鍒扮殑灞€闄?-->
+# Limitation / 局限性 <!-- 论文自己承认的局限 + 你看到的局限 -->
 
-# My Analysis / 鎴戠殑鍒嗘瀽
+# My Analysis / 我的分析
 
-## Transferable Ideas / 鍙縼绉绘€濇兂
+## Transferable Ideas / 可迁移思想
 
-<!-- 鍝簺鎬濊矾鍙互鐢ㄥ埌鑷繁鐨勭爺绌讹紵 -->
+<!-- 哪些思路可以用到自己的研究？ -->
 
-## Potential Improvements / 娼滃湪鏀硅繘鏂瑰悜
+## Potential Improvements / 潜在改进方向
 
-<!-- 濡傛灉浣犳潵鍋氾紝浼氭€庝箞鏀硅繘锛?-->
-
+<!-- 如果你来做，会怎么改进？ -->
 
 
 # Reproducibility Analysis / 复现性分析
@@ -159,7 +160,7 @@ $$
 - **Code Exists**: [ ] Yes [ ] No
 - **Paper Actually Reproducible**: [ ] Yes [ ] Partially [ ] No
 - **Gap Between Code Existence and Reproducibility**: <!-- explain if code exists but paper is not reproducible -->
-# Related Notes / 鐩稿叧绗旇
+# Related Notes / 相关笔记
 
 - Method: [[{{methods}}]]
 - Task: [[{{task}}]]

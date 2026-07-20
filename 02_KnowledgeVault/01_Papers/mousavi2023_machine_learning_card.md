@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Machine Learning in Earthquake Seismology"
 authors: [Mousavi, Beroza]
 year: 2023

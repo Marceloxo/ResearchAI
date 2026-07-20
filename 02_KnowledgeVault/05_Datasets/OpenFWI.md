@@ -32,7 +32,7 @@ OpenFWI is an open benchmark dataset for Full Waveform Inversion (FWI) in seismi
 
 # Usage / 使用方式
 
-- **Data Location / 数据位置**: `D:\ResearchAI_Data\datasets\OpenFWI`
+- **Data Location / 数据位置**: `/home/lco/ResearchAI_Data/datasets\OpenFWI`
 
 # Related Papers / 相关论文
 

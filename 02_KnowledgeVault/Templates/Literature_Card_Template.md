@@ -1,4 +1,4 @@
-﻿---
+---
 title: "{{title}}"
 authors: [{{authors}}]
 year: {{year}}

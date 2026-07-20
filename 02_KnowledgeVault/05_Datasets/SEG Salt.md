@@ -33,7 +33,7 @@ The SEG Salt Body Benchmark is a classic dataset for salt dome and salt body ide
 # Usage / 使用方式
 
 - **Loading / 加载**: Standard SEGY reader
-- **Data Location / 数据位置**: `D:\ResearchAI_Data\datasets\SEG Salt`
+- **Data Location / 数据位置**: `/home/lco/ResearchAI_Data/datasets\SEG Salt`
 
 # Benchmark Results / 基准结果
 

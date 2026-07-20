@@ -7,7 +7,7 @@ created: 2026-07-08
 
 Index of all dataset documentation notes in the vault. Each dataset note lives in `05_Datasets/` and follows the `Dataset_Template`.
 
-Actual data files are stored externally: `D:\ResearchAI_Data\datasets\`
+Actual data files are stored externally: `/home/lco/ResearchAI_Data/datasets\`
 
 ---
 

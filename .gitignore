@@ -1,0 +1,31 @@
+# ResearchAI .gitignore
+
+# Backup / migration artifacts
+*.backup_linux_migration
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.bak
+
+# Obsidian plugins (platform-managed, not versioned)
+02_KnowledgeVault/.obsidian/plugins/*/main.js
+02_KnowledgeVault/.obsidian/plugins/*/styles.css
+02_KnowledgeVault/.obsidian/plugins.tar
+
+# Agent session logs
+outputtest.txt
+
+# Editor / IDE
+.obsidian/workspace.json
+.obsidian/workspace
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data layer (external)
+ResearchAI_Data/

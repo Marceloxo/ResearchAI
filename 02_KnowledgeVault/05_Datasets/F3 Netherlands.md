@@ -35,7 +35,7 @@ The F3 Netherlands dataset is the most widely used benchmark for seismic facies 
 
 - **Loading / 加载**: Standard SEGY reader
 - **Preprocessing / 预处理**: Normalization, patch extraction
-- **Data Location / 数据位置**: `D:\ResearchAI_Data\datasets\F3 Netherlands`
+- **Data Location / 数据位置**: `/home/lco/ResearchAI_Data/datasets\F3 Netherlands`
 
 # Benchmark Results / 基准结果
 

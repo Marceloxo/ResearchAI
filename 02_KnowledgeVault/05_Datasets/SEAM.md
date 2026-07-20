@@ -32,7 +32,7 @@ SEAM (Seismic Modelling And Imaging Workshop) is a series of synthetic benchmark
 
 # Usage / 使用方式
 
-- **Data Location / 数据位置**: `D:\ResearchAI_Data\datasets\SEAM`
+- **Data Location / 数据位置**: `/home/lco/ResearchAI_Data/datasets\SEAM`
 
 # Related Papers / 相关论文
 

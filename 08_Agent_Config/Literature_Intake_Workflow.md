@@ -1,4 +1,4 @@
-﻿# Literature Intake Workflow
+# Literature Intake Workflow
 
 ## Overview
 

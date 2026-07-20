@@ -274,17 +274,17 @@ Future papers are processed through three levels:
 
 ### Zotero (Single Source of Truth for PDFs)
 
-- **Zotero data directory**: `D:\ResearchAI_Data\`
+- **Zotero data directory**: `/home/lco/Zotero/`
   - `storage/` —PDF files (MinerU reads from here)
   - `zotero.sqlite` —bibliographic metadata
 - **ADR-001**: Zotero-centered PDF architecture. All PDFs managed by Zotero.
 
 ### Other Data
 
-- **MinerU output**: `D:\ResearchAI_Data\Paper\MinerU_md\`
-- **Datasets**: `D:\ResearchAI_Data\Datasets\`
-- **Experiment results**: `D:\ResearchAI_Data\Experiment_Results\`
-- **Model checkpoints**: `D:\ResearchAI_Data\Model_Checkpoints\`
+- **MinerU output**: `/home/lco/ResearchAI_Data/Paper/MinerU_md/`
+- **Datasets**: `/home/lco/ResearchAI_Data/Datasets/`
+- **Experiment results**: `/home/lco/ResearchAI_Data/Experiment_Results/`
+- **Model checkpoints**: `/home/lco/ResearchAI_Data/Model_Checkpoints/`
 - **Config**: `research_config.yaml`
 
 Always check `research_config.yaml` for current data paths before assuming file locations.
