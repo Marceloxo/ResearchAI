@@ -31,6 +31,8 @@ Paper notes live in `01_Papers/`.
 
 - [[monteiro2024_deep_learning_card]] (2024)
 - [[monteiro2024_deep_learning_survey]] (2024)
+- [[an2023_current_state_survey]] (2023)
+- [[an2023_current_state_note]] (2023)
 
 #### Seismic Monitoring
 
@@ -49,8 +51,16 @@ Paper notes live in `01_Papers/`.
 
 #### Fault Segmentation
 
-- Literature Cards: (to be added)
-- Deep Reading: (to be added)
+- [[wang2025_attentionfaultformer_card]] (2025)
+- [[wang2025_attentionfaultformer_note]] (2025)
+- [[chen2025_topsumseg_card]] (2025)
+- [[chen2025_topsumseg_note]] (2025)
+- [[vanha2022_3dfaultseg_unet_card]] (2022)
+- [[vanha2022_3dfaultseg_unet_note]] (2022)
+- [[di2026_faultedgeformer_card]] (2026)
+- [[di2026_faultedgeformer_note]] (2026)
+- [[seismark2026_benchmark_card]] (2026)
+- [[seismark2026_benchmark_note]] (2026)
 
 #### Seismic Facies Segmentation
 
@@ -59,13 +69,15 @@ Paper notes live in `01_Papers/`.
 
 #### Seismic Denoising
 
-- Literature Cards: (to be added)
-- Deep Reading: (to be added)
+- [[iqbal2023_deepseg_card]] (2023)
+- [[iqbal2023_deepseg_note]] (2023)
+
+#### Seismic Super-Resolution
+
+- [[zhang2025_gmlan_card]] (2025)
+- [[zhang2025_gmlan_note]] (2025)
 
 #### Seismic Inversion
-
-- Literature Cards: (to be added)
-- Deep Reading: (to be added)
 
 ---
 

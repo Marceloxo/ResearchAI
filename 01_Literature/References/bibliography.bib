@@ -28,6 +28,22 @@
   file = {/home/lco/ResearchAI_Data/Zotero/storage/C7TLQG48/An et al. - 2021 - Deep convolutional neural network for automatic fault recognition from 3D seismic datasets.pdf}
 }
 
+@article{an2023Currentstate,
+  title = {Current State and Future Directions for Deep Learning Based Automatic Seismic Fault Interpretation: {{A}} Systematic Review},
+  shorttitle = {Current State and Future Directions for Deep Learning Based Automatic Seismic Fault Interpretation},
+  author = {An, Yu and Du, Haiwen and Ma, Siteng and Niu, Yingjie and Liu, Dairui and Wang, Jing and Du, Yuhan and Childs, Conrad and Walsh, John and Dong, Ruihai},
+  year = 2023,
+  month = aug,
+  journal = {Earth-Science Reviews},
+  volume = {243},
+  pages = {104509},
+  issn = {00128252},
+  doi = {10.1016/j.earscirev.2023.104509},
+  urldate = {2026-07-20},
+  langid = {english},
+  file = {/home/lco/ResearchAI_Data/Zotero/storage/CZR5AZX9/An et al. - 2023 - Current state and future directions for deep learning based automatic seismic fault interpretation.pdf}
+}
+
 @inproceedings{bandara2022TransformerBasedSiamese,
   title = {A {{Transformer-Based Siamese Network}} for {{Change Detection}}},
   booktitle = {{{IGARSS}} 2022 - 2022 {{IEEE International Geoscience}} and {{Remote Sensing Symposium}}},
@@ -75,6 +91,42 @@
   file = {/home/lco/ResearchAI_Data/Zotero/storage/46C4TYYR/Chen 等 - 2022 - Remote Sensing Image Change Detection With Transformers.pdf}
 }
 
+@incollection{chen2025TopSUMsegTopologyAware,
+  title = {{{TopSUMseg}}: {{A Topology-Aware Swin Transformer-Mamba Framework}} for {{3D Seismic Fault Image Segmentation}}},
+  shorttitle = {{{TopSUMseg}}},
+  booktitle = {Frontiers in {{Artificial Intelligence}} and {{Applications}}},
+  author = {Chen, Ran and Deng, Jingyang and Zhang, Zeren and Shi, Ruohua and Ma, Jinwen},
+  editor = {Lynce, In{\^e}s and Murano, Nello and Vallati, Mauro and Villata, Serena and Chesani, Federico and Milano, Michela and Omicini, Andrea and Dastani, Mehdi},
+  year = 2025,
+  month = oct,
+  publisher = {IOS Press},
+  doi = {10.3233/FAIA250865},
+  urldate = {2026-07-20},
+  abstract = {Seismic fault image segmentation is crucial for interpreting subsurface geological structures, supporting geologists in resource exploration and structural analysis. However, current deep learning models struggle with single-architecture limitations and the distinctive characteristics of seismic faults, which are distinguished by elongated structures with uneven spatial distributions. To address these challenges, we propose TopSUMseg, a novel Topology-Aware Swin Transformer-Mamba framework for 3D seismic fault image segmentation. Our framework combines Swin Transformer's local feature extraction with Mamba's efficient sequence modeling, and boosts 3D spatial modeling in Mamba with a newly designed Global-Local Attention module (GLA). Additionally, we design a Topology-Aware Structural Constraint (TASC) to align predictions with ground-truth structures in the feature space, promoting the modeling of complex fault geometries. Experiments on Thebe, the largest public seismic dataset, demonstrate that TopSUMseg achieves state-of-the-art performance with OIS and ODS scores of 0.879 and 0.875, respectively. Trained entirely from scratch, TopSUMseg nonetheless achieves superior performance compared to extensively pre-trained counterparts. In addition, TopSUMseg maintains a significantly lower parameter count while achieving a favorable trade-off between segmentation performance and time complexity, making it a practical and generalizable solution for real-world seismic fault interpretation.},
+  copyright = {https://creativecommons.org/licenses/by-nc/4.0/},
+  isbn = {978-1-64368-631-8},
+  file = {/home/lco/ResearchAI_Data/Zotero/storage/M29ILMXG/Chen et al. - 2025 - TopSUMseg A Topology-Aware Swin Transformer-Mamba Framework for 3D Seismic Fault Image Segmentation.pdf}
+}
+
+@article{di2026FaultEdgeFormeredge,
+  title = {{{FaultEdgeFormer}}: An Edge Enhanced Transformer Model for {{3D}} Seismic Fault Detection},
+  shorttitle = {{{FaultEdgeFormer}}},
+  author = {Di, Xi and Liu, Yang and Chang, Suoliang and Tian, Wenbin and Ma, Jiangtao and Dong, Zilong},
+  year = 2026,
+  month = may,
+  journal = {Journal of Geophysics and Engineering},
+  volume = {23},
+  number = {4},
+  pages = {1285--1311},
+  issn = {1742-2132, 1742-2140},
+  doi = {10.1093/jge/gxag041},
+  urldate = {2026-07-20},
+  abstract = {Abstract             Fault detection plays a critical role in interpreting seismic data. Deep learning methods, particularly convolutional neural networks (CNNs), have demonstrated strong potential in fault detection tasks. However, current CNN-based methods face two key challenges. One is that the optimization of CNN kernels begins with randomly initialized weights, which restricts these kernels' capability to emphasize fault related features during the early training process. The other is that existing CNN-based architectures are unable to learn global contextual information due to the fixed kernel size and limited receptive fields of convolutional operations. To overcome these challenges, we propose an edge enhanced transformer model to improve 3D fault detection performance (FaultEdgeFormer). First, faults can be characterized as edges within the seismic data. Traditional edge detection operators, such as Sobel kernels, explicitly calculate gradient information for edge features. Based on this observation, a trainable Sobel convolution is proposed for the first layer of the network. The predefined weights in the trainable Sobel convolution can adaptively enhance edge information, constraining the network to focus on fault related features. Second, an improved Swin transformer block is proposed to extract long-range dependencies through the attention mechanisms, while integrates the locality of convolutional operations. This improvement is achieved through two primary modifications: introducing convolutional projections into the window-based self-attention mechanism and incorporating depthwise convolutions within the multilayer perceptron (MLP). Experimental results demonstrate that the proposed FaultEdgeFormer outperforms both CNN-based methods and Transformer-based methods on several synthetic and field seismic datasets, delivering more accurate fault predictions with better continuity and resolution.},
+  copyright = {https://creativecommons.org/licenses/by/4.0/},
+  langid = {english},
+  file = {/home/lco/ResearchAI_Data/Zotero/storage/MVSQQ8TY/Di et al. - 2026 - FaultEdgeFormer an edge enhanced transformer model for 3D seismic fault detection.pdf}
+}
+
 @article{ding2023Highresolutionseismicity,
   title = {High-Resolution Seismicity Imaging and Early Aftershock Migration of the 2023 {{Kahramanmara\c s}} ({{SE T\"urkiye}}) {{MW7}}.9 \& 7.8 Earthquake Doublet},
   author = {Ding, Hongyang and Zhou, Yijian and Ge, Zengxi and Taymaz, Tuncay and Ghosh, Abhijit and Xu, Haoyu and Irmak, Tahir Serkan and Song, Xiaodong},
@@ -119,6 +171,23 @@
   urldate = {2026-07-10},
   copyright = {https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html},
   file = {/home/lco/ResearchAI_Data/Zotero/storage/RRC82BEC/Ghorbanzadeh 等 - 2022 - Landslide4Sense Reference Benchmark Data and Deep Learning Models for Landslide Detection.pdf}
+}
+
+@article{iqbal2023DeepSegDeep,
+  title = {{{DeepSeg}}: {{Deep Segmental Denoising Neural Network}} for {{Seismic Data}}},
+  shorttitle = {{{DeepSeg}}},
+  author = {Iqbal, Naveed},
+  year = 2023,
+  month = jul,
+  journal = {IEEE Transactions on Neural Networks and Learning Systems},
+  volume = {34},
+  number = {7},
+  pages = {3397--3404},
+  issn = {2162-237X, 2162-2388},
+  doi = {10.1109/TNNLS.2022.3205421},
+  urldate = {2026-07-20},
+  copyright = {https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html},
+  file = {/home/lco/ResearchAI_Data/Zotero/storage/SMX9BMYC/Iqbal - 2023 - DeepSeg Deep Segmental Denoising Neural Network for Seismic Data.pdf}
 }
 
 @inproceedings{le2024LandslideDetection,
@@ -370,6 +439,24 @@
   file = {/home/lco/ResearchAI_Data/Zotero/storage/JEIK5MKZ/Tan 等 - 2021 - Machine-Learning-Based High-Resolution Earthquake Catalog Reveals How Complex Fault Structures Were.pdf}
 }
 
+@incollection{van-ha20223DFaultSegUNet3D,
+  title = {{{3D-FaultSeg-UNet}}: {{3D Fault Segmentation}} in {{Seismic Data Using Bi-stream U-Net}}},
+  shorttitle = {{{3D-FaultSeg-UNet}}},
+  booktitle = {Future {{Data}} and {{Security Engineering}}. {{Big Data}}, {{Security}} and {{Privacy}}, {{Smart City}} and {{Industry}} 4.0 {{Applications}}},
+  author = {{Van-Ha}, Thi Dinh and {Thanh-An}, Nguyen},
+  editor = {Dang, Tran Khanh and K{\"u}ng, Josef and Chung, Tai M.},
+  year = 2022,
+  volume = {1688},
+  pages = {477--488},
+  publisher = {Springer Nature Singapore},
+  address = {Singapore},
+  doi = {10.1007/978-981-19-8069-5_32},
+  urldate = {2026-07-20},
+  isbn = {978-981-19-8068-8 978-981-19-8069-5},
+  langid = {english},
+  file = {/home/lco/ResearchAI_Data/Zotero/storage/EHKI6VXW/Van-Ha and Thanh-An - 2022 - 3D-FaultSeg-UNet 3D Fault Segmentation in Seismic Data Using Bi-stream U-Net.pdf}
+}
+
 @article{wang2023SeismicFacies,
   title = {Seismic {{Facies Segmentation}} via a {{Segformer-Based Specific Encoder}}--{{Decoder}}--{{Hypercolumns Scheme}}},
   author = {Wang, Zhiguo and Wang, Qiannan and Yang, Yang and Liu, Naihao and Chen, Yumin and Gao, Jinghuai},
@@ -382,6 +469,22 @@
   urldate = {2026-07-09},
   copyright = {https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html},
   file = {/home/lco/ResearchAI_Data/Zotero/storage/J2ML7W6A/Wang 等 - 2023 - Seismic Facies Segmentation via a Segformer-Based Specific Encoder–Decoder–Hypercolumns Scheme.pdf}
+}
+
+@article{wang2025AttentionFaultFormerattentionenhanced,
+  title = {{{AttentionFaultFormer}}: {{An}} Attention-Enhanced {{3D CNN}} \& Transformer Model for Seismic Fault Detection},
+  shorttitle = {{{AttentionFaultFormer}}},
+  author = {Wang, Jing and Ma, Siteng and Liu, Yue and Dong, Ruihai},
+  year = 2025,
+  month = jul,
+  journal = {Journal of Applied Geophysics},
+  volume = {238},
+  pages = {105707},
+  issn = {09269851},
+  doi = {10.1016/j.jappgeo.2025.105707},
+  urldate = {2026-07-20},
+  langid = {english},
+  file = {/home/lco/ResearchAI_Data/Zotero/storage/8U23DIYR/Wang et al. - 2025 - AttentionFaultFormer An attention-enhanced 3D CNN & transformer model for seismic fault detection.pdf}
 }
 
 @article{wang2026Enhancingseismic,
@@ -452,6 +555,24 @@
   urldate = {2026-07-10},
   langid = {english},
   file = {/home/lco/ResearchAI_Data/Zotero/storage/UL36XRSA/Zhang 等 - 2020 - A deeply supervised image fusion network for change detection in high resolution bi-temporal remote.pdf}
+}
+
+@article{zhang2025GMLANGroupedresidual,
+  title = {{{GMLAN}}: {{Grouped-residual}} and Multi-Scale Large-Kernel Attention Network for Seismic Image Super-Resolution},
+  shorttitle = {{{GMLAN}}},
+  author = {Zhang, Anxin and Guo, Zhenbo and Dong, Shiqi and Wei, Zhiqi},
+  year = 2025,
+  month = nov,
+  journal = {Journal of Seismic Exploration},
+  volume = {34},
+  number = {5},
+  pages = {36},
+  issn = {0963-0651, 0963-0651},
+  doi = {10.36922/JSE025350063},
+  urldate = {2026-07-20},
+  abstract = {The resolution of seismic images significantly impacts the accuracy of subsequent seismic interpretation and reservoir location. However, the resolution of seismic images often degrades due to the influence of multiple factors, making super-resolution of seismic images essential and critical. We propose a grouped-residual and multi-scale large-kernel attention network (GMLAN) framework, trained on synthetic seismic images to achieve excellent seismic image super-resolution on field seismic data. GMLAN is primarily composed of two modules: The feature extraction module (FEM) and the image reconstruction module (IRM). The FEM consists of two components: Shallow feature extraction (SFE) and deep feature extraction (DFE). The SFE component is designed to capture the basic information of seismic images, such as large-scale structures and morphological features of the strata. The DFE component serves as the cornerstone of the feature extraction process, leveraging residual groups and multi-scale large-kernel attention to distill detailed features from seismic images, such as stratigraphic interfaces, dip angles, and relative amplitudes. Finally, the IRM utilizes sub-pixel convolution, a learnable upsampling technique, to reconstruct super-resolution seismic images while preserving the continuity of seismic features. The framework demonstrates satisfactory performance on both synthetic and field data.},
+  copyright = {https://creativecommons.org/licenses/},
+  file = {/home/lco/ResearchAI_Data/Zotero/storage/J4M25UH8/Zhang et al. - 2025 - GMLAN Grouped-residual and multi-scale large-kernel attention network for seismic image super-resol.pdf}
 }
 
 @article{zhou2021highresolutionseismic,
