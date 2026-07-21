@@ -77,6 +77,15 @@ Step 6: Set Status to PROCESSED
 
 | wang2024_segformer | Seismic Facies Segmentation via Segformer | J2ML7W6A | Wang 等 - 2023 - Seismic Facies Segmentation...pdf-J2ML7W6A | wang2024_segformer_seismic_facies_card.md, wang2024_segformer_seismic_facies_note.md | LEVEL_2_DONE
 | mcbrearty2023_genie | Earthquake Phase Association with GNN | 2ZVY52Y6 | McBrearty和Beroza - 2023 - Earthquake Phase Association...pdf-2ZVY52Y6 | mcbrearty2023_genie_card.md, mcbrearty2023_genie_note.md | LEVEL_2_DONE
+|
+|| iqbal2023_deepseg | DeepSeg Denoising | 6REQ57LL | Iqbal - 2023 - DeepSeg...-6REQ57LL | iqbal2023_deepseg_card.md, iqbal2023_deepseg_note.md | LEVEL_2_DONE |
+|| vanha2022_3dfaultseg_unet | 3D Bi-stream U-Net Fault Seg | FCLVNZWZ | Van-Ha...3D-FaultSeg-UNet...-FCLVNZWZ | vanha2022_3dfaultseg_unet_card.md, vanha2022_3dfaultseg_unet_note.md | LEVEL_2_DONE |
+|| chen2025_topsumseg | TopSUMseg Fault Seg | 4NEI9ULI | Chen...TopSUMseg...-4NEI9ULI | chen2025_topsumseg_card.md, chen2025_topsumseg_note.md | LEVEL_2_DONE |
+|| wang2025_attentionfaultformer | AttentionFaultFormer Det. | 6YBBCNWE | Wang...AttentionFaultFormer...-6YBBCNWE | wang2025_attentionfaultformer_card.md, wang2025_attentionfaultformer_note.md | LEVEL_2_DONE |
+|| an2023_current_state | Seismic Fault Interpret. Survey | PNK3T84P | An...Current state...-PNK3T84P | an2023_current_state_survey.md, an2023_current_state_note.md | LEVEL_2_DONE |
+|| zhang2025_gmlan | GMLAN Super-Resolution | 6JT5ZPGC | Zhang...GMLAN...-6JT5ZPGC | zhang2025_gmlan_card.md, zhang2025_gmlan_note.md | LEVEL_2_DONE |
+|| di2026_faultedgeformer | FaultEdgeFormer Det. | CR6P58ZY | Di...FaultEdgeFormer...-CR6P58ZY | di2026_faultedgeformer_card.md, di2026_faultedgeformer_note.md | LEVEL_2_DONE |
+|| seismark2026_benchmark | SeisMark Benchmark | YBC44YPE | SeisMark_...-YBC44YPE | seismark2026_benchmark_card.md, seismark2026_benchmark_note.md | LEVEL_2_DONE |
 
 | si2024_plan | An all-in-one seismic phase picking, location, and association network | LDQ9IIMY | Si 等 - 2024 - An all-in-one seismic phase picking...pdf-LDQ9IIMY | si2024_plan_allinone_card.md, si2024_plan_allinone_note.md | LEVEL_2_DONE
 | zhou2022_yangbi | Seismological Characterization of the 2021 Yangbi Foreshock-Mainshock Sequence | PKGESHPH | Zhou 等 - 2022 - Seismological Characterization...pdf-PKGESHPH | zhou2022_yangbi_foreshock_card.md, zhou2022_yangbi_foreshock_note.md | LEVEL_2_DONE

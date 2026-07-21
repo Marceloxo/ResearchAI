@@ -121,37 +121,50 @@
 - 3 papers (Zhang 2020, Sener 2024, Weber 2020) classified as Keep Reference — appropriate for moderate-low seismic AI relevance
 - Lightweight transformer design (Yadav 2025) shows strongest RTX 4070 compatibility
 - Multi-resolution ensemble approach (Le 2023) offers most transferable insights for seismic segmentation
-- No new knowledge nodes needed — all concepts map to existing Methods/Tasks/Datasets# Batch Summary
+- No new knowledge nodes needed — all concepts map to existing Methods/Tasks/Datasets
+
+## Batch Summary (BATCH-002 — 2026-07-20)
 
 | Metric | Count |
-|---|---|
-| **Total Papers** | 0 |
-| **Level 1 Processed** | 0 |
-| **Level 2 Processed** | 0 |
+|:---|---:|
+| **Total Papers** | 8 |
+| **Level 1 Processed** | 8 (7 cards + 1 survey) |
+| **Level 2 Processed** | 8 (7 notes + 1 survey analysis) |
 | **Level 3 Processed** | 0 |
 | **New Knowledge Nodes** | 0 |
 | **Duplicate Detections** | 0 |
 | **Human Interventions** | 0 |
 | **Zotero Violations Found** | 0 |
-| **MinerU Failures** | 0 |
 
 ### Final Evaluation
 
 | Criterion | Result |
-|---|---|
-| Zotero-first enforcement | Not Tested |
-| Duplicate prevention | Not Tested |
-| Human review checkpoints | Not Tested |
-| Knowledge node reuse | Not Tested |
-| Template compliance | Not Tested |
-| Wikilink integrity | Not Tested |
-| **Overall Verdict** | PENDING |
+|:---|---:|
+| Zotero-first enforcement | PASSED — all 8 keys verified |
+| Duplicate prevention | PASSED — 0 duplicates detected |
+| Template compliance | PASSED — cards use Literature_Card_Template, An 2023 uses Survey_Template |
+| MinerU backend | PASSED — hybrid-engine (7 papers) + pipeline OCR (1 paper) |
+| **Overall Verdict** | **PASSED** |
 
-### Lessons Learned
+### Papers Processed
 
-_(To be filled after batch execution)_
+| Paper ID | Author (Year) | Topic | Card | Note |
+|:---|---|:---:|:---:|
+| iqbal2023_deepseg | Iqbal (2023) | Seismic Denoising | ✅ | ✅ |
+| vanha2022_3dfaultseg_unet | Van-Ha (2022) | 3D Fault Segmentation | ✅ | ✅ |
+| chen2025_topsumseg | Chen (2025) | Fault Segmentation | ✅ | ✅ |
+| wang2025_attentionfaultformer | Wang (2025) | Fault Detection | ✅ | ✅ |
+| an2023_current_state | An (2023) | Survey | ✅ | ✅ |
+| zhang2025_gmlan | Zhang (2025) | Super-Resolution | ✅ | ✅ |
+| di2026_faultedgeformer | Di (2026) | Fault Detection | ✅ | ✅ |
+| seismark2026_benchmark | — (2026) | Benchmark | ✅ | ✅ |
 
----
+### Notes
+
+- MinerU batch processing: 8 papers, ~5 min total, GPU accelerated
+- 1 paper (AttentionFaultFormer) required pipeline+OCR fallback (scanned PDF)
+- All papers processed through both Level 1 (Literature Card) and Level 2 (Paper Note)
+- New sections added to Paper_Index: Fault Segmentation (10 entries), Seismic Denoising (2), Seismic Super-Resolution (2), Survey (2)
 
 ## Notes
 

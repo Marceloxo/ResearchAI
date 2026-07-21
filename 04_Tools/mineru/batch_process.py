@@ -127,11 +127,10 @@ def run_mineru_on_paper(paper_info, dry_run=False):
         log_entry["status"] = "DRY_RUN"
         return log_entry
 
-    # Run MinerU CLI
+    # Run MinerU CLI (hybrid-engine backend for GPU acceleration)
     cmd = [
         MINERU_BIN, "-p", pdf_path, "-o", str(output_dir),
-        "-b", "pipeline", "-m", "txt", "-l", "ch",
-        "--formula", "true", "--table", "true",
+        "-b", "hybrid-engine", "--effort", "medium",
     ]
     env = os.environ.copy()
     for var in ["http_proxy", "https_proxy", "ALL_PROXY", "all_proxy",
